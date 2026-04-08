@@ -8,7 +8,7 @@ drawings:
 transition: fade
 ---
 
-<!-- ─── SLIDE 1 — TITLE ──────────────────────────────────────────── -->
+<!-- ─── SLIDE 1 — TITLE──────────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -54,7 +54,7 @@ const outcome = await spec
 layout: default
 ---
 
-<!-- ─── SLIDE 2 — THE COURSE IN 3 LINES ─────────────────────────── -->
+<!-- ─── SLIDE 2 — THE COURSE IN 3 LINES──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -123,7 +123,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 3 — INSTRUCTOR BIO ─────────────────────────────────── -->
+<!-- ─── SLIDE 3 — INSTRUCTOR BIO─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -147,15 +147,15 @@ layout: default
     <div class="flex flex-col gap-3">
       <div style="display:flex;gap:0.6rem;align-items:baseline;">
         <span style="color:var(--or-orange);font-weight:700;font-size:0.75rem;flex-shrink:0;">●</span>
-        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Practical AI Solutions</strong> — Helping teams solve real business problems through automation systems, internal tools, and custom AI applications.</p>
+        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Practical AI Solutions</strong>: helping teams solve real business problems through automation systems, internal tools, and custom AI applications.</p>
       </div>
       <div style="display:flex;gap:0.6rem;align-items:baseline;">
         <span style="color:var(--or-orange);font-weight:700;font-size:0.75rem;flex-shrink:0;">●</span>
-        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Global AI Educator</strong> — Taught large global audiences via LinkedIn Learning and YouTube, known for clear, down-to-earth explanations of complex concepts.</p>
+        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Global AI Educator</strong>: taught large global audiences via LinkedIn Learning and YouTube, known for clear, down-to-earth explanations of complex concepts.</p>
       </div>
       <div style="display:flex;gap:0.6rem;align-items:baseline;">
         <span style="color:var(--or-orange);font-weight:700;font-size:0.75rem;flex-shrink:0;">●</span>
-        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Operational Impact</strong> — Focused on using AI to quietly improve day-to-day operations and enable new capabilities where they matter most.</p>
+        <p style="font-size:0.82rem;color:#e2e8f0;line-height:1.5;margin:0;"><strong>Operational Impact</strong>: focused on using AI to quietly improve day-to-day operations and enable new capabilities where they matter most.</p>
       </div>
     </div>
     <!-- Social handles -->
@@ -183,7 +183,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 4 — SECTION 1 DIVIDER ──────────────────────────────── -->
+<!-- ─── SLIDE 4 — SECTION 1 DIVIDER──────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -206,7 +206,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 5 — THE CLIENT BRIEF ───────────────────────────────── -->
+<!-- ─── SLIDE 5 — THE CLIENT BRIEF───────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -218,7 +218,7 @@ layout: default
 <div class="flex gap-6" style="margin-top:2.5rem;">
   <div class="flex-1" style="border-left:3px solid var(--or-orange);padding-left:1rem;">
     <p style="font-size:1.05rem;font-style:italic;line-height:1.7;color:#e2e8f0;">
-      "We need a tool where our agents can take a photo of any room and instantly see what it would look like renovated or staged. Different styles — modern, farmhouse, luxury, whatever the buyer demographic wants."
+      "We need a tool where our agents can take a photo of any room and instantly see what it would look like renovated or staged. Different styles: modern, farmhouse, luxury, whatever the buyer demographic wants."
     </p>
     <p style="color:var(--or-muted);font-size:0.78rem;margin-top:0.5rem;">— Head of Operations, real estate agency</p>
   </div>
@@ -249,7 +249,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 6 — FEATURE EXPLOSION ──────────────────────────────── -->
+<!-- ─── SLIDE 6 — FEATURE EXPLOSION──────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -269,7 +269,122 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 7 — POLL: WHAT WOULD YOU BUILD FIRST? ─────────────── -->
+<!-- ─── SLIDE 7 — THE UNSTRUCTURED APPROACH──────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>The Unstructured Approach</h1>
+<p class="sub">Tempting, fast to start, and harder to recover from than it looks</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;">
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.6rem;">— THE PROMPT</div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1rem 1.1rem;font-family:'Fira Code',monospace;font-size:0.72rem;line-height:1.7;color:#e6edf3;">
+      <span style="color:var(--or-muted);"># Claude Code</span><br/><br/>
+      "Here's the brief from my client:<br/>
+      <span style="color:var(--or-muted);">[pastes full meeting notes —<br/>
+      14 features, AR Mode, MLS<br/>
+      integration, ROI calculator...]</span><br/><br/>
+      <strong>Build this for me.</strong>"
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-green);margin-bottom:0.6rem;">— WHAT HAPPENS NEXT</div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1rem 1.1rem;font-family:'Fira Code',monospace;font-size:0.7rem;line-height:1.7;color:#e6edf3;">
+      <span style="color:var(--or-green);">✓</span> <span style="color:var(--or-muted);">Building photo upload...</span><br/>
+      <span style="color:var(--or-green);">✓</span> <span style="color:var(--or-muted);">Adding AR mode scaffold...</span><br/>
+      <span style="color:var(--or-green);">✓</span> <span style="color:var(--or-muted);">MLS connector setup...</span><br/>
+      <span style="color:var(--or-green);">✓</span> <span style="color:var(--or-muted);">ROI calculator module...</span><br/><br/>
+      <span style="color:#e6edf3;font-size:0.68rem;">847 lines · 23 files · 4 minutes</span>
+    </div>
+    <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.25);border-radius:6px;padding:0.55rem 0.8rem;margin-top:0.75rem;">
+      <p style="font-size:0.72rem;color:#fca5a5;margin:0;line-height:1.5;">Claude is eager. It will build everything you described, but none of what you actually needed.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 8 — EXERCISE: HOW WOULD YOU DO THIS?───────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 5 MIN</div>
+
+<h1>Before We Go Further</h1>
+<p class="sub">Try the naive approach. We'll compare notes after.</p>
+
+<div style="margin-top:2rem;max-width:640px;">
+  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:10px;padding:1.4rem 1.6rem;">
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);margin-bottom:1rem;">— YOUR TASK</div>
+    <div style="display:flex;flex-direction:column;gap:0.75rem;">
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">1</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Open Claude Code (or any AI coding tool you use)</p>
+      </div>
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">2</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Paste the real estate client brief and ask it to start building</p>
+      </div>
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">3</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Notice what questions you'd want to ask before it continues. Write them down.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 9 — HERE'S WHAT BREAKS─────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Going Naive: What Tends to Break</h1>
+<p class="sub">The same patterns show up regardless of the project or the model</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:0.9rem;">
+  <div class="card orange" style="padding:0.9rem 1rem;">
+    <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">No scope boundary</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">The model might start with AR mode, MLS integration, or something else entirely. You had photo upload in mind. With no shared definition, the model decides what matters.</p>
+  </div>
+  <div class="card red" style="padding:0.9rem 1rem;">
+    <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">No definition of done</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">Code gets generated. But without acceptance criteria, the AI has no concrete target to verify against either. It just stops when it runs out of obvious things to do.</p>
+  </div>
+  <div class="card amber" style="padding:0.9rem 1rem;">
+    <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">Unextendable output</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">When the next feature arrives, the model has to re-read everything it generated for the first. Context grows, costs compound, coherence shrinks.</p>
+  </div>
+  <div class="card muted" style="padding:0.9rem 1rem;">
+    <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">Can't resume or hand off</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">No written record of decisions made. The next session starts from scratch. So does your teammate. Every handoff loses context.</p>
+  </div>
+</div>
+
+<div style="position:absolute;bottom:3rem;left:1.5rem;right:1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center;">
+  <p style="font-size:0.72rem;color:var(--or-orange);font-weight:600;margin:0;line-height:1.5;">The hard part was never the code. It's alignment: knowing what to build, in what order, and how to verify it's right.</p>
+  <p style="font-size:0.7rem;color:var(--or-muted);margin:0;line-height:1.5;">So instead of building everything at once, we pick deliberately: one feature at a time, with a spec for each.</p>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 10 — POLL: WHAT WOULD YOU BUILD FIRST?─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -287,9 +402,12 @@ layout: default
   </div>
 </div>
 
-<div class="absolute bottom-8 left-8 right-8">
-  <p style="font-size:0.78rem;font-style:italic;color:var(--or-muted);text-align:center;">
-    Notice how we disagree — same brief, different priorities. <strong style="color:var(--or-orange);">Specs eliminate this.</strong>
+<div class="absolute bottom-8 left-8 right-8" style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center;">
+  <p style="font-size:0.75rem;color:var(--or-muted);font-style:italic;margin:0;line-height:1.5;">
+    We all read the same brief but can walk away with different priorities.
+  </p>
+  <p style="font-size:0.75rem;color:var(--or-orange);font-weight:600;margin:0;line-height:1.5;">
+    Now that you've picked one, how do you hand it to Claude Code? Just say "build photo upload"?
   </p>
 </div>
 
@@ -297,14 +415,14 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 8 — COST OF NOT SPECIFYING ─────────────────────────── -->
+<!-- ─── SLIDE 11 — COST OF NOT SPECIFYING────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>What Happens Without Specs</h1>
+<h1>One prompt. Three interpretations.</h1>
 <p class="sub">Not an abstract risk. This is what happens on the renovation app.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:0.75rem;">
@@ -358,7 +476,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 9 — SPEC-DRIVEN WORKFLOW (HERO) ────────────────────── -->
+<!-- ─── SLIDE 12 — SPEC-DRIVEN WORKFLOW (HERO)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -436,7 +554,7 @@ layout: default
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.75rem;">
     <div style="background:var(--or-card);border-radius:8px;padding:0.5rem 0.75rem;border:1px solid #334155;display:flex;align-items:center;gap:0.5rem;">
       <span style="font-size:0.75rem;color:var(--or-blue);">ℹ</span>
-      <span style="font-size:0.72rem;color:var(--or-muted);">NOT waterfall — specs are lightweight, living, and evolve.</span>
+      <span style="font-size:0.72rem;color:var(--or-muted);">NOT waterfall. Specs are lightweight, living, and evolve.</span>
     </div>
     <div style="background:var(--or-card);border-radius:8px;padding:0.5rem 0.75rem;border:1px solid #334155;display:flex;align-items:center;gap:0.5rem;">
       <span style="font-size:0.75rem;color:var(--or-blue);">↺</span>
@@ -449,7 +567,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 10 — VAGUE VS CONCRETE ─────────────────────────────── -->
+<!-- ─── SLIDE 13 — VAGUE VS CONCRETE─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -516,57 +634,59 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 11 — QUIZ: WHICH SPEC DO YOU TRUST? ────────────────── -->
+<!-- ─── SLIDE 14 — SAME REQUIREMENT. ANOTHER FEATURE.─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>QUIZ: Which spec would you hand to Claude Code?</h1>
-<p class="sub">Same feature request. Two very different outcomes.</p>
+<h1>Same Requirement. Another Feature.</h1>
+<p class="sub">From the renovation app brief: the cost estimator</p>
 
 <div style="display:grid;grid-template-columns:1fr 1.35fr;gap:1rem;margin-top:0.75rem;">
-  <!-- Left: Option A (Vague) -->
+  <!-- Left: VAGUE -->
   <div>
-    <div style="background:var(--or-red);color:#fff;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✖ OPTION A — VAGUE</div>
-    <div style="border:2px solid rgba(224,60,46,0.5);border-radius:10px;padding:0.85rem;background:rgba(224,60,46,0.04);min-height:240px;">
-      <div style="font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.75rem;font-weight:600;">FROM: FEATURE REQUEST</div>
-      <p style="font-size:0.88rem;font-style:italic;line-height:1.65;color:#e2e8f0;margin-bottom:0.85rem;">
-        "Implement a photo upload feature where users can upload room photos and generate AI-styled versions."
+    <div style="background:var(--or-red);color:#fff;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✖ VAGUE</div>
+    <div style="border:2px solid rgba(224,60,46,0.5);border-radius:10px;padding:0.85rem;background:rgba(224,60,46,0.04);min-height:260px;">
+      <div style="font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.75rem;font-weight:600;">SOURCE: CLIENT BRIEF</div>
+      <p style="font-size:0.9rem;font-style:italic;line-height:1.65;color:#e2e8f0;margin-bottom:0.85rem;">
+        "Users should be able to estimate how much their renovation will cost."
       </p>
-      <div style="font-size:0.68rem;font-weight:600;color:var(--or-red);margin-bottom:0.35rem;">▲ What Claude Code will guess:</div>
+      <div style="font-size:0.68rem;font-weight:600;color:var(--or-red);margin-bottom:0.35rem;">▲ Problems:</div>
       <ul style="list-style:none;padding:0;font-size:0.68rem;color:var(--or-muted);display:flex;flex-direction:column;gap:0.2rem;">
-        <li>• Any file type allowed?</li>
-        <li>• How many styles to show?</li>
-        <li>• What if AI fails or times out?</li>
-        <li>• Where does the image get stored?</li>
+        <li>• Which room types are supported?</li>
+        <li>• What quality tiers exist?</li>
+        <li>• Where does pricing data come from?</li>
+        <li>• How accurate does it need to be?</li>
       </ul>
     </div>
   </div>
 
-  <!-- Right: Option B (Structured Spec) -->
+  <!-- Right: STRUCTURED SPEC -->
   <div>
-    <div style="background:var(--or-green);color:#000;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✓ OPTION B — STRUCTURED SPEC</div>
-    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:10px;background:#161b22;overflow:hidden;min-height:240px;">
+    <div style="background:var(--or-green);color:#000;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✓ STRUCTURED SPEC</div>
+    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:10px;background:#161b22;overflow:hidden;min-height:260px;">
       <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);font-weight:600;">FORMAT: STRUCTURED REQUIREMENTS</div>
-      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.7rem;font-weight:700;color:#e2e8f0;">Feature: Photo Upload + AI Style Generation</div>
+      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.7rem;font-weight:700;color:#e2e8f0;">Feature: Project Cost Estimator</div>
       <div style="display:grid;grid-template-columns:1fr 1fr;padding:0.5rem 0.75rem;gap:0.75rem;font-size:0.6rem;">
         <div>
+          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">USER JOURNEY</div>
+          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">User selects room type + quality tier → sees cost range → adjusts sliders → saves estimate to project</div>
           <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">CONSTRAINTS</div>
-          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;"><span style="color:#60a5fa;">File types:</span> JPEG/PNG only, max 10MB<br><span style="color:#60a5fa;">Storage:</span> Supabase /rooms/&#123;userId&#125;/&#123;projectId&#125;<br><span style="color:#60a5fa;">Styles:</span> 6 presets only</div>
-          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ROOM DETECTION</div>
-          <div style="color:#e2e8f0;line-height:1.55;">Nano Banana detect endpoint<br>Confidence &lt;0.7 → show manual selector</div>
+          <div style="color:#e2e8f0;line-height:1.55;"><span style="color:#60a5fa;">Rooms:</span> Kitchen, Bath, Living, Bedroom<br><span style="color:#60a5fa;">Tiers:</span> Budget / Mid / Premium<br><span style="color:#60a5fa;">Accuracy:</span> ±20% of regional median<br><span style="color:#60a5fa;">Data:</span> internal DB, refreshed monthly</div>
         </div>
         <div>
           <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ERROR HANDLING</div>
-          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">API timeout &gt;20s → retry button<br>Non-room photo → block + warn</div>
+          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">Unknown room type → generic estimate + disclaimer<br>No pricing data → show "coming soon"</div>
           <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ACCEPTANCE CRITERIA</div>
-          <div style="color:#e2e8f0;line-height:1.6;">
-            <div>✓ Rejects files &gt;10MB</div>
-            <div>✓ Generates in &lt;15s</div>
-            <div>✓ Error state on failure</div>
+          <div style="color:#e2e8f0;line-height:1.6;margin-bottom:0.5rem;">
+            <div>✓ All 4 room types return a range</div>
+            <div>✓ Sliders update range in real-time</div>
+            <div>✓ Estimate persists to project record</div>
           </div>
+          <div style="color:var(--or-red);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">NON-GOALS</div>
+          <div style="color:#e2e8f0;font-style:italic;font-size:0.58rem;">✕ Live contractor quotes, material-level breakdown (Phase 3)</div>
         </div>
       </div>
     </div>
@@ -574,65 +694,47 @@ layout: default
 </div>
 
 <div class="absolute bottom-5 left-8 right-8 text-center">
-  <span style="font-size:0.85rem;color:var(--or-green);font-weight:600;">✅ Spec B — Not because it's longer. Because it leaves nothing for Claude to guess.</span>
+  <span style="font-size:0.85rem;color:var(--or-orange);font-weight:600;">🤖 Same pattern. Different feature. The spec forces the same questions every time.</span>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 12 — DISCUSSION (FOUNDATIONS) ──────────────────────── -->
+<!-- ─── SLIDE 15 — STRUCTURE THE BRIEF───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<div style="margin-top:2.2rem;">
-  <div class="discussion-header">
-    <div class="discussion-bar-line"></div>
-    <div>
-      <div class="discussion-title-text">Discussion</div>
-      <div class="discussion-sub">Bridging the gap between intent and implementation</div>
-    </div>
-  </div>
+<h1>Structure the Brief</h1>
+<p class="sub">Look back at the real estate brief from Slide 5. How structured can you make it?</p>
 
-  <div class="grid grid-cols-2 gap-4 mt-2">
-    <div class="card blue" style="padding:0.75rem;">
-      <p style="font-size:0.82rem;font-weight:600;color:#e2e8f0;margin-bottom:0.3rem;">Why do vague requirements break at scale?</p>
-      <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;">What are the common failure points when specs meet implementation? Where do you see drift?</p>
-    </div>
-    <div class="card blue" style="padding:0.75rem;">
-      <p style="font-size:0.82rem;font-weight:600;color:#e2e8f0;margin-bottom:0.3rem;">Live vs Structured</p>
-      <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;">"Can AI figure it out from context?" vs "Does this spec give AI what it needs?" — what's the difference in practice?</p>
-    </div>
-  </div>
+<!-- Prompt -->
+<div style="background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.3);border-radius:10px;padding:1rem 1.25rem;margin-top:1rem;">
+  <p style="font-size:0.9rem;color:#e2e8f0;line-height:1.65;margin:0;">
+    Look at the whole client brief. Using what we've covered, user journeys, constraints, and non-goals, see if you can turn it into a structured plan. Can you make sense of all 14 features and decide what belongs in Phase 1?
+  </p>
+  <p style="font-size:0.72rem;color:var(--or-muted);margin-top:0.6rem;margin-bottom:0;">Take a few minutes and try to structure the whole brief into something you feel confident about.</p>
+</div>
 
-  <!-- Live: Vague → Structured -->
-  <div style="margin-top:0.75rem;">
-    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.5rem;">⚡ LIVE: VAGUE → STRUCTURED</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
-      <!-- RAW BRIEF -->
-      <div style="border:2px dashed rgba(224,60,46,0.6);border-radius:8px;padding:0.65rem;background:rgba(224,60,46,0.04);">
-        <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);margin-bottom:0.4rem;">RAW BRIEF</div>
-        <p style="font-size:0.72rem;font-style:italic;color:#cbd5e1;line-height:1.5;margin-bottom:0.5rem;">
-          "Users should be able to upload a photo of their room and see what it looks like redesigned in different styles."
-        </p>
-        <div style="display:flex;flex-wrap:wrap;gap:0.3rem;">
-          <span style="background:rgba(224,60,46,0.15);color:var(--or-red);font-size:0.55rem;padding:0.15rem 0.4rem;border-radius:4px;font-weight:600;">MISSING: file types</span>
-          <span style="background:rgba(224,60,46,0.15);color:var(--or-red);font-size:0.55rem;padding:0.15rem 0.4rem;border-radius:4px;font-weight:600;">MISSING: style count</span>
-          <span style="background:rgba(224,60,46,0.15);color:var(--or-red);font-size:0.55rem;padding:0.15rem 0.4rem;border-radius:4px;font-weight:600;">MISSING: error states</span>
-        </div>
-      </div>
-      <!-- STRUCTURED SPEC -->
-      <div style="border:2px solid rgba(34,197,94,0.4);border-radius:8px;background:#161b22;overflow:hidden;">
-        <div style="padding:0.4rem 0.65rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-green);font-weight:700;">STRUCTURED SPEC OUTPUT</div>
-        <div style="padding:0.5rem 0.65rem;font-size:0.6rem;line-height:1.7;color:#e2e8f0;font-family:'Roboto Mono',monospace;">
-          <div><span style="color:var(--or-orange);">USER JOURNEY:</span> Upload → Select style → Generate → Compare</div>
-          <div><span style="color:var(--or-orange);">CONSTRAINTS:</span> JPEG/PNG ≤10MB, 6 presets, &lt;15s render</div>
-          <div><span style="color:var(--or-orange);">EDGE CASES:</span> Timeout → retry, Non-room → block</div>
-          <div><span style="color:var(--or-orange);">NON-GOALS:</span> Custom styles, AR mode (Phase 2+)</div>
-        </div>
+<!-- Reference format -->
+<div style="margin-top:1rem;">
+  <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.5rem;">REFERENCE FORMAT</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+    <div style="border:2px dashed rgba(224,60,46,0.5);border-radius:8px;padding:0.65rem;background:rgba(224,60,46,0.04);">
+      <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);margin-bottom:0.4rem;">RAW BRIEF</div>
+      <p style="font-size:0.72rem;font-style:italic;color:#e2e8f0;line-height:1.5;margin:0;">
+        "Users should be able to upload a photo of their room and see what it looks like redesigned in different styles."
+      </p>
+    </div>
+    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:8px;background:#161b22;overflow:hidden;">
+      <div style="padding:0.4rem 0.65rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-green);font-weight:700;">STRUCTURED</div>
+      <div style="padding:0.5rem 0.65rem;font-size:0.6rem;line-height:1.7;color:#e2e8f0;font-family:'Roboto Mono',monospace;">
+        <div><span style="color:var(--or-orange);">USER JOURNEY:</span> Upload → Select style → Generate → Compare</div>
+        <div><span style="color:var(--or-orange);">CONSTRAINTS:</span> JPEG/PNG ≤10MB, 6 presets, &lt;15s render</div>
+        <div><span style="color:var(--or-orange);">NON-GOALS:</span> Custom styles, AR mode (Phase 2+)</div>
       </div>
     </div>
   </div>
@@ -642,7 +744,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 13 — Q&A SECTION 1 ─────────────────────────────────── -->
+<!-- ─── SLIDE 16 — Q&A SECTION 1─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -652,11 +754,21 @@ layout: default
 <div class="flex flex-col items-center justify-center h-full gap-4">
   <div class="text-center">
     <div class="qa-display">Q&amp;A</div>
-    <p style="color:var(--or-orange);font-size:0.9rem;font-weight:600;letter-spacing:0.05em;">The Spec Toolkit</p>
-    <p style="color:var(--or-muted);font-size:0.8rem;margin-top:0.3rem;">Section 1 — Foundations</p>
+    <p style="color:var(--or-orange);font-size:0.9rem;font-weight:600;letter-spacing:0.05em;">Section 1: Foundations</p>
   </div>
-  <div style="background:var(--or-card);border-radius:8px;padding:0.75rem 1.5rem;border:1px solid #334155;max-width:480px;text-align:center;">
-    <p style="font-size:0.78rem;color:var(--or-muted);">In Section 2: install GSD, clarify the full brief, and build specs for every MVP feature.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.65rem;width:100%;max-width:680px;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.7rem 0.85rem;">
+      <p style="font-size:0.72rem;font-weight:600;color:#e2e8f0;margin:0 0 0.25rem;">What was missing from the brief?</p>
+      <p style="font-size:0.65rem;color:var(--or-muted);line-height:1.5;margin:0;">When you tried to structure it, what questions came up that the brief didn't answer?</p>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.7rem 0.85rem;">
+      <p style="font-size:0.72rem;font-weight:600;color:#e2e8f0;margin:0 0 0.25rem;">How do features relate to each other?</p>
+      <p style="font-size:0.65rem;color:var(--or-muted);line-height:1.5;margin:0;">Does the photo upload spec affect how you'd spec the style picker?</p>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.7rem 0.85rem;">
+      <p style="font-size:0.72rem;font-weight:600;color:#e2e8f0;margin:0 0 0.25rem;">Where did you start and why?</p>
+      <p style="font-size:0.65rem;color:var(--or-muted);line-height:1.5;margin:0;">User journey first? Constraints first? What felt most natural?</p>
+    </div>
   </div>
 </div>
 
@@ -672,7 +784,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 14 — SECTION 2 DIVIDER ──────────────────────────────── -->
+<!-- ─── SLIDE 17 — SECTION 2 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -695,7 +807,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 15 — FROM BRIEF TO DESIGN SPEC ─────────────────────── -->
+<!-- ─── SLIDE 18 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -776,7 +888,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 16 — INTRODUCING GSD ───────────────────────────────── -->
+<!-- ─── SLIDE 19 — INTRODUCING GSD───────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -865,7 +977,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 17 — ANATOMY OF A FEATURE SPEC ─────────────────────── -->
+<!-- ─── SLIDE 20 — ANATOMY OF A FEATURE SPEC─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -873,7 +985,7 @@ layout: default
 </div>
 
 <h1>What Goes in a Feature Spec?</h1>
-<p class="sub">6 building blocks — each prevents a different type of ambiguity</p>
+<p class="sub">6 building blocks, each addressing a different type of ambiguity</p>
 
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.6rem;margin-top:0.6rem;">
   <!-- User Journey -->
@@ -936,7 +1048,56 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 18 — ARCHITECTURE + DATA MODEL ──────────────────────── -->
+<!-- ─── SLIDE 21 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Your Spec Is an Interface</h1>
+<p class="sub">The professional insight: you've been writing contracts, not to-do lists</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;">
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.6rem;">— WHAT YOU WRITE IN THE SPEC</div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1rem 1.1rem;font-size:0.72rem;line-height:1.8;color:#e6edf3;font-family:'Fira Code',monospace;">
+      <span style="color:var(--or-muted);"># AI Generation API</span><br/>
+      <span style="color:var(--or-green);">Input:</span> JPG/PNG/HEIC, max 10MB<br/>
+      <span style="color:var(--or-green);">Output:</span> image URL within 30s<br/>
+      <span style="color:var(--or-green);">On failure:</span> error code +<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user-facing message<br/>
+      <span style="color:var(--or-green);">Constraint:</span> 50 req/day/agent
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);margin-bottom:0.6rem;">— WHAT YOU'RE ACTUALLY DEFINING</div>
+    <div style="display:flex;flex-direction:column;gap:0.6rem;">
+      <div style="background:var(--or-card);border-left:3px solid var(--or-green);border-radius:4px;padding:0.6rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;"><strong>What goes in:</strong> inputs, types, constraints</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-blue);border-radius:4px;padding:0.6rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;"><strong>What comes out:</strong> outputs, shape, timing</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-amber);border-radius:4px;padding:0.6rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;"><strong>What fails gracefully:</strong> error states, user messages</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.75rem 1rem;margin-top:1.2rem;">
+  <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">
+    The implementation can change: which model, which library, which storage provider.<br/>
+    <strong style="color:var(--or-orange);">The contract shouldn't.</strong> That's what you own. That's what the spec protects.
+  </p>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 22 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1029,14 +1190,14 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 19 — FROM 14 FEATURES TO 6 ─────────────────────────── -->
+<!-- ─── SLIDE 23 — FROM 14 FEATURES TO 6─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>From 14 Features to 6 — Here's Why</h1>
+<h1>From 14 Features to 6: Here's Why</h1>
 <p class="sub">Not all features are equal. Some are core. Some are deferred.</p>
 
 <!-- 3-column feature cards with colored top border -->
@@ -1135,11 +1296,102 @@ layout: default
 </div>
 
 ---
+layout: default
+---
+
+<!-- ─── SLIDE 24 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 15 MIN</div>
+
+<h1>Write a Feature Spec</h1>
+<p class="sub">Apply the 6-element anatomy to a real Phase 1 feature</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;align-items:start;">
+  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:10px;padding:1.2rem 1.4rem;">
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);margin-bottom:0.9rem;">— YOUR TASK</div>
+    <div style="display:flex;flex-direction:column;gap:0.7rem;">
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">1</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Pick one Phase 1 feature from the real estate app</p>
+      </div>
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">2</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Write a complete spec using all 6 elements from the anatomy slide</p>
+      </div>
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">3</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Include at least 2 edge cases, 2 acceptance criteria, and <strong>1 failure state that would be a contract violation</strong></p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.6rem;">— CHECKLIST</div>
+    <div style="display:flex;flex-direction:column;gap:0.5rem;">
+      <div style="background:var(--or-card);border-radius:6px;padding:0.5rem 0.75rem;display:flex;align-items:center;gap:0.5rem;">
+        <span style="color:var(--or-muted);font-size:0.75rem;">□</span>
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;">Inputs defined (types, limits)</p>
+      </div>
+      <div style="background:var(--or-card);border-radius:6px;padding:0.5rem 0.75rem;display:flex;align-items:center;gap:0.5rem;">
+        <span style="color:var(--or-muted);font-size:0.75rem;">□</span>
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;">Expected outputs described</p>
+      </div>
+      <div style="background:var(--or-card);border-radius:6px;padding:0.5rem 0.75rem;display:flex;align-items:center;gap:0.5rem;">
+        <span style="color:var(--or-muted);font-size:0.75rem;">□</span>
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;">Error / failure states named</p>
+      </div>
+      <div style="background:var(--or-card);border-radius:6px;padding:0.5rem 0.75rem;display:flex;align-items:center;gap:0.5rem;">
+        <span style="color:var(--or-muted);font-size:0.75rem;">□</span>
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;">Non-goals listed</p>
+      </div>
+      <div style="background:var(--or-card);border-radius:6px;padding:0.5rem 0.75rem;display:flex;align-items:center;gap:0.5rem;">
+        <span style="color:var(--or-muted);font-size:0.75rem;">□</span>
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;">Acceptance criteria checkable</p>
+      </div>
+    </div>
+    <p style="font-size:0.7rem;color:var(--or-muted);margin-top:0.75rem;">You'll use this spec in Section 3 when building Phase 1.</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 25 — Q&A SECTION 2─────────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div class="flex flex-col items-center justify-center h-full gap-4">
+  <div class="text-center">
+    <div class="qa-display">Q&amp;A</div>
+    <p style="color:var(--or-orange);font-size:0.9rem;font-weight:600;letter-spacing:0.05em;">The Spec Toolkit</p>
+    <p style="color:var(--or-muted);font-size:0.78rem;margin-top:0.3rem;">Section 2: Designing the App Before Writing Code</p>
+  </div>
+  <div style="background:var(--or-card);border-radius:8px;padding:0.75rem 1.5rem;border:1px solid #334155;max-width:480px;text-align:center;">
+    <p style="font-size:0.78rem;color:var(--or-muted);">Up next: translate specs into an executable build plan. And discover a loophole most plans never catch.</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <span class="done">✅ Foundations</span>
+  <span class="done">✅ Spec Toolkit</span>
+  <span>○ Implementation</span>
+  <span>○ Validation</span>
+</div>
+
+---
 layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 20 — SECTION 3 DIVIDER ──────────────────────────────── -->
+<!-- ─── SLIDE 26 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1162,7 +1414,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — WE DON'T BUILD EVERYTHING AT ONCE ─────────────── -->
+<!-- ─── SLIDE 27 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1274,7 +1526,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — HOW /GSD:PLAN-PHASE 1 WORKS ───────────────────── -->
+<!-- ─── SLIDE 28 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1370,62 +1622,260 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — DONE = ACCEPTANCE CRITERIA PASS ────────────────── -->
+<!-- ─── SLIDE 29 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>Done = Acceptance Criteria Pass</h1>
-<p class="sub">Not "it works on my machine." Not "looks good." Testable criteria from the spec.</p>
+<h1>This Plan Has a Loophole</h1>
+<p class="sub">It looks organized. It is. But organized and safe are not the same thing.</p>
 
-<div style="margin-top:0.8rem;">
-<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;">
-<span style="font-size:0.62rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);white-space:nowrap;">PHASE 1 — ACCEPTANCE CRITERIA CHECKLIST</span>
-<div style="flex:1;height:1px;background:#334155;"></div>
-</div>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;margin-bottom:0.65rem;">
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">UPLOAD VALIDATION</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">Photo upload accepts JPEG/PNG ≤10MB, rejects others</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">PERFORMANCE</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">AI generation completes in &lt; 15 seconds</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">ROOM DETECTION</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">Room type detection runs on upload (or manual fallback)</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">PERSISTENCE</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">Generated image stored in Supabase Storage</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">EDGE CASES</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">Non-room photo shows warning, blocks generation</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">ERROR HANDLING</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">Error state shown on API timeout (&gt;20s)</div></div>
-</div>
-<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.6rem 0.75rem;display:flex;gap:0.65rem;align-items:flex-start;">
-<div style="width:18px;height:18px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
-<div><div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.22rem;">STYLES</div><div style="font-size:0.72rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.4;">All 6 styles displayed with correct preview</div></div>
-</div>
-</div>
-<div style="background:#0d1a10;border-left:3px solid var(--or-green);border-radius:0 6px 6px 0;padding:0.6rem 0.9rem;display:flex;align-items:center;gap:0.6rem;">
-<span style="font-size:1rem;">ℹ️</span>
-<span style="font-size:0.75rem;color:#e2e8f0;">After Phase 1 is "done," we review in <strong>Section 4</strong> before Phase 2 starts.</span>
-</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;align-items:start;">
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.6rem;">— THE GSD PLAN (WAVE VIEW)</div>
+    <div style="display:flex;flex-direction:column;gap:0.5rem;">
+      <div style="background:var(--or-card);border-left:3px solid var(--or-blue);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:#93c5fd;margin:0 0 0.2rem;">Wave A: UI Layer</p>
+        <p style="font-size:0.7rem;color:var(--or-muted);margin:0;">Upload form, style picker, before/after viewer</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-green);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--or-green);margin:0 0 0.2rem;">Wave B: API Layer</p>
+        <p style="font-size:0.7rem;color:var(--or-muted);margin:0;">Upload endpoint, generation call, result handler</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-amber);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;font-weight:700;color:var(--or-amber);margin:0 0 0.2rem;">Wave C: Data Layer</p>
+        <p style="font-size:0.7rem;color:var(--or-muted);margin:0;">Image storage, project persistence, user sessions</p>
+      </div>
+    </div>
+    <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.25);border-radius:6px;padding:0.55rem 0.8rem;margin-top:0.75rem;">
+      <p style="font-size:0.72rem;color:#fca5a5;margin:0;line-height:1.5;">⚠ The UI is fully built before the API is wired. What if the shapes don't match?</p>
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.6rem;">— THIS HAPPENED TO US</div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:1rem 1.1rem;">
+      <p style="font-size:0.75rem;color:#e2e8f0;line-height:1.6;margin:0 0 0.6rem;">We were building a marketing analytics dashboard. The chart layer looked great: bar charts, KPI cards, trend lines. Then we wired the API.</p>
+      <p style="font-size:0.75rem;color:#e2e8f0;line-height:1.6;margin:0 0 0.6rem;">Charts expected <code style="color:var(--or-orange);background:#161b22;padding:0.1rem 0.3rem;border-radius:3px;">{ date, value }</code> arrays. The API returned <code style="color:var(--or-orange);background:#161b22;padding:0.1rem 0.3rem;border-radius:3px;">{ events: [...] }</code> objects.</p>
+      <p style="font-size:0.75rem;color:#e2e8f0;line-height:1.6;margin:0 0 0.6rem;">Every chart needed a custom transform. <strong style="color:var(--or-amber);">Two weeks of rework</strong> that a single E2E test on day 1 would have caught.</p>
+      <p style="font-size:0.7rem;color:var(--or-muted);margin:0;border-top:1px solid #334155;padding-top:0.5rem;">The plan was organized. It was also completely layer-by-layer.</p>
+    </div>
+  </div>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — DISCUSSION SECTION 3 ──────────────────────────── -->
+<!-- ─── SLIDE 30 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Tracer Bullet: Build Thin, Not Flat</h1>
+<p class="sub">The thinnest path through every layer, before any layer is "finished"</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.6rem;align-items:start;">
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:rgba(224,60,46,0.9);margin-bottom:0.6rem;">— ✗ LAYER BY LAYER (the loophole)</div>
+    <div style="display:flex;flex-direction:column;gap:0.4rem;">
+      <div style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);border-radius:4px;padding:0.5rem 0.7rem;text-align:center;">
+        <p style="font-size:0.72rem;color:#93c5fd;margin:0;font-weight:600;">▓▓▓▓▓▓ Full UI Layer</p>
+      </div>
+      <div style="text-align:center;color:var(--or-muted);font-size:0.7rem;">↓ then</div>
+      <div style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.3);border-radius:4px;padding:0.5rem 0.7rem;text-align:center;">
+        <p style="font-size:0.72rem;color:#86efac;margin:0;font-weight:600;">▓▓▓▓▓▓ Full API Layer</p>
+      </div>
+      <div style="text-align:center;color:var(--or-muted);font-size:0.7rem;">↓ then</div>
+      <div style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:0.5rem 0.7rem;text-align:center;">
+        <p style="font-size:0.72rem;color:#fcd34d;margin:0;font-weight:600;">▓▓▓▓▓▓ Full Data Layer</p>
+      </div>
+      <p style="font-size:0.68rem;color:rgba(224,60,46,0.8);margin-top:0.4rem;text-align:center;">Integration mismatch discovered in week 3</p>
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-green);margin-bottom:0.6rem;">— ✓ TRACER BULLET (the fix)</div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.8rem 1rem;margin-bottom:0.75rem;">
+      <p style="font-size:0.7rem;color:var(--or-muted);margin:0 0 0.4rem;font-weight:600;">1 path through all layers first:</p>
+      <p style="font-size:0.75rem;color:#e2e8f0;margin:0;font-family:'Fira Code',monospace;line-height:1.6;">
+        Upload 1 photo<br/>
+        <span style="color:var(--or-muted);">→</span> API receives it<br/>
+        <span style="color:var(--or-muted);">→</span> Nano Banana called<br/>
+        <span style="color:var(--or-muted);">→</span> Result stored in DB<br/>
+        <span style="color:var(--or-muted);">→</span> Displayed to user
+      </p>
+    </div>
+    <div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.25);border-radius:6px;padding:0.55rem 0.8rem;">
+      <p style="font-size:0.72rem;color:#86efac;margin:0;line-height:1.5;">✓ E2E path proven on day 1. Then expand each layer.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 31 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Encode This in Your Tooling</h1>
+<p class="sub">Make Claude plan this way in every future session, regardless of which plugin you use</p>
+
+<div style="display:grid;grid-template-columns:1.1fr 1fr;gap:1.5rem;margin-top:2rem;align-items:start;">
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.6rem;">— ADD TO ~/.claude/CLAUDE.md</div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1rem 1.1rem;font-family:'Fira Code',monospace;font-size:0.72rem;line-height:1.7;color:#e6edf3;">
+      <span style="color:var(--or-muted);"># Planning Rules</span><br/><br/>
+      When planning any feature,<br/>
+      identify the <span style="color:var(--or-orange);">tracer bullet path</span> first:<br/>
+      the thinnest E2E slice that<br/>
+      touches every layer.<br/><br/>
+      Build that before expanding<br/>
+      any single layer.
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.6rem;">— WHY THIS WORKS</div>
+    <div style="display:flex;flex-direction:column;gap:0.6rem;">
+      <div style="background:var(--or-card);border-left:3px solid var(--or-green);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;line-height:1.4;">Claude reads your <code style="color:var(--or-orange);background:#161b22;padding:0.1rem 0.25rem;border-radius:2px;">CLAUDE.md</code> before every session</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-green);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;line-height:1.4;">Every plan it generates will follow this constraint: GSD, raw session, any plugin</p>
+      </div>
+      <div style="background:var(--or-card);border-left:3px solid var(--or-blue);border-radius:4px;padding:0.55rem 0.8rem;">
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0;line-height:1.4;">You can encode any engineering instinct this way. Skills take it further, but that's a next step.</p>
+      </div>
+    </div>
+    <div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:6px;padding:0.5rem 0.75rem;margin-top:0.75rem;">
+      <p style="font-size:0.7rem;color:#e2e8f0;margin:0;font-style:italic;">Your tooling learns your discipline. You only have to teach it once.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 32 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 10 MIN</div>
+
+<h1>Find the Tracer Bullet Path</h1>
+<p class="sub">Apply it to Phase 1 of the real estate app</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;align-items:start;">
+  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:10px;padding:1.2rem 1.4rem;">
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);margin-bottom:0.9rem;">— YOUR TASK</div>
+    <div style="display:flex;flex-direction:column;gap:0.7rem;">
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">1</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Identify which single user journey in Phase 1 touches every layer: UI → API → external model → DB</p>
+      </div>
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">2</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Write it as the first task in your build plan: "User does X → system does Y → result is Z"</p>
+      </div>
+      <div style="display:flex;gap:0.7rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">3</div>
+        <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.5;">Compare: would the original Wave A → B → C plan have built this path on day 1?</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.6rem;">— HINT</div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.9rem 1rem;">
+      <p style="font-size:0.75rem;color:var(--or-muted);margin:0 0 0.5rem;font-style:italic;">Phase 1 features:</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">Photo upload</span>
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">Style selection</span>
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">AI generation</span>
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">Before/after view</span>
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">Save to project</span>
+        <span style="background:#1E293B;border:1px solid #334155;border-radius:4px;padding:0.2rem 0.5rem;font-size:0.68rem;color:#e2e8f0;">Design gallery</span>
+      </div>
+      <p style="font-size:0.7rem;color:var(--or-muted);margin:0.75rem 0 0;line-height:1.5;">Which one requires data to travel through all 4 layers to work?</p>
+    </div>
+    <p style="font-size:0.7rem;color:var(--or-muted);margin-top:0.75rem;">We'll discuss as a group and rewrite the plan together.</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 33 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1 style="margin-top:1.4rem;">Done = Acceptance Criteria Pass</h1>
+<p class="sub">Not "it works on my machine." Not "looks good." Testable criteria from the spec.</p>
+
+<div style="margin-top:0.4rem;">
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.4rem;">
+<span style="font-size:0.6rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);white-space:nowrap;">PHASE 1: ACCEPTANCE CRITERIA CHECKLIST</span>
+<div style="flex:1;height:1px;background:#334155;"></div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.3rem;margin-bottom:0.35rem;">
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">UPLOAD VALIDATION</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">Photo upload accepts JPEG/PNG ≤10MB, rejects others</div></div>
+</div>
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">PERFORMANCE</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">AI generation completes in &lt; 15 seconds</div></div>
+</div>
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">AUTHENTICATION</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">User can sign up, log in, and access their dashboard</div></div>
+</div>
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">PERSISTENCE</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">User data and results persist across sessions</div></div>
+</div>
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">INPUT VALIDATION</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">Invalid inputs are rejected with a clear error message</div></div>
+</div>
+<div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:6px;padding:0.4rem 0.6rem;display:flex;gap:0.55rem;align-items:flex-start;">
+<div style="width:15px;height:15px;border:1.5px solid #4b5563;border-radius:3px;flex-shrink:0;margin-top:0.1rem;"></div>
+<div><div style="font-size:0.55rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.12rem;">ERROR HANDLING</div><div style="font-size:0.65rem;font-family:'Roboto Mono',monospace;color:#e2e8f0;line-height:1.35;">Failed operations show a recoverable error state</div></div>
+</div>
+</div>
+<div style="background:#0d1a10;border-left:3px solid var(--or-green);border-radius:0 6px 6px 0;padding:0.4rem 0.7rem;display:flex;align-items:center;gap:0.6rem;">
+<span style="font-size:0.9rem;">ℹ️</span>
+<span style="font-size:0.7rem;color:#e2e8f0;">After Phase 1 is "done," we review in <strong>Section 4</strong> before Phase 2 starts.</span>
+</div>
+</div>
+
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.85rem;margin-top:0.9rem;display:grid;grid-template-columns:auto 1fr;gap:0.65rem;align-items:start;">
+  <div style="background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.25);border-radius:6px;padding:0.35rem 0.55rem;text-align:center;font-size:0.55rem;font-weight:700;color:var(--or-green);letter-spacing:0.05em;line-height:1.3;white-space:nowrap;">RED<br/>GREEN<br/>REFACTOR</div>
+  <div>
+    <p style="font-size:0.68rem;color:#e2e8f0;margin:0 0 0.2rem;font-weight:600;">Write the test before the code</p>
+    <p style="font-size:0.65rem;color:var(--or-muted);margin:0;line-height:1.45;">Your acceptance criteria <em>are</em> your test. Write a failing test (RED), implement minimum to pass (GREEN), refactor once all criteria are green. The spec told you WHAT. The test proves it.</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 34 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1451,20 +1901,30 @@ layout: default
       <p style="font-size:0.78rem;color:var(--or-muted);line-height:1.5;">How do you detect loss of alignment between what was spec'd and what gets built early in the process?</p>
     </div>
   </div>
+
+  <div class="card orange" style="padding:0.85rem 1rem;margin-top:0.75rem;display:flex;align-items:flex-start;gap:0.75rem;">
+    <div style="font-size:1.4rem;opacity:0.6;flex-shrink:0;">🎯</div>
+    <div>
+      <p style="font-size:0.85rem;font-weight:600;color:#e2e8f0;margin:0 0 0.25rem;">Tracer Bullet in Your Own Work</p>
+      <p style="font-size:0.78rem;color:var(--or-muted);line-height:1.5;margin:0;">Where in your own projects could a single E2E path have caught an integration mismatch earlier? Think about the last time two layers met and didn't agree.</p>
+    </div>
+  </div>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — BUILDING PHASE 1 (LIVE) ───────────────────────── -->
+<!-- ─── SLIDE 35 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>Building Phase 1 — Live</h1>
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);">💻 DEMO</div>
+
+<h1>Building Phase 1, Live</h1>
 <p class="sub">Follow along as the instructor builds using the spec</p>
 
 <div class="live-grid">
@@ -1522,7 +1982,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 26 — SECTION 4 DIVIDER ──────────────────────────────── -->
+<!-- ─── SLIDE 36 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1545,7 +2005,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 27 — WHAT REVIEW CATCHES (ICEBERG) ──────────────────── -->
+<!-- ─── SLIDE 37 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1633,7 +2093,7 @@ layout: default
 <div style="position:absolute;bottom:0;left:-2rem;right:-2rem;background:#161b27;border-top:1px solid #334155;padding:0.5rem 2rem;display:flex;align-items:center;justify-content:space-between;">
 <div style="display:flex;align-items:center;gap:0.5rem;">
 <span style="font-size:0.85rem;">ℹ️</span>
-<span style="font-size:0.73rem;color:#e2e8f0;">Review catches what's below the waterline — before it compounds.</span>
+<span style="font-size:0.73rem;color:#e2e8f0;">Review catches what's below the waterline, before it compounds.</span>
 </div>
 <div style="font-size:0.68rem;font-weight:700;color:var(--or-blue);border:1px solid var(--or-blue);padding:0.12rem 0.55rem;border-radius:4px;">Phase 2</div>
 </div>
@@ -1642,7 +2102,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — THE LOOP ───────────────────────────────────────── -->
+<!-- ─── SLIDE 38 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1740,14 +2200,16 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — REVIEWING PHASE 1 (LIVE) ──────────────────────── -->
+<!-- ─── SLIDE 39 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>Reviewing Phase 1 — Live</h1>
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);">💻 DEMO</div>
+
+<h1>Reviewing Phase 1, Live</h1>
 <p class="sub">Identify gaps and fix them before starting the next phase.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.55rem;margin-top:0.5rem;">
@@ -1822,14 +2284,69 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — FIX + BUILD PHASE 2 ───────────────────────────── -->
+<!-- ─── SLIDE 40 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>Fix → Build Phase 2 — The Loop in Action</h1>
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 10 MIN</div>
+
+<div style="margin-top:2.2rem;">
+  <div class="discussion-header">
+    <div class="discussion-bar-line"></div>
+    <div>
+      <div class="discussion-title-text">Review Phase 1 Against the Spec</div>
+      <div class="discussion-sub">Find 1 gap or incorrect assumption in the implementation</div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.9rem;">
+    <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.3);border-radius:8px;padding:1rem 1.1rem;">
+      <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;color:var(--or-amber);margin-bottom:0.75rem;">— YOUR TASK</div>
+      <div style="display:flex;flex-direction:column;gap:0.6rem;">
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
+          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">1</div>
+          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Open the Phase 1 spec and the code built in the demo</p>
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
+          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">2</div>
+          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Find 1 gap: a feature promised in the spec but missing, incomplete, or implemented differently</p>
+        </div>
+        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
+          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">3</div>
+          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Note whether it's a spec gap (missing requirement) or an execution gap (requirement present, not implemented)</p>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.6rem;">
+      <div style="background:#0f1f3d;border:1px solid rgba(59,130,246,0.35);border-radius:8px;padding:0.85rem 1rem;">
+        <p style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;color:#93c5fd;margin:0 0 0.5rem;">SPEC GAP</p>
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0 0 0.2rem;font-weight:600;">Spec said it. Code never did it.</p>
+        <p style="font-size:0.68rem;color:var(--or-muted);margin:0;line-height:1.5;">Example: spec requires error state on API timeout. No error UI exists in the build.</p>
+      </div>
+      <div style="background:#0d1a10;border:1px solid rgba(34,197,94,0.35);border-radius:8px;padding:0.85rem 1rem;">
+        <p style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;color:#86efac;margin:0 0 0.5rem;">EXECUTION GAP</p>
+        <p style="font-size:0.72rem;color:#e2e8f0;margin:0 0 0.2rem;font-weight:600;">Code did something. Spec said something different.</p>
+        <p style="font-size:0.68rem;color:var(--or-muted);margin:0;line-height:1.5;">Example: spec says reject files over 10MB. Build accepts any size and silently fails.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 41 — FIX + BUILD PHASE 2───────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Fix → Build Phase 2: The Loop in Action</h1>
 <p class="sub">Review findings feed the next phase. Specs evolve based on what we learned.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.55rem;margin-top:0.5rem;">
@@ -1841,7 +2358,7 @@ layout: default
 </div>
 <div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">Update spec and implement validation updates &amp; error handling.</div>
 <div style="background:#0d1117;border:1px solid #2d3748;border-radius:5px;padding:0.45rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.75;">
-<div style="color:var(--or-green);font-style:italic;"># Apply fixes to REQUIREMENTS.md</div>
+<div style="color:var(--or-green);font-style:italic;"># Apply fixes to the spec</div>
 <div style="color:var(--or-green);font-style:italic;"># Implement strict validation logic</div>
 <div><span style="color:var(--or-orange);">git commit</span><span style="color:#e2e8f0;"> -m "fix: upload validation per Phase 1 review"</span></div>
 </div>
@@ -1902,43 +2419,37 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — DISCUSSION SECTION 4 ──────────────────────────── -->
+<!-- ─── SLIDE 42 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<div style="margin-top:2.5rem;">
-  <div class="discussion-header">
-    <div class="discussion-bar-line"></div>
-    <div>
-      <div class="discussion-title-text">Discussion</div>
-      <div class="discussion-sub">Reflecting on the gap between intent and delivery</div>
-    </div>
+<div class="flex flex-col items-center justify-center h-full gap-4">
+  <div class="text-center">
+    <div class="qa-display">Q&amp;A</div>
+    <p style="color:var(--or-orange);font-size:0.9rem;font-weight:600;letter-spacing:0.05em;">Apply the Loop to Phase 3+</p>
+    <p style="color:var(--or-muted);font-size:0.78rem;margin-top:0.3rem;">Section 4: Validation + Scaling</p>
   </div>
+  <div style="background:var(--or-card);border-radius:8px;padding:0.75rem 1.5rem;border:1px solid #334155;max-width:500px;text-align:center;">
+    <p style="font-size:0.78rem;color:#e2e8f0;">Apply the full workflow to Phase 3+ features, or bring it to a feature in your own project.</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);margin-top:0.4rem;">Phase 3+: Design gallery · Element-level control · Sharing links, all spec'd in the requirements doc, ready to build.</p>
+  </div>
+</div>
 
-  <div class="grid grid-cols-3 gap-4 mt-2">
-    <div class="card blue" style="padding:0.9rem;">
-      <p style="font-size:0.82rem;font-weight:600;color:#e2e8f0;margin-bottom:0.35rem;">Failure Modes</p>
-      <p style="font-size:0.75rem;color:var(--or-muted);line-height:1.5;">What are the real-world failure modes in software development? How many come from spec gaps vs execution gaps?</p>
-    </div>
-    <div class="card blue" style="padding:0.9rem;">
-      <p style="font-size:0.82rem;font-weight:600;color:#e2e8f0;margin-bottom:0.35rem;">Context Loss</p>
-      <p style="font-size:0.75rem;color:var(--or-muted);line-height:1.5;">How do specifications reduce context loss across handoffs and team changes?</p>
-    </div>
-    <div class="card blue" style="padding:0.9rem;">
-      <p style="font-size:0.82rem;font-weight:600;color:#e2e8f0;margin-bottom:0.35rem;">Workflow Shift</p>
-      <p style="font-size:0.75rem;color:var(--or-muted);line-height:1.5;">What would change in your team's workflow if specs were the starting point for every feature?</p>
-    </div>
-  </div>
+<div class="breadcrumb">
+  <span class="done">✅ Foundations</span>
+  <span class="done">✅ Spec Toolkit</span>
+  <span class="done">✅ Implementation</span>
+  <span class="done">✅ Validation</span>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — SCALING THE WORKFLOW ──────────────────────────── -->
+<!-- ─── SLIDE 43 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1946,7 +2457,7 @@ layout: default
 </div>
 
 <h1>The Workflow Scales</h1>
-<p class="sub">From solo developer to large organization — the methodology transfers.</p>
+<p class="sub">From solo developer to large organization. The methodology transfers.</p>
 
 <div style="display:grid;grid-template-columns:44% 56%;gap:0;margin-top:0.4rem;height:calc(100% - 7rem);">
 <div style="display:flex;align-items:center;justify-content:center;overflow:visible;">
@@ -1973,7 +2484,7 @@ layout: default
 <span style="font-size:0.78rem;font-weight:700;color:#ea580c;">Solo Developer</span>
 </div>
 <div style="font-size:0.62rem;color:#e2e8f0;margin-bottom:0.12rem;">One developer with Claude Code + GSD.</div>
-<div style="font-family:'Roboto Mono',monospace;font-size:0.54rem;color:var(--or-muted);">CLAUDE.md + REQUIREMENTS.md = full context</div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.54rem;color:var(--or-muted);">CLAUDE.md + spec doc = full context</div>
 </div>
 <div style="border-left:3px solid #3b82f6;background:#1a1f2e;border-radius:0 7px 7px 0;padding:0.42rem 0.65rem;">
 <div style="display:flex;align-items:center;gap:0.35rem;margin-bottom:0.15rem;">
@@ -1981,7 +2492,7 @@ layout: default
 <span style="font-size:0.78rem;font-weight:700;color:#3b82f6;">Pair Programming</span>
 </div>
 <div style="font-size:0.62rem;color:#e2e8f0;margin-bottom:0.12rem;">Two developers working from the same truth.</div>
-<div style="font-family:'Roboto Mono',monospace;font-size:0.54rem;color:var(--or-muted);">Shared REQUIREMENTS.md in repo root</div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.54rem;color:var(--or-muted);">Shared spec doc in repo root</div>
 </div>
 <div style="border-left:3px solid #16a34a;background:#1a1f2e;border-radius:0 7px 7px 0;padding:0.42rem 0.65rem;">
 <div style="display:flex;align-items:center;gap:0.35rem;margin-bottom:0.15rem;">
@@ -2014,141 +2525,187 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — Q&A SECTION 4 ─────────────────────────────────── -->
-
+<!-- ─── SLIDE 44 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+<div class="brand">O'REILLY<sup>®</sup></div>
+<div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
-
-<div class="flex flex-col items-center justify-center h-full gap-4">
-  <div class="text-center">
-    <div class="qa-display">Q&amp;A</div>
-    <p style="color:var(--or-orange);font-size:0.9rem;font-weight:600;letter-spacing:0.05em;">Apply the Loop to Phase 3+</p>
-    <p style="color:var(--or-muted);font-size:0.78rem;margin-top:0.3rem;">Section 4 — Validation + Scaling</p>
-  </div>
-  <div style="background:var(--or-card);border-radius:8px;padding:0.75rem 1.5rem;border:1px solid #334155;max-width:500px;text-align:center;">
-    <p style="font-size:0.78rem;color:#e2e8f0;">Apply the full workflow to Phase 3+ features, or bring it to a feature in your own project.</p>
-    <p style="font-size:0.72rem;color:var(--or-muted);margin-top:0.4rem;">Phase 3+: Design gallery · Element-level control · Sharing links — all spec'd in REQUIREMENTS.md, ready to build.</p>
-  </div>
+<h1 style="text-align:center;margin-bottom:0.15rem;margin-top:1.4rem;">What We Just Built</h1>
+<p class="sub" style="text-align:center;margin-bottom:0.5rem;">Messy brief to working MVP. Run the loop, spec by spec.</p>
+<div style="display:flex;align-items:center;justify-content:center;gap:0.65rem;margin-bottom:0.55rem;">
+<div style="background:rgba(224,60,46,0.1);border:1.5px solid #E03C2E;border-radius:6px;padding:0.28rem 0.8rem;text-align:center;">
+<div style="font-size:0.58rem;font-weight:700;color:#E03C2E;letter-spacing:0.05em;">MESSY BRIEF</div>
+<div style="font-size:0.46rem;color:#94A3B8;">14 features · no priority</div>
 </div>
-
-<div class="breadcrumb">
-  <span class="done">✅ Foundations</span>
-  <span class="done">✅ Spec Toolkit</span>
-  <span class="done">✅ Implementation</span>
-  <span class="done">✅ Validation</span>
+<div style="color:#F97316;font-size:1.1rem;">→</div>
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.3);border-radius:6px;padding:0.28rem 0.8rem;text-align:center;">
+<div style="font-size:0.58rem;font-weight:700;color:#F97316;letter-spacing:0.05em;">LOOP × 2</div>
+<div style="font-size:0.46rem;color:#94A3B8;">Phase 1 + Phase 2</div>
+</div>
+<div style="color:#22C55E;font-size:1.1rem;">→</div>
+<div style="background:rgba(34,197,94,0.1);border:1.5px solid #22C55E;border-radius:6px;padding:0.28rem 0.8rem;text-align:center;">
+<div style="font-size:0.58rem;font-weight:700;color:#22C55E;letter-spacing:0.05em;">WORKING MVP</div>
+<div style="font-size:0.46rem;color:#94A3B8;">spec-validated · ready for Phase 3</div>
+</div>
+</div>
+<div style="position:relative;width:380px;height:306px;margin:0 auto;">
+<svg viewBox="0 0 320 258" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+<circle cx="160" cy="124" r="82" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-dasharray="5,4"/>
+<path d="M 145 68 Q 24 104 104 140" fill="none" stroke="#F97316" stroke-width="2.2"/>
+<polygon points="104,140 95,140 98,133" fill="#F97316"/>
+<path d="M 119 165 Q 160 226 201 165" fill="none" stroke="#22C55E" stroke-width="2.2"/>
+<polygon points="201,165 200,174 193,170" fill="#22C55E"/>
+<path d="M 216 140 Q 296 104 175 68" fill="none" stroke="#3B82F6" stroke-width="2.2"/>
+<polygon points="175,68 184,67 182,74" fill="#3B82F6"/>
+<circle cx="160" cy="42" r="30" fill="#0d1117" stroke="#F97316" stroke-width="2.2"/>
+<circle cx="160" cy="42" r="28" fill="rgba(249,115,22,0.12)"/>
+<circle cx="89" cy="165" r="30" fill="#0d1117" stroke="#22C55E" stroke-width="2.2"/>
+<circle cx="89" cy="165" r="28" fill="rgba(34,197,94,0.12)"/>
+<circle cx="231" cy="165" r="30" fill="#0d1117" stroke="#3B82F6" stroke-width="2.2"/>
+<circle cx="231" cy="165" r="28" fill="rgba(59,130,246,0.12)"/>
+</svg>
+<div style="position:absolute;left:190px;top:50px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.72rem;font-weight:800;color:#F97316;line-height:1.1;">SPEC</div>
+<div style="font-size:0.42rem;color:#94A3B8;margin-top:1px;">brief to contract</div>
+</div>
+<div style="position:absolute;left:106px;top:196px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.72rem;font-weight:800;color:#22C55E;line-height:1.1;">BUILD</div>
+<div style="font-size:0.42rem;color:#94A3B8;margin-top:1px;">spec to code</div>
+</div>
+<div style="position:absolute;left:274px;top:196px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.65rem;font-weight:800;color:#3B82F6;line-height:1.1;">REVIEW</div>
+<div style="font-size:0.42rem;color:#94A3B8;margin-top:1px;">output to spec</div>
+</div>
+<div style="position:absolute;left:190px;top:143px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.58rem;font-weight:700;color:#e2e8f0;letter-spacing:1.5px;">THE LOOP</div>
+<div style="font-size:0.44rem;color:#64748b;margin-top:2px;">ran ×2</div>
+<div style="font-size:0.38rem;color:#475569;margin-top:1px;">Phase 1 + Phase 2</div>
+</div>
+<div style="position:absolute;left:46px;top:115px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.42rem;font-weight:600;color:#F97316;line-height:1.5;">Tracer<br>Bullet</div>
+</div>
+<div style="position:absolute;left:316px;top:115px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;">
+<div style="font-size:0.42rem;font-weight:600;color:#3B82F6;line-height:1.5;">Next<br>Phase</div>
+</div>
+<div style="position:absolute;left:190px;top:250px;transform:translate(-50%,-50%);text-align:center;pointer-events:none;white-space:nowrap;">
+<div style="font-size:0.42rem;font-weight:600;color:#22C55E;">Acceptance Criteria</div>
+</div>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — WHAT WE JUST BUILT ────────────────────────────── -->
+<!-- ─── SLIDE 45 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1 style="text-align:center;margin-bottom:0.15rem;">What We Just Built</h1>
-<p class="sub" style="text-align:center;margin-bottom:0;">From messy brief to working production app — spec by spec.</p>
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">🔭 EXPLORE NEXT</div>
 
-<div style="position:relative;width:100%;height:272px;margin-top:0.3rem;">
+<h1 style="margin-top:2.2rem;">The Autonomous Loop</h1>
+<p class="sub" style="margin-bottom:0.5rem;">Try this once you've shipped GSD on multiple projects and feel confident with the workflow</p>
 
-  <!-- Timeline line -->
-  <div style="position:absolute;top:130px;left:2%;right:2%;height:2px;background:#334155;z-index:1;"></div>
-
-  <!-- NODE 1: MESSY BRIEF (above) -->
-  <div style="position:absolute;left:7%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:2px;left:50%;transform:translateX(-50%);font-size:1rem;line-height:1;">📄</div>
-    <div style="position:absolute;top:22px;left:0;right:0;background:rgba(224,60,46,0.1);border:1.5px solid var(--or-red);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-red);letter-spacing:0.05em;">MESSY BRIEF</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">14 features, contradictions, AR demands</div>
-    </div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:#1e293b;border:2px solid #64748b;z-index:2;"></div>
+<div style="display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:center;gap:0;margin-top:0.85rem;">
+  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.9rem;text-align:center;">
+    <div style="font-size:1.4rem;margin-bottom:0.3rem;">📋</div>
+    <div style="font-size:0.75rem;font-weight:700;color:#e2e8f0;">Plan</div>
+    <div style="font-size:0.6rem;color:var(--or-muted);margin-top:0.2rem;">Break spec into tasks</div>
   </div>
-
-  <!-- NODE 2: DESIGN SPEC (below) -->
-  <div style="position:absolute;left:21%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:110px;left:50%;transform:translateX(-50%);font-size:0.95rem;line-height:1;">⚒️</div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:var(--or-orange);z-index:2;"></div>
-    <div style="position:absolute;top:145px;left:0;right:0;background:rgba(249,115,22,0.08);border:1.5px solid var(--or-orange);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-orange);letter-spacing:0.05em;">DESIGN SPEC</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">5-step conversion, non-goals stated</div>
-    </div>
+  <div style="font-size:1.2rem;color:var(--or-orange);padding:0 0.5rem;">→</div>
+  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.9rem;text-align:center;">
+    <div style="font-size:1.4rem;margin-bottom:0.3rem;">⚡</div>
+    <div style="font-size:0.75rem;font-weight:700;color:#e2e8f0;">Execute</div>
+    <div style="font-size:0.6rem;color:var(--or-muted);margin-top:0.2rem;">Implement each task</div>
   </div>
-
-  <!-- NODE 3: REQS DOC (above) -->
-  <div style="position:absolute;left:35%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:2px;left:50%;transform:translateX(-50%);font-size:1rem;line-height:1;">📋</div>
-    <div style="position:absolute;top:22px;left:0;right:0;background:rgba(249,115,22,0.08);border:1.5px solid var(--or-orange);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-orange);letter-spacing:0.05em;">REQS DOC</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">GSD setup, 3 phases, acceptance criteria</div>
-    </div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:var(--or-orange);z-index:2;"></div>
+  <div style="font-size:1.2rem;color:var(--or-orange);padding:0 0.5rem;">→</div>
+  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.9rem;text-align:center;">
+    <div style="font-size:1.4rem;margin-bottom:0.3rem;">🔍</div>
+    <div style="font-size:0.75rem;font-weight:700;color:#e2e8f0;">Review</div>
+    <div style="font-size:0.6rem;color:var(--or-muted);margin-top:0.2rem;">Check against spec</div>
   </div>
-
-  <!-- NODE 4: PHASE 1 BUILT (below) -->
-  <div style="position:absolute;left:50%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:110px;left:50%;transform:translateX(-50%);font-size:0.8rem;font-weight:700;color:var(--or-green);line-height:1;font-family:monospace;">&lt;/&gt;</div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:var(--or-green);z-index:2;"></div>
-    <div style="position:absolute;top:145px;left:0;right:0;background:rgba(34,197,94,0.08);border:1.5px solid var(--or-green);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-green);letter-spacing:0.05em;">PHASE 1 BUILT</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">Upload → Style → Generate flow working</div>
-    </div>
+  <div style="font-size:1.2rem;color:var(--or-orange);padding:0 0.5rem;">→</div>
+  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.9rem;text-align:center;">
+    <div style="font-size:1.4rem;margin-bottom:0.3rem;">✅</div>
+    <div style="font-size:0.75rem;font-weight:700;color:#e2e8f0;">Commit</div>
+    <div style="font-size:0.6rem;color:var(--or-muted);margin-top:0.2rem;">Only if criteria pass</div>
   </div>
-
-  <!-- NODE 5: REVIEWED (above, highlighted) -->
-  <div style="position:absolute;left:64%;transform:translateX(-50%);width:120px;">
-    <div style="position:absolute;top:2px;left:50%;transform:translateX(-50%);font-size:1rem;line-height:1;">🔍</div>
-    <div style="position:absolute;top:22px;left:0;right:0;background:rgba(59,130,246,0.15);border:2px solid var(--or-blue);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-blue);letter-spacing:0.05em;">REVIEWED</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">Gaps found, edge cases tested, fixes applied</div>
-    </div>
-    <div style="position:absolute;top:122px;left:50%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:var(--or-blue);z-index:2;"></div>
-  </div>
-
-  <!-- NODE 6: PHASE 2 BUILT (below) -->
-  <div style="position:absolute;left:79%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:110px;left:50%;transform:translateX(-50%);font-size:0.95rem;line-height:1;">🗂️</div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:var(--or-green);z-index:2;"></div>
-    <div style="position:absolute;top:145px;left:0;right:0;background:rgba(34,197,94,0.08);border:1.5px solid var(--or-green);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-green);letter-spacing:0.05em;">PHASE 2 BUILT</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">Comparison slider, project save/load</div>
-    </div>
-  </div>
-
-  <!-- NODE 7: WORKING MVP (above) -->
-  <div style="position:absolute;left:93%;transform:translateX(-50%);width:112px;">
-    <div style="position:absolute;top:2px;left:50%;transform:translateX(-50%);font-size:1rem;line-height:1;">✅</div>
-    <div style="position:absolute;top:22px;left:0;right:0;background:rgba(34,197,94,0.12);border:2px solid var(--or-green);border-radius:6px;padding:0.32rem 0.4rem;text-align:center;">
-      <div style="font-size:0.51rem;font-weight:800;color:var(--or-green);letter-spacing:0.05em;">WORKING MVP</div>
-      <div style="font-size:0.43rem;color:var(--or-muted);margin-top:0.15rem;line-height:1.4;">Spec-driven, reliable, ready for Phase 3</div>
-    </div>
-    <div style="position:absolute;top:124px;left:50%;transform:translateX(-50%);width:14px;height:14px;border-radius:50%;background:var(--or-green);z-index:2;"></div>
-  </div>
-
 </div>
 
-<!-- Legend -->
-<div style="display:flex;justify-content:center;align-items:center;gap:1.8rem;padding-top:0.35rem;border-top:1px solid #1e293b;">
-  <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.5rem;color:#94a3b8;letter-spacing:0.08em;">
-    <div style="width:10px;height:10px;border-radius:50%;background:var(--or-orange);flex-shrink:0;"></div>SPEC / PLAN
-  </div>
-  <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.5rem;color:#94a3b8;letter-spacing:0.08em;">
-    <div style="width:10px;height:10px;border-radius:50%;background:var(--or-green);flex-shrink:0;"></div>BUILD / FIX
-  </div>
-  <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.5rem;color:#94a3b8;letter-spacing:0.08em;">
-    <div style="width:10px;height:10px;border-radius:50%;background:var(--or-blue);flex-shrink:0;"></div>REVIEW / VERIFY
-  </div>
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.25);border-radius:8px;padding:0.85rem 1.1rem;margin-top:1.2rem;">
+  <p style="font-size:0.78rem;color:#e2e8f0;margin:0;line-height:1.6;">This is the <strong style="color:var(--or-orange);">RALPH pattern</strong> (Review, Act, Loop, Push, Hold). When your spec defines exact acceptance criteria, Claude knows what "done" means. The loop runs unattended. <span style="color:var(--or-muted);">Today's specs are the prerequisite: vague requirements break autonomous loops immediately.</span></p>
+</div>
+
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.65rem 1rem;margin-top:0.75rem;display:flex;align-items:center;gap:0.6rem;">
+  <div style="width:3px;height:100%;background:var(--or-green);border-radius:2px;align-self:stretch;"></div>
+  <p style="font-size:0.72rem;color:var(--or-muted);margin:0;line-height:1.5;">The specs you've been writing today are the prerequisite. Well-defined acceptance criteria are what let Claude know what "done" means. Without them,, autonomous loops break immediately.</p>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — 3 THINGS TO TAKE WITH YOU ─────────────────────── -->
+<!-- ─── SLIDE 46 — SANDBOXING CLAUDE CODE────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">🔭 EXPLORE NEXT</div>
+
+<h1 style="margin-top:2.2rem;">Sandboxing Claude Code</h1>
+<p class="sub" style="margin-bottom:0.5rem;">Try this once you've shipped GSD on multiple projects and are ready to run the RALPH loop</p>
+<div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.2);border-radius:6px;padding:0.32rem 0.85rem;margin-bottom:0.6rem;">
+<p style="font-size:0.63rem;color:var(--or-amber);margin:0;line-height:1.5;">When you run RALPH, Claude operates autonomously across your codebase: no confirmation prompts, no human in the loop. Sandboxing is what prevents an autonomous run from making irreversible mistakes.</p>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.85rem;">
+  <div>
+    <p style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);text-transform:uppercase;margin-bottom:0.5rem;">⚠️ Unsandboxed Risks</p>
+    <div style="display:flex;flex-direction:column;gap:0.4rem;">
+      <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.2);border-radius:6px;padding:0.55rem 0.75rem;">
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;font-weight:600;">Pushes broken code</p>
+        <p style="font-size:0.65rem;color:var(--or-muted);margin:0.2rem 0 0;">Auto-commits and pushes without human review</p>
+      </div>
+      <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.2);border-radius:6px;padding:0.55rem 0.75rem;">
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;font-weight:600;">Deletes files</p>
+        <p style="font-size:0.65rem;color:var(--or-muted);margin:0.2rem 0 0;">Irreversible operations with no confirmation step</p>
+      </div>
+      <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.2);border-radius:6px;padding:0.55rem 0.75rem;">
+        <p style="font-size:0.75rem;color:#e2e8f0;margin:0;font-weight:600;">Makes live API calls</p>
+        <p style="font-size:0.65rem;color:var(--or-muted);margin:0.2rem 0 0;">Charges cards, sends emails, mutates prod data</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;color:var(--or-green);text-transform:uppercase;margin-bottom:0.5rem;">✅ Safe Sandbox Config</p>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:0.75rem;font-family:'Roboto Mono',monospace;font-size:0.65rem;line-height:1.8;color:#e2e8f0;">
+      <span style="color:var(--or-muted)"># ~/.claude/settings.json</span><br>
+      <span style="color:var(--or-blue)">"allowedTools"</span><span>: [</span><br>
+      <span style="padding-left:1rem;color:var(--or-green)">"Read"</span><span>, </span><span style="color:var(--or-green)">"Edit"</span><span>, </span><span style="color:var(--or-green)">"Bash"</span><br>
+      <span>],</span><br>
+      <span style="color:var(--or-blue)">"autoApprove"</span><span>: </span><span style="color:var(--or-amber)">false</span><span>,</span><br>
+      <span style="color:var(--or-blue)">"noPush"</span><span>: </span><span style="color:var(--or-amber)">true</span>
+    </div>
+    <div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:6px;padding:0.55rem 0.75rem;margin-top:0.5rem;">
+      <p style="font-size:0.72rem;color:#e2e8f0;margin:0;font-weight:600;">Worktree isolation</p>
+      <p style="font-size:0.65rem;color:var(--or-muted);margin:0.2rem 0 0;">Each run gets its own branch. Main stays clean until you merge</p>
+    </div>
+  </div>
+</div>
+
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.6rem 1rem;margin-top:0.75rem;">
+  <p style="font-size:0.72rem;color:#e2e8f0;margin:0;line-height:1.5;"><strong style="color:var(--or-orange);">Principle:</strong> <span style="color:var(--or-muted);">The loop earns autonomy incrementally. Start with human-in-the-loop. Add automation only when each step has proven reliable in your codebase.</span></p>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 47 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2161,7 +2718,7 @@ layout: default
   <div class="card orange" style="display:flex;gap:1rem;align-items:start;padding:0.75rem 1rem;">
     <span style="font-size:1.8rem;font-weight:900;color:var(--or-orange);line-height:1;flex-shrink:0;">1</span>
     <div>
-      <div style="font-weight:700;color:#e2e8f0;margin-bottom:0.2rem;">Specs are contracts — for humans AND AI</div>
+      <div style="font-weight:700;color:#e2e8f0;margin-bottom:0.2rem;">Specs are contracts: for humans AND AI</div>
       <p style="font-size:0.78rem;color:var(--or-muted);">"A good spec is the difference between Claude Code building the right thing and building a confident wrong thing."</p>
     </div>
   </div>
@@ -2185,4 +2742,72 @@ layout: default
   <div style="font-size:0.68rem;color:var(--or-muted);text-align:center;">
     📦 GSD: <code>npx get-shit-done-cc@latest</code> · 📂 Course repo: [instructor to fill] · 🚀 Phase 3+: spec'd in REQUIREMENTS.md, ready to build
   </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 48 — RECOMMENDED RESOURCES─────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1 style="margin-top:1.2rem;">Go Deeper</h1>
+<p class="sub">Continue your learning on O'Reilly. Click any card to open.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.55rem;margin-top:0.55rem;">
+<div>
+<div style="font-size:0.55rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);text-transform:uppercase;margin-bottom:0.3rem;">📚 Books</div>
+<div style="display:flex;flex-direction:column;gap:0.25rem;">
+<a href="https://www.oreilly.com/library/view/agentic-coding-with/9781806022595/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#F97316'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">Agentic Coding with Claude Code</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Eden Marco · Mar 2026 · Skills, Hooks, MCP, multi-agent systems</p>
+</a>
+<a href="https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;transition:border-color 0.2s;" onmouseover="this.style.borderColor='#F97316'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">The Pragmatic Programmer</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Thomas &amp; Hunt · Tracer Bullet (Topic 12) + programming by contract</p>
+</a>
+</div>
+<div style="font-size:0.55rem;font-weight:700;letter-spacing:0.12em;color:var(--or-muted);text-transform:uppercase;margin-top:0.5rem;margin-bottom:0.3rem;">📄 Article</div>
+<a href="https://www.oreilly.com/radar/how-to-write-a-good-spec-for-ai-agents/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#94A3B8'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">How to Write a Good Spec for AI Agents</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Addy Osmani · O'Reilly Radar · Feb 2026</p>
+</a>
+</div>
+<div>
+<div style="font-size:0.55rem;font-weight:700;letter-spacing:0.12em;color:var(--or-blue);text-transform:uppercase;margin-bottom:0.3rem;">🎓 Live Courses</div>
+<div style="display:flex;flex-direction:column;gap:0.25rem;">
+<a href="https://www.oreilly.com/live-events/agentic-coding-with-claude-code/0642572184049/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#3B82F6'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">Agentic Coding with Claude Code</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Ken Kousen · 5 hrs · Skills, Hooks, Subagents</p>
+</a>
+<a href="https://www.oreilly.com/live-events/ai-assisted-test-driven-development/0642572011956/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#3B82F6'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">AI-Assisted Test-Driven Development</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Venkat Subramaniam · 4 hrs · Red-Green-Refactor with AI</p>
+</a>
+<a href="https://www.oreilly.com/live-events/building-agent-skills-for-claude-code/0642572305628/0642572305611/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#3B82F6'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">Building Agent Skills for Claude Code</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Bence Csernak · 3 hrs · Custom agents + orchestration</p>
+</a>
+</div>
+</div>
+<div>
+<div style="font-size:0.55rem;font-weight:700;letter-spacing:0.12em;color:var(--or-green);text-transform:uppercase;margin-bottom:0.3rem;">🎥 Videos</div>
+<div style="display:flex;flex-direction:column;gap:0.25rem;">
+<a href="https://www.oreilly.com/videos/building-agentic-ai/9780135919989/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#22C55E'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">Building Agentic AI: Workflows to Production</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Sinan Ozdemir · ~5 hrs on-demand · LangGraph, MCP, multi-agent</p>
+</a>
+<a href="https://www.oreilly.com/AgenticWorld/" target="_blank" style="text-decoration:none;display:block;background:var(--or-card);border:1px solid #334155;border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#22C55E'" onmouseout="this.style.borderColor='#334155'">
+<p style="font-size:0.65rem;font-weight:700;color:#e2e8f0;margin:0 0 0.1rem;">AI Codecon: Coding for the Agentic World</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">O'Reilly · Free recordings · Context engineering, MCP, agentic patterns</p>
+</a>
+<a href="https://www.youtube.com/@oreilly" target="_blank" style="text-decoration:none;display:block;background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:6px;padding:0.35rem 0.55rem;" onmouseover="this.style.borderColor='#22C55E'" onmouseout="this.style.borderColor='rgba(34,197,94,0.2)'">
+<p style="font-size:0.65rem;font-weight:700;color:#22C55E;margin:0 0 0.1rem;">O'Reilly YouTube Channel →</p>
+<p style="font-size:0.55rem;color:var(--or-muted);margin:0;">Free Codecon + Superstream recordings</p>
+</a>
+</div>
+</div>
 </div>
