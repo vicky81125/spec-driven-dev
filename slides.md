@@ -1320,100 +1320,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — ARCHITECTURE + DATA MODEL─────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<h1>System Architecture + Data Model</h1>
-<p class="sub">How specs translate to system design for the renovation app</p>
-
-<div style="display:grid;grid-template-columns:1.7fr 1fr;gap:1.2rem;margin-top:0.6rem;align-items:start;">
-<div style="background:var(--or-card);border:1px solid #334155;border-radius:10px;padding:0.65rem 1rem;">
-<div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.55rem;">SYSTEM ARCHITECTURE</div>
-<div style="display:flex;flex-direction:column;align-items:center;">
-<div style="border:2px solid var(--or-orange);border-radius:8px;padding:0.38rem 1rem;width:62%;text-align:center;background:rgba(234,88,12,0.1);">
-<div style="display:flex;align-items:center;justify-content:center;gap:0.35rem;margin-bottom:0.12rem;"><span style="font-size:0.9rem;">🌐</span><span style="font-size:0.82rem;font-weight:700;color:var(--or-orange);">Browser</span></div>
-<div style="font-size:0.6rem;color:#e2e8f0;">Next.js App Router (Client)</div>
-<div style="font-size:0.55rem;color:var(--or-muted);">/upload, /projects</div>
-</div>
-<div style="display:flex;flex-direction:column;align-items:center;padding:0.06rem 0;">
-<div style="width:2px;height:10px;background:#4b5563;"></div>
-<div style="font-size:0.55rem;color:var(--or-muted);padding:0.06rem 0.4rem;background:#0f172a;border:1px solid #334155;border-radius:3px;white-space:nowrap;">HTTP / API Routes</div>
-<div style="width:2px;height:10px;background:#4b5563;"></div>
-<div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;"></div>
-</div>
-<div style="border:2px solid var(--or-orange);border-radius:8px;padding:0.38rem 1rem;width:62%;text-align:center;background:rgba(234,88,12,0.1);">
-<div style="display:flex;align-items:center;justify-content:center;gap:0.35rem;margin-bottom:0.12rem;"><span style="font-size:0.9rem;">⚙️</span><span style="font-size:0.82rem;font-weight:700;color:var(--or-orange);">Next.js Server</span></div>
-<div style="font-size:0.6rem;color:#e2e8f0;">API Routes / Middleware</div>
-<div style="font-size:0.55rem;color:var(--or-muted);">/api/generate, /api/auth</div>
-</div>
-<div style="position:relative;width:70%;height:28px;margin:0 auto;flex-shrink:0;">
-<div style="position:absolute;left:50%;top:0;width:2px;height:10px;background:#4b5563;transform:translateX(-50%);"></div>
-<div style="position:absolute;left:18%;right:18%;top:10px;height:2px;background:#4b5563;"></div>
-<div style="position:absolute;left:18%;top:10px;width:2px;height:14px;background:#4b5563;transform:translateX(-50%);"></div>
-<div style="position:absolute;right:18%;top:10px;width:2px;height:14px;background:#4b5563;transform:translateX(50%);"></div>
-<div style="position:absolute;left:18%;bottom:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;transform:translateX(-50%);"></div>
-<div style="position:absolute;right:18%;bottom:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;transform:translateX(50%);"></div>
-</div>
-<div style="display:flex;gap:0.75rem;width:82%;">
-<div style="flex:1;border:2px solid var(--or-green);border-radius:8px;padding:0.32rem 0.6rem;background:rgba(34,197,94,0.07);text-align:center;">
-<div style="display:flex;align-items:center;justify-content:center;gap:0.25rem;margin-bottom:0.15rem;"><span style="font-size:0.85rem;">⚡</span><span style="font-size:0.75rem;font-weight:700;color:var(--or-green);">Supabase</span></div>
-<div style="font-size:0.57rem;color:var(--or-muted);line-height:1.5;"><div>Auth</div><div>Postgres DB</div><div>Storage</div></div>
-</div>
-<div style="flex:1;border:2px solid var(--or-blue);border-radius:8px;padding:0.32rem 0.6rem;background:rgba(59,130,246,0.07);text-align:center;">
-<div style="display:flex;align-items:center;justify-content:center;gap:0.25rem;margin-bottom:0.15rem;"><span style="font-size:0.85rem;">✏️</span><span style="font-size:0.75rem;font-weight:700;color:var(--or-blue);">Nano Banana</span></div>
-<div style="font-size:0.57rem;color:var(--or-muted);line-height:1.5;"><div>Image Gen</div><div>Room Detect</div></div>
-</div>
-</div>
-</div>
-</div>
-<div>
-<div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.5rem;">DATABASE ERD</div>
-<div style="font-size:0.6rem;font-family:'Roboto Mono',monospace;">
-<div style="width:76%;margin-left:0;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
-<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>users</span><span style="color:var(--or-muted);">👤</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">email</span><span style="color:var(--or-muted);">text</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
-</div>
-<div style="display:flex;align-items:center;margin-left:34%;padding:0.1rem 0;gap:0.3rem;">
-<div style="display:flex;flex-direction:column;align-items:center;">
-<div style="width:1.5px;height:12px;background:#4b5563;"></div>
-<div style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #4b5563;"></div>
-</div>
-<div style="font-size:0.5rem;color:#60a5fa;letter-spacing:0.05em;">1:N</div>
-</div>
-<div style="width:76%;margin-left:12%;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
-<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>projects</span><span style="color:var(--or-muted);">📁</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">user_id</span><span style="color:#60a5fa;">FK</span><span style="color:var(--or-muted);">uuid</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
-</div>
-<div style="display:flex;align-items:center;margin-left:46%;padding:0.1rem 0;gap:0.3rem;">
-<div style="display:flex;flex-direction:column;align-items:center;">
-<div style="width:1.5px;height:12px;background:#4b5563;"></div>
-<div style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #4b5563;"></div>
-</div>
-<div style="font-size:0.5rem;color:#60a5fa;letter-spacing:0.05em;">1:N</div>
-</div>
-<div style="width:76%;margin-left:24%;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
-<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>generations</span><span style="color:var(--or-muted);">🖼</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">project_id</span><span style="color:#60a5fa;">FK</span><span style="color:var(--or-muted);">uuid</span></div>
-<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
-</div>
-</div>
-</div>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 26 — DEFINE THE PILLARS, NOT THE IMPLEMENTATION─────── -->
+<!-- ─── SLIDE 25 — DEFINE THE PILLARS, NOT THE IMPLEMENTATION─────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1469,7 +1376,7 @@ invalidated after reset.
 layout: default
 ---
 
-<!-- ─── SLIDE 27 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 26 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1499,7 +1406,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 28 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 27 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1522,7 +1429,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 28 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1631,7 +1538,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 29 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1721,7 +1628,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — RUNNING GSD PLAN-PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 30 — RUNNING GSD PLAN-PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1785,7 +1692,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 31 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1831,7 +1738,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 32 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1856,7 +1763,6 @@ layout: default
       <div style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:0.5rem 0.7rem;text-align:center;">
         <p style="font-size:0.72rem;color:#fcd34d;margin:0;font-weight:600;">▓▓▓▓▓▓ Full Data Layer</p>
       </div>
-
     </div>
   </div>
   <div>
@@ -1881,7 +1787,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 33 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1927,7 +1833,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 34 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1987,7 +1893,7 @@ Sign up as creator <span style="color:var(--or-muted);">→</span> role in DB<br
 layout: default
 ---
 
-<!-- ─── SLIDE 36 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 35 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2068,79 +1974,14 @@ layout: default
 
 <div style="background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.35rem 0.7rem;margin-top:0.35rem;display:flex;align-items:flex-start;gap:0.5rem;">
 <span style="font-size:0.75rem;flex-shrink:0;">🔗</span>
-<span style="font-size:0.58rem;color:#e2e8f0;line-height:1.5;">After completing each plan, review the <strong style="color:#60a5fa;">interfaces</strong> between sections. An interface is the contract between two parts of the system: what one side sends, and what the other expects. Example: the auth layer returns a <code style="font-size:0.55rem;color:var(--or-amber);">user.role</code>, and the dashboard expects it for routing. If those don't match, it breaks at integration.</span>
+<span style="font-size:0.58rem;color:#e2e8f0;line-height:1.5;">After completing each plan, review the <strong style="color:#60a5fa;">interfaces</strong> between sections. An interface is the contract between two parts of the system: what one side sends, and what the other expects. Example: the auth layer returns a <code style="font-size:0.55rem;color:var(--or-amber);">user.role</code>, and the dashboard expects it for routing. If those don't match, it breaks at integration. Also check: does the plan include <strong style="color:#60a5fa;">tests</strong> during implementation, or only at the end? Tests should run alongside each task, not as a final batch.</span>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 37 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);">💻 DEMO</div>
-
-<h1>Building Phase 1, Live</h1>
-<p class="sub">Follow along as the instructor builds using the spec</p>
-
-<div class="live-grid">
-  <div class="live-panel">
-    <div style="margin-bottom:0.4rem;">
-      <div class="panel-label">GSD plan phase</div>
-    </div>
-    <div class="panel-body">
-      <span style="color:var(--or-orange);">/gsd:plan-phase</span><br>
-      <span style="color:var(--or-muted);"># Action:</span><br>
-      <span style="color:var(--or-muted);"># Review generated task list</span><br>
-      <span style="color:var(--or-muted);"># vs REQUIREMENTS.md</span>
-    </div>
-  </div>
-  <div class="live-panel">
-    <div style="margin-bottom:0.4rem;">
-      <div class="panel-label">GSD execute phase</div>
-    </div>
-    <div class="panel-body">
-      <span style="color:var(--or-orange);">/gsd:execute-phase</span><br>
-      <span style="color:var(--or-green);"># Task 1: Auth + Role selection</span><br>
-      <span style="color:var(--or-green);"># Task 2: Listing form + CRUD</span><br>
-      <span style="color:var(--or-green);"># Task 3: Role-based dashboards</span>
-    </div>
-  </div>
-  <div class="live-panel">
-    <div style="margin-bottom:0.4rem;">
-      <div class="panel-label">Smoke Test</div>
-    </div>
-    <div class="panel-body">
-      <span style="color:var(--or-green);"># Manual Verification:</span><br>
-      <span style="color:#e2e8f0;">1. Sign up as listing creator</span><br>
-      <span style="color:#e2e8f0;">2. Create + publish a listing</span><br>
-      <span style="color:#e2e8f0;">3. Verify it shows on dashboard</span>
-    </div>
-  </div>
-  <div class="live-panel" style="border-color:rgba(249,115,22,0.2);">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
-      <div class="panel-label" style="color:var(--or-amber);">Fallback</div>
-      <div style="font-size:0.62rem;font-weight:700;border:1px solid var(--or-amber);color:var(--or-amber);padding:0.1rem 0.4rem;border-radius:4px;">Safety Net</div>
-    </div>
-    <div class="panel-body">
-      <span style="color:var(--or-muted);"># Emergency checkout:</span><br>
-      <span style="color:#e2e8f0;">git </span><span style="color:var(--or-orange);">checkout checkpoint-p1</span><br>
-      <br>
-      <span style="color:var(--or-muted);"># Contains completed Phase 1</span><br>
-      <span style="color:var(--or-muted);"># ready for review</span>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 38 — EXECUTE PHASE 1──────────────────────────────── -->
+<!-- ─── SLIDE 36 — EXECUTE PHASE 1──────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2204,6 +2045,169 @@ layout: default
 </div>
 
 ---
+layout: default
+---
+
+<!-- ─── SLIDE 37 — RUNNING GSD EXECUTE-PHASE 1 (LIVE)─────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);">💻 DEMO</div>
+
+<h1>Running <code>/gsd:execute-phase 1</code></h1>
+<p class="sub">Follow along as the instructor builds using the spec</p>
+
+<div class="live-grid">
+  <div class="live-panel">
+    <div style="margin-bottom:0.4rem;">
+      <div class="panel-label">GSD plan phase</div>
+    </div>
+    <div class="panel-body">
+      <span style="color:var(--or-orange);">/gsd:plan-phase</span><br>
+      <span style="color:var(--or-muted);"># Action:</span><br>
+      <span style="color:var(--or-muted);"># Review generated task list</span><br>
+      <span style="color:var(--or-muted);"># vs REQUIREMENTS.md</span>
+    </div>
+  </div>
+  <div class="live-panel">
+    <div style="margin-bottom:0.4rem;">
+      <div class="panel-label">GSD execute phase</div>
+    </div>
+    <div class="panel-body">
+      <span style="color:var(--or-orange);">/gsd:execute-phase</span><br>
+      <span style="color:var(--or-green);"># Task 1: Auth + Role selection</span><br>
+      <span style="color:var(--or-green);"># Task 2: Listing form + CRUD</span><br>
+      <span style="color:var(--or-green);"># Task 3: Role-based dashboards</span>
+    </div>
+  </div>
+  <div class="live-panel">
+    <div style="margin-bottom:0.4rem;">
+      <div class="panel-label">Smoke Test</div>
+    </div>
+    <div class="panel-body">
+      <span style="color:var(--or-green);"># Manual Verification:</span><br>
+      <span style="color:#e2e8f0;">1. Sign up as listing creator</span><br>
+      <span style="color:#e2e8f0;">2. Create + publish a listing</span><br>
+      <span style="color:#e2e8f0;">3. Verify it shows on dashboard</span>
+    </div>
+  </div>
+  <div class="live-panel" style="border-color:rgba(249,115,22,0.2);">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
+      <div class="panel-label" style="color:var(--or-amber);">Fallback</div>
+      <div style="font-size:0.62rem;font-weight:700;border:1px solid var(--or-amber);color:var(--or-amber);padding:0.1rem 0.4rem;border-radius:4px;">Safety Net</div>
+    </div>
+    <div class="panel-body">
+      <span style="color:var(--or-muted);"># Emergency checkout:</span><br>
+      <span style="color:#e2e8f0;">git </span><span style="color:var(--or-orange);">checkout checkpoint-p1</span><br>
+      <br>
+      <span style="color:var(--or-muted);"># Contains completed Phase 1</span><br>
+      <span style="color:var(--or-muted);"># ready for review</span>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 38 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>System Architecture + Data Model</h1>
+<p class="sub">How specs translate to system design for the renovation app</p>
+
+<div style="display:grid;grid-template-columns:1.7fr 1fr;gap:1.2rem;margin-top:0.6rem;align-items:start;">
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:10px;padding:0.65rem 1rem;">
+<div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.55rem;">SYSTEM ARCHITECTURE</div>
+<div style="display:flex;flex-direction:column;align-items:center;">
+<div style="border:2px solid var(--or-orange);border-radius:8px;padding:0.38rem 1rem;width:62%;text-align:center;background:rgba(234,88,12,0.1);">
+<div style="display:flex;align-items:center;justify-content:center;gap:0.35rem;margin-bottom:0.12rem;"><span style="font-size:0.9rem;">🌐</span><span style="font-size:0.82rem;font-weight:700;color:var(--or-orange);">Browser</span></div>
+<div style="font-size:0.6rem;color:#e2e8f0;">Next.js App Router (Client)</div>
+<div style="font-size:0.55rem;color:var(--or-muted);">/upload, /projects</div>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;padding:0.06rem 0;">
+<div style="width:2px;height:10px;background:#4b5563;"></div>
+<div style="font-size:0.55rem;color:var(--or-muted);padding:0.06rem 0.4rem;background:#0f172a;border:1px solid #334155;border-radius:3px;white-space:nowrap;">HTTP / API Routes</div>
+<div style="width:2px;height:10px;background:#4b5563;"></div>
+<div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;"></div>
+</div>
+<div style="border:2px solid var(--or-orange);border-radius:8px;padding:0.38rem 1rem;width:62%;text-align:center;background:rgba(234,88,12,0.1);">
+<div style="display:flex;align-items:center;justify-content:center;gap:0.35rem;margin-bottom:0.12rem;"><span style="font-size:0.9rem;">⚙️</span><span style="font-size:0.82rem;font-weight:700;color:var(--or-orange);">Next.js Server</span></div>
+<div style="font-size:0.6rem;color:#e2e8f0;">API Routes / Middleware</div>
+<div style="font-size:0.55rem;color:var(--or-muted);">/api/generate, /api/auth</div>
+</div>
+<div style="position:relative;width:70%;height:28px;margin:0 auto;flex-shrink:0;">
+<div style="position:absolute;left:50%;top:0;width:2px;height:10px;background:#4b5563;transform:translateX(-50%);"></div>
+<div style="position:absolute;left:18%;right:18%;top:10px;height:2px;background:#4b5563;"></div>
+<div style="position:absolute;left:18%;top:10px;width:2px;height:14px;background:#4b5563;transform:translateX(-50%);"></div>
+<div style="position:absolute;right:18%;top:10px;width:2px;height:14px;background:#4b5563;transform:translateX(50%);"></div>
+<div style="position:absolute;left:18%;bottom:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;transform:translateX(-50%);"></div>
+<div style="position:absolute;right:18%;bottom:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid #4b5563;transform:translateX(50%);"></div>
+</div>
+<div style="display:flex;gap:0.75rem;width:82%;">
+<div style="flex:1;border:2px solid var(--or-green);border-radius:8px;padding:0.32rem 0.6rem;background:rgba(34,197,94,0.07);text-align:center;">
+<div style="display:flex;align-items:center;justify-content:center;gap:0.25rem;margin-bottom:0.15rem;"><span style="font-size:0.85rem;">⚡</span><span style="font-size:0.75rem;font-weight:700;color:var(--or-green);">Supabase</span></div>
+<div style="font-size:0.57rem;color:var(--or-muted);line-height:1.5;"><div>Auth</div><div>Postgres DB</div><div>Storage</div></div>
+</div>
+<div style="flex:1;border:2px solid var(--or-blue);border-radius:8px;padding:0.32rem 0.6rem;background:rgba(59,130,246,0.07);text-align:center;">
+<div style="display:flex;align-items:center;justify-content:center;gap:0.25rem;margin-bottom:0.15rem;"><span style="font-size:0.85rem;">✏️</span><span style="font-size:0.75rem;font-weight:700;color:var(--or-blue);">Nano Banana</span></div>
+<div style="font-size:0.57rem;color:var(--or-muted);line-height:1.5;"><div>Image Gen</div><div>Room Detect</div></div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.5rem;">DATABASE ERD</div>
+<div style="font-size:0.6rem;font-family:'Roboto Mono',monospace;">
+<div style="width:76%;margin-left:0;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
+<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>users</span><span style="color:var(--or-muted);">👤</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">email</span><span style="color:var(--or-muted);">text</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
+</div>
+<div style="display:flex;align-items:center;margin-left:34%;padding:0.1rem 0;gap:0.3rem;">
+<div style="display:flex;flex-direction:column;align-items:center;">
+<div style="width:1.5px;height:12px;background:#4b5563;"></div>
+<div style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #4b5563;"></div>
+</div>
+<div style="font-size:0.5rem;color:#60a5fa;letter-spacing:0.05em;">1:N</div>
+</div>
+<div style="width:76%;margin-left:12%;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
+<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>projects</span><span style="color:var(--or-muted);">📁</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">user_id</span><span style="color:#60a5fa;">FK</span><span style="color:var(--or-muted);">uuid</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
+</div>
+<div style="display:flex;align-items:center;margin-left:46%;padding:0.1rem 0;gap:0.3rem;">
+<div style="display:flex;flex-direction:column;align-items:center;">
+<div style="width:1.5px;height:12px;background:#4b5563;"></div>
+<div style="width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #4b5563;"></div>
+</div>
+<div style="font-size:0.5rem;color:#60a5fa;letter-spacing:0.05em;">1:N</div>
+</div>
+<div style="width:76%;margin-left:24%;background:#1e2330;border:1px solid #334155;border-radius:6px;overflow:hidden;">
+<div style="background:#2a3040;padding:0.2rem 0.45rem;font-weight:700;color:#e2e8f0;display:flex;justify-content:space-between;"><span>generations</span><span style="color:var(--or-muted);">🖼</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">id</span><span style="color:var(--or-amber);">PK</span><span style="color:var(--or-muted);">uuid</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:#e2e8f0;display:flex;gap:0.4rem;"><span style="flex:1;">project_id</span><span style="color:#60a5fa;">FK</span><span style="color:var(--or-muted);">uuid</span></div>
+<div style="padding:0.16rem 0.45rem;border-top:1px solid #334155;color:var(--or-muted);">···</div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.35rem 0.7rem;margin-top:0.35rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.75rem;flex-shrink:0;">🔗</span>
+<span style="font-size:0.58rem;color:#e2e8f0;line-height:1.5;">With <strong style="color:#60a5fa;">Supabase MCP</strong>, database creation and schema modifications happen directly from Claude Code. Tables, columns, RLS policies, migrations: all from your terminal. But control the permissions: set MCP access to <code style="font-size:0.55rem;color:var(--or-amber);">read-only</code> in production, and only allow write operations on development branches.</span>
+</div>
+
+---
 layout: center
 class: section-divider
 ---
@@ -2231,7 +2235,88 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 40 — HOW GSD VERIFY-WORK WORKS──────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>How <code>/gsd:verify-work 1</code> Works</h1>
+<p class="sub">Automated UAT generation, human-in-the-loop UI checks, then fix-and-retest until clean</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-top:0.6rem;align-items:start;">
+<div style="display:flex;flex-direction:column;gap:0.45rem;">
+  <div style="background:var(--or-card);border:1px solid var(--or-green);border-radius:8px;padding:0.5rem 0.7rem;">
+    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.25rem;">
+      <div style="background:var(--or-green);color:#0D1117;border-radius:50%;width:1.1rem;height:1.1rem;font-size:0.55rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div>
+      <span style="font-size:0.72rem;font-weight:700;color:var(--or-green);">Generate UAT File</span>
+    </div>
+    <div style="font-size:0.6rem;color:var(--or-muted);line-height:1.5;">Creates a UAT document listing every testable criterion from the phase spec. Backend tests run automatically, results logged to the UAT file.</div>
+  </div>
+  <div style="background:var(--or-card);border:1px solid var(--or-blue);border-radius:8px;padding:0.5rem 0.7rem;">
+    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.25rem;">
+      <div style="background:var(--or-blue);color:#0D1117;border-radius:50%;width:1.1rem;height:1.1rem;font-size:0.55rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
+      <span style="font-size:0.72rem;font-weight:700;color:var(--or-blue);">Prompt for UI Verification</span>
+    </div>
+    <div style="font-size:0.6rem;color:var(--or-muted);line-height:1.5;">Asks you to manually verify UI-based tests it cannot validate on its own. You confirm pass/fail for each, and it records your results in the UAT file.</div>
+  </div>
+  <div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.5rem 0.7rem;">
+    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.25rem;">
+      <div style="background:var(--or-orange);color:#0D1117;border-radius:50%;width:1.1rem;height:1.1rem;font-size:0.55rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</div>
+      <span style="font-size:0.72rem;font-weight:700;color:var(--or-orange);">Log Gaps</span>
+    </div>
+    <div style="font-size:0.6rem;color:var(--or-muted);line-height:1.5;">All failures (automated + manual) are noted in the UAT document with specific descriptions. This becomes your fix list.</div>
+  </div>
+  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:8px;padding:0.5rem 0.7rem;">
+    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.25rem;">
+      <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.1rem;height:1.1rem;font-size:0.55rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</div>
+      <span style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">Fix All → Retest</span>
+    </div>
+    <div style="font-size:0.6rem;color:var(--or-muted);line-height:1.5;">Prompt it to fix every gap in the UAT file. Once done, run <code style="font-size:0.55rem;color:var(--or-amber);">/gsd:verify-work 1</code> again. Repeat until all tests pass.</div>
+  </div>
+</div>
+<div>
+  <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);margin-bottom:0.4rem;">GAPS FOUND IN OUR BUILD</div>
+  <div style="display:flex;flex-direction:column;gap:0.35rem;">
+    <div style="background:#1a1020;border:1px solid rgba(224,60,46,0.35);border-radius:6px;padding:0.45rem 0.65rem;">
+      <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.15rem;">
+        <span style="color:var(--or-red);font-size:0.7rem;">❌</span>
+        <span style="font-size:0.7rem;font-weight:700;color:#e2e8f0;">Reset Password</span>
+      </div>
+      <div style="font-size:0.58rem;color:var(--or-muted);line-height:1.4;">Email sends but reset link returns a 404. Callback URL not configured in Supabase auth settings.</div>
+    </div>
+    <div style="background:#1a1020;border:1px solid rgba(224,60,46,0.35);border-radius:6px;padding:0.45rem 0.65rem;">
+      <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.15rem;">
+        <span style="color:var(--or-red);font-size:0.7rem;">❌</span>
+        <span style="font-size:0.7rem;font-weight:700;color:#e2e8f0;">Login Flow</span>
+      </div>
+      <div style="font-size:0.58rem;color:var(--or-muted);line-height:1.4;">Credentials accepted but session not persisted. User redirected back to login on every page refresh.</div>
+    </div>
+    <div style="background:#1a1020;border:1px solid rgba(224,60,46,0.35);border-radius:6px;padding:0.45rem 0.65rem;">
+      <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.15rem;">
+        <span style="color:var(--or-red);font-size:0.7rem;">❌</span>
+        <span style="font-size:0.7rem;font-weight:700;color:#e2e8f0;">Listing Status Transitions</span>
+      </div>
+      <div style="font-size:0.58rem;color:var(--or-muted);line-height:1.4;">Draft → active works, but active → off-market and off-market → sold buttons do nothing. Status update API not wired to those transitions.</div>
+    </div>
+  </div>
+  <div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.25);border-radius:6px;padding:0.45rem 0.65rem;margin-top:0.45rem;">
+    <div style="font-size:0.58rem;font-weight:700;color:var(--or-green);margin-bottom:0.15rem;">THE FIX LOOP</div>
+    <div style="font-size:0.58rem;color:#e2e8f0;line-height:1.5;font-family:'Roboto Mono',monospace;">
+      <span style="color:var(--or-muted);">1.</span> "Fix all gaps in the UAT file"<br/>
+      <span style="color:var(--or-muted);">2.</span> <span style="color:var(--or-orange);">/gsd:verify-work 1</span><br/>
+      <span style="color:var(--or-muted);">3.</span> Repeat until <span style="color:var(--or-green);">all green</span>
+    </div>
+  </div>
+</div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 41 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2328,7 +2413,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 42 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2426,7 +2511,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 43 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2435,7 +2520,7 @@ layout: default
 
 <div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-blue);">💻 DEMO</div>
 
-<h1>Reviewing Phase 1, Live</h1>
+<h1>Reviewing Phase 1</h1>
 <p class="sub">Identify gaps and fix them before starting the next phase.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.55rem;margin-top:0.5rem;">
@@ -2448,9 +2533,9 @@ layout: default
 <div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">GSD checks Phase 1 implementation against REQUIREMENTS.md.</div>
 <div style="background:#0d1117;border:1px solid #2d3748;border-radius:5px;padding:0.45rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.75;">
 <div><span style="color:var(--or-orange);">/gsd:verify-work</span> <span style="color:#e2e8f0;">1</span></div>
-<div style="color:var(--or-green);font-style:italic;"># Validates file structure</div>
-<div style="color:var(--or-green);font-style:italic;"># Checks for exported functions</div>
-<div style="color:var(--or-green);font-style:italic;"># Compares against spec definitions</div>
+<div style="color:var(--or-green);font-style:italic;"># Validates auth + role selection</div>
+<div style="color:var(--or-green);font-style:italic;"># Checks listing CRUD endpoints</div>
+<div style="color:var(--or-green);font-style:italic;"># Verifies dashboard routing by role</div>
 </div>
 </div>
 <div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:8px;padding:0.6rem 0.75rem;">
@@ -2461,10 +2546,10 @@ layout: default
 </div>
 <div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">Go through Phase 1 checklist line by line.</div>
 <div style="background:#0d1117;border:1px solid #2d3748;border-radius:5px;padding:0.45rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.75;">
-<div style="color:#e2e8f0;">Mark each criterion:</div>
-<div><span style="color:var(--or-green);">✅ Pass</span><span style="color:#e2e8f0;"> &nbsp;- Works as spec'd</span></div>
-<div><span style="color:var(--or-red);">❌ Fail</span><span style="color:#e2e8f0;"> &nbsp;- Not working / missing</span></div>
-<div><span style="color:var(--or-amber);">⚠️ Partial</span><span style="color:#e2e8f0;"> - Flaky or incomplete</span></div>
+<div><span style="color:var(--or-green);">✅</span><span style="color:#e2e8f0;"> Sign up + select role (buyer / creator)</span></div>
+<div><span style="color:var(--or-green);">✅</span><span style="color:#e2e8f0;"> Sign in → routed to correct dashboard</span></div>
+<div><span style="color:var(--or-amber);">⚠️</span><span style="color:#e2e8f0;"> Create, edit, publish a listing</span></div>
+<div><span style="color:var(--or-red);">❌</span><span style="color:#e2e8f0;"> Status transitions: draft → active → sold</span></div>
 </div>
 </div>
 <div style="background:#1a1f2e;border:1px solid #2d3748;border-left:3px solid var(--or-orange);border-radius:8px;padding:0.6rem 0.75rem;">
@@ -2473,11 +2558,11 @@ layout: default
 <span style="font-size:0.82rem;font-weight:700;color:#e2e8f0;">Edge Case Testing</span>
 <div style="background:#374151;color:#9ca3af;font-size:0.55rem;padding:0.08rem 0.38rem;border-radius:4px;margin-left:auto;">3 min</div>
 </div>
-<div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">Stress test the inputs and API handling.</div>
+<div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">Stress test auth, forms, and role boundaries.</div>
 <div style="background:#0d1117;border:1px solid #2d3748;border-radius:5px;padding:0.45rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.75;">
-<div><span style="color:#e2e8f0;">Try: upload 15MB file &nbsp;</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-orange);"> expect rejection</span></div>
-<div><span style="color:#e2e8f0;">Try: upload selfie &nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-amber);"> expect warning</span></div>
-<div><span style="color:#e2e8f0;">Try: simulate timeout &nbsp;</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-red);"> expect error state</span></div>
+<div><span style="color:#e2e8f0;">Try: empty listing form &nbsp;</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-orange);"> expect validation errors</span></div>
+<div><span style="color:#e2e8f0;">Try: buyer creates listing</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-red);"> expect blocked by role</span></div>
+<div><span style="color:#e2e8f0;">Try: expired session &nbsp;&nbsp;&nbsp;</span><span style="color:var(--or-muted);">→</span><span style="color:var(--or-amber);"> expect redirect to login</span></div>
 </div>
 </div>
 <div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:8px;padding:0.6rem 0.75rem;">
@@ -2489,7 +2574,7 @@ layout: default
 <div style="font-size:0.65rem;color:var(--or-muted);margin-bottom:0.38rem;">Record gaps and required fixes in the spec.</div>
 <div style="background:#0d1117;border:1px solid #2d3748;border-radius:5px;padding:0.45rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.75;">
 <div style="color:var(--or-green);font-style:italic;"># Update REQUIREMENTS.md:</div>
-<div style="color:#e2e8f0;">- Gaps found during review</div>
+<div style="color:#e2e8f0;">- Status transition logic incomplete</div>
 <div style="color:#e2e8f0;">- Fixes needed before Phase 2 start</div>
 <div style="color:#e2e8f0;">- Any spec updates based on learnings</div>
 </div>
@@ -2504,61 +2589,6 @@ layout: default
 <span style="font-size:0.65rem;color:#e2e8f0;">✅ Spec Updated</span>
 <span style="font-size:0.65rem;color:#e2e8f0;">✅ Ready for Phase 2</span>
 </div>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 43 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 10 MIN</div>
-
-<div style="margin-top:2.2rem;">
-  <div class="discussion-header">
-    <div class="discussion-bar-line"></div>
-    <div>
-      <div class="discussion-title-text">Review Phase 1 Against the Spec</div>
-      <div class="discussion-sub">Find 1 gap or incorrect assumption in the implementation</div>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-top:0.9rem;">
-    <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.3);border-radius:8px;padding:1rem 1.1rem;">
-      <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.08em;color:var(--or-amber);margin-bottom:0.75rem;">— YOUR TASK</div>
-      <div style="display:flex;flex-direction:column;gap:0.6rem;">
-        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
-          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">1</div>
-          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Open the Phase 1 spec and the code built in the demo</p>
-        </div>
-        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
-          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">2</div>
-          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Find 1 gap: a feature promised in the spec but missing, incomplete, or implemented differently</p>
-        </div>
-        <div style="display:flex;gap:0.6rem;align-items:flex-start;">
-          <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.2rem;height:1.2rem;font-size:0.58rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0.05rem;">3</div>
-          <p style="font-size:0.75rem;color:#e2e8f0;margin:0;line-height:1.5;">Note whether it's a spec gap (missing requirement) or an execution gap (requirement present, not implemented)</p>
-        </div>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:0.6rem;">
-      <div style="background:#0f1f3d;border:1px solid rgba(59,130,246,0.35);border-radius:8px;padding:0.85rem 1rem;">
-        <p style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;color:#93c5fd;margin:0 0 0.5rem;">SPEC GAP</p>
-        <p style="font-size:0.72rem;color:#e2e8f0;margin:0 0 0.2rem;font-weight:600;">Spec said it. Code never did it.</p>
-        <p style="font-size:0.68rem;color:var(--or-muted);margin:0;line-height:1.5;">Example: spec requires error state on API timeout. No error UI exists in the build.</p>
-      </div>
-      <div style="background:#0d1a10;border:1px solid rgba(34,197,94,0.35);border-radius:8px;padding:0.85rem 1rem;">
-        <p style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;color:#86efac;margin:0 0 0.5rem;">EXECUTION GAP</p>
-        <p style="font-size:0.72rem;color:#e2e8f0;margin:0 0 0.2rem;font-weight:600;">Code did something. Spec said something different.</p>
-        <p style="font-size:0.68rem;color:var(--or-muted);margin:0;line-height:1.5;">Example: spec says reject files over 10MB. Build accepts any size and silently fails.</p>
-      </div>
-    </div>
-  </div>
 </div>
 
 ---
