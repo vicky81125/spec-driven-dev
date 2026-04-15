@@ -1172,8 +1172,8 @@ layout: default
 <div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;margin-bottom:0.25rem;">
 <span style="font-size:0.85rem;flex-shrink:0;">💬</span>
 <div>
-<div style="font-size:0.72rem;font-weight:700;color:var(--or-orange);">"Role model conflict detected"</div>
-<div style="font-size:0.6rem;color:var(--or-muted);">CONTEXT says 2 roles, ROADMAP says 3. Which is correct?</div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-orange);">"How many user roles does this app need?"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">Should buyers and listing creators be separate roles, or one role with permissions?</div>
 </div>
 </div>
 <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;">
@@ -1193,8 +1193,8 @@ layout: default
 <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;">
 <span style="font-size:0.85rem;flex-shrink:0;">💬</span>
 <div>
-<div style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">"Drag-and-drop scope conflict"</div>
-<div style="font-size:0.6rem;color:var(--or-muted);">PHOTO-02 listed as Phase 1 in REQUIREMENTS but deferred in CONTEXT</div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">"Photo upload scope for this phase?"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">Full upload with drag-and-drop now, or placeholder UI and defer to Phase 2?</div>
 </div>
 </div>
 </div>
@@ -1231,10 +1231,17 @@ layout: default
 </div>
 </div>
 </div>
-<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.5rem 0.75rem;margin-top:0.6rem;display:flex;align-items:center;gap:0.5rem;">
-<span style="font-size:0.8rem;">💡</span>
-<span style="font-size:0.62rem;color:#e2e8f0;">Review the CONTEXT and DISCUSSION-LOG files to confirm GSD understood your requirements correctly before moving to planning</span>
 </div>
+</div>
+
+<div style="display:flex;gap:0.5rem;margin-top:0.5rem;">
+<div style="flex:1;background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.5rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.8rem;flex-shrink:0;">💡</span>
+<span style="font-size:0.62rem;color:#e2e8f0;">Read CONTEXT.md and DISCUSSION-LOG.md carefully. These files feed directly into the planner. You can re-run <code style="color:var(--or-orange);font-size:0.58rem;">/gsd:discuss-phase</code> until you have full clarity, or prompt Claude directly to modify the context and discussion files.</span>
+</div>
+<div style="flex:1;background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.25);border-radius:8px;padding:0.5rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.8rem;flex-shrink:0;">🔍</span>
+<span style="font-size:0.62rem;color:#e2e8f0;">GSD also runs an <strong style="color:#a78bfa;">assumptions-analyzer</strong> agent that scans the context for unstated assumptions, implicit scope creep, and contradicting decisions, flagging them before they leak into the plan.</span>
 </div>
 </div>
 
