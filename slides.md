@@ -802,88 +802,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 18 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<h1>Converting the Brief: 5 Steps</h1>
-<p class="sub">What happens before writing a single line of code</p>
-
-<div style="display:flex;gap:0;margin-top:0.75rem;align-items:stretch;">
-  <!-- Left: vertical orange line + circles -->
-  <div style="display:flex;flex-direction:column;align-items:center;width:52px;flex-shrink:0;padding-top:0.55rem;">
-    <div style="width:36px;height:36px;border:2px solid var(--or-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.88rem;font-weight:700;color:var(--or-orange);background:#1a0f00;z-index:1;">1</div>
-    <div style="width:2px;flex:1;background:var(--or-orange);opacity:0.3;min-height:10px;"></div>
-    <div style="width:36px;height:36px;border:2px solid var(--or-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.88rem;font-weight:700;color:var(--or-orange);background:#1a0f00;z-index:1;">2</div>
-    <div style="width:2px;flex:1;background:var(--or-orange);opacity:0.3;min-height:10px;"></div>
-    <div style="width:36px;height:36px;border:2px solid var(--or-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.88rem;font-weight:700;color:var(--or-orange);background:#1a0f00;z-index:1;">3</div>
-    <div style="width:2px;flex:1;background:var(--or-orange);opacity:0.3;min-height:10px;"></div>
-    <div style="width:36px;height:36px;border:2px solid var(--or-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.88rem;font-weight:700;color:var(--or-orange);background:#1a0f00;z-index:1;">4</div>
-    <div style="width:2px;flex:1;background:var(--or-orange);opacity:0.3;min-height:10px;"></div>
-    <div style="width:36px;height:36px;border:2px solid var(--or-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.88rem;font-weight:700;color:var(--or-orange);background:#1a0f00;z-index:1;">5</div>
-  </div>
-  <!-- Right: step cards -->
-  <div style="flex:1;display:flex;flex-direction:column;gap:0.4rem;">
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.75rem;">
-      <span style="font-size:1.1rem;">👥</span>
-      <div style="flex:1;">
-        <div style="font-size:0.85rem;font-weight:700;color:#e2e8f0;">Identify user journeys</div>
-        <div style="font-size:0.7rem;color:var(--or-muted);">Who does what, in what order?</div>
-      </div>
-      <span style="color:var(--or-muted);font-size:0.9rem;">→</span>
-      <div style="background:var(--or-green);color:#000;font-size:0.62rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:5px;white-space:nowrap;font-family:'Roboto Mono',monospace;">🗺 User Flow Diagram</div>
-    </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.75rem;">
-      <span style="font-size:1.1rem;">🎯</span>
-      <div style="flex:1;">
-        <div style="font-size:0.85rem;font-weight:700;color:#e2e8f0;">Define MVP scope</div>
-        <div style="font-size:0.7rem;color:var(--or-muted);">Which 6 features are core? Which wait?</div>
-      </div>
-      <span style="color:var(--or-muted);font-size:0.9rem;">→</span>
-      <div style="background:var(--or-green);color:#000;font-size:0.62rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:5px;white-space:nowrap;font-family:'Roboto Mono',monospace;">☰ ROADMAP entry</div>
-    </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.75rem;">
-      <span style="font-size:1.1rem;">🖐</span>
-      <div style="flex:1;">
-        <div style="font-size:0.85rem;font-weight:700;color:#e2e8f0;">State constraints</div>
-        <div style="font-size:0.7rem;color:var(--or-muted);">Quality, Privacy, Timeline (6 weeks)</div>
-      </div>
-      <span style="color:var(--or-muted);font-size:0.9rem;">→</span>
-      <div style="background:var(--or-green);color:#000;font-size:0.62rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:5px;white-space:nowrap;font-family:'Roboto Mono',monospace;">📋 Constraints Doc</div>
-    </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.75rem;">
-      <span style="font-size:1.1rem;">🚫</span>
-      <div style="flex:1;">
-        <div style="font-size:0.85rem;font-weight:700;color:#e2e8f0;">List non-goals</div>
-        <div style="font-size:0.7rem;color:var(--or-muted);">Explicitly out of scope (AR, Mobile App)</div>
-      </div>
-      <span style="color:var(--or-muted);font-size:0.9rem;">→</span>
-      <div style="background:var(--or-red);color:#fff;font-size:0.62rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:5px;white-space:nowrap;font-family:'Roboto Mono',monospace;">📄 Non-goals List</div>
-    </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.75rem;">
-      <span style="font-size:1.1rem;">🔨</span>
-      <div style="flex:1;">
-        <div style="font-size:0.85rem;font-weight:700;color:#e2e8f0;">Document decisions</div>
-        <div style="font-size:0.7rem;color:var(--or-muted);">Why Phase 1 now? Capture the 'Why'.</div>
-      </div>
-      <span style="color:var(--or-muted);font-size:0.9rem;">→</span>
-      <div style="background:var(--or-green);color:#000;font-size:0.62rem;font-weight:700;padding:0.25rem 0.6rem;border-radius:5px;white-space:nowrap;font-family:'Roboto Mono',monospace;">📗 Decisions Log</div>
-    </div>
-  </div>
-</div>
-
-<div class="absolute bottom-4 left-8 right-8 text-center">
-  <span style="font-size:0.72rem;color:var(--or-muted);">ℹ This is the mental model for what the Section 2 exercise produces</span>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 19 — INTRODUCING GSD───────────────────────────────── -->
+<!-- ─── SLIDE 18 — INTRODUCING GSD───────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -972,7 +891,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 20 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
+<!-- ─── SLIDE 19 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1030,7 +949,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
+<!-- ─── SLIDE 20 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1101,7 +1020,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
+<!-- ─── SLIDE 21 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1150,7 +1069,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+<!-- ─── SLIDE 22 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1243,7 +1162,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+<!-- ─── SLIDE 23 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1305,7 +1224,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 24 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1335,7 +1254,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 26 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 25 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1358,7 +1277,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 27 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 26 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1470,7 +1389,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 27 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1566,7 +1485,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 28 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1612,7 +1531,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 29 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1662,7 +1581,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 30 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1708,7 +1627,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 31 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1760,7 +1679,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 32 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1819,7 +1738,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — DISCUSSION SECTION 3──────────────────────────── -->
+<!-- ─── SLIDE 33 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1859,7 +1778,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
+<!-- ─── SLIDE 34 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1926,7 +1845,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 36 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 35 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1949,7 +1868,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 37 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 36 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2046,7 +1965,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 37 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2144,7 +2063,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 39 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 38 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2228,7 +2147,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 39 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2283,7 +2202,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 40 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2363,7 +2282,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 41 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2393,7 +2312,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 42 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2469,7 +2388,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 43 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2540,7 +2459,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 44 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2591,7 +2510,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 45 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2649,7 +2568,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 46 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2692,7 +2611,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 48 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 47 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
