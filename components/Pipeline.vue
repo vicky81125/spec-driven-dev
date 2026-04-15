@@ -4,7 +4,7 @@
       v-for="(step, i) in steps"
       :key="step.label"
       class="pipe-step"
-      :class="{ active: activeIndex >= i, highlight: activeIndex === i }"
+      :class="{ active: activeIndex >= i, highlight: highlightSet.has(i) || (!highlightSet.size && activeIndex === i) }"
     >
       <div class="pipe-icon">{{ step.icon }}</div>
       <div class="pipe-label">{{ step.label }}</div>
@@ -20,7 +20,10 @@ import { ref, onMounted } from 'vue'
 const props = defineProps({
   active: { type: Number, default: -1 },
   animate: { type: Boolean, default: false },
+  highlights: { type: Array, default: () => [] },
 })
+
+const highlightSet = new Set(props.highlights)
 
 const steps = [
   { icon: '📋', label: 'SPEC',   sub: 'REQUIREMENTS.md' },
