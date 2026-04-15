@@ -1073,14 +1073,176 @@ layout: default
 
 <div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.6rem 1rem;margin-top:0.8rem;display:flex;align-items:center;gap:0.6rem;">
   <span style="font-size:0.9rem;">💡</span>
-  <span style="font-size:0.72rem;color:#e2e8f0;">This is a 5-minute sanity check, not a deep review. Skim each file, confirm it matches your mental model, fix anything that feels off. Then move on.</span>
+  <span style="font-size:0.72rem;color:#e2e8f0;">This is a 5-minute sanity check, not a deep review. Skim each file, confirm it matches your mental model. If anything drifts from your requirements, edit the files directly. Then move on.</span>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
+<!-- ─── SLIDE 22 — PHASE BREAKDOWN────────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Our Phase Breakdown</h1>
+<p class="sub">We will develop this app in two phases. Additional phases can be scoped later as needed.</p>
+
+<div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.25);border-radius:8px;padding:0.45rem 0.8rem;margin-top:0.4rem;margin-bottom:0.4rem;display:flex;align-items:center;gap:0.5rem;">
+  <span style="font-size:0.78rem;">🎯</span>
+  <span style="font-size:0.65rem;color:#e2e8f0;line-height:1.5;"><strong style="color:var(--or-green);">Why this order?</strong> Phase 1 is the foundation every future feature depends on. Auth, roles, listings, and dashboards are the spine of the app. Without a stable Phase 1, Phase 2 would build on assumptions that haven't been validated, leading to rework across auth flows, data models, and UI scaffolding.</span>
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-1">
+
+  <!-- Phase 1 -->
+  <div style="background:#0d1a10;border:1px solid var(--or-green);border-radius:10px;padding:1rem 1.2rem;">
+    <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem;">
+      <span style="background:var(--or-green);color:#000;font-size:0.6rem;font-weight:800;padding:0.2rem 0.5rem;border-radius:4px;letter-spacing:0.05em;">PHASE 1</span>
+      <span style="font-size:0.78rem;font-weight:700;color:#e2e8f0;">Foundation + Listing CRUD</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:var(--or-green);font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">User roles, sign-up, sign-in, and authentication structure</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:var(--or-green);font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Listing creation form (without photo upload)</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:var(--or-green);font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Role-based dashboards for buyers and listing creators</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase 2 -->
+  <div style="background:#1a1530;border:1px solid #a78bfa;border-radius:10px;padding:1rem 1.2rem;">
+    <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem;">
+      <span style="background:#a78bfa;color:#000;font-size:0.6rem;font-weight:800;padding:0.2rem 0.5rem;border-radius:4px;letter-spacing:0.05em;">PHASE 2</span>
+      <span style="font-size:0.78rem;font-weight:700;color:#e2e8f0;">Photos + AI Renovation</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:#a78bfa;font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Photo upload with 5 MB limit, max 5 images per listing</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:#a78bfa;font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">AI generation job history: track successes and failures per run</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:#a78bfa;font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Save and display generated outputs for the user to review</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:#a78bfa;font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Re-run generation on the same image with different settings</span>
+      </div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;">
+        <span style="color:#a78bfa;font-size:0.7rem;flex-shrink:0;margin-top:0.1rem;">●</span>
+        <span style="font-size:0.72rem;color:#e2e8f0;line-height:1.5;">Presets: staging, renovation, furniture swap, plus custom user input</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 23 — RUNNING GSD DISCUSS-PHASE 1───────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Running <code>/gsd:discuss-phase 1</code></h1>
+<p class="sub">GSD probes your requirements for conflicts and ambiguity before planning</p>
+
+<div class="grid grid-cols-2 gap-5 mt-2">
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.4rem;">WHAT IT ASKS YOU</div>
+<div style="display:flex;flex-direction:column;gap:0.3rem;">
+<div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;margin-bottom:0.25rem;">
+<span style="font-size:0.85rem;flex-shrink:0;">💬</span>
+<div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-orange);">"Role model conflict detected"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">CONTEXT says 2 roles, ROADMAP says 3. Which is correct?</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.85rem;flex-shrink:0;">💬</span>
+<div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">"Listing creator signup gate unclear"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">Invite code, admin promotion, or self-serve role selection?</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.85rem;flex-shrink:0;">💬</span>
+<div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">"App navigation structure"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">Where does each role land after login? Public home or login wall?</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.85rem;flex-shrink:0;">💬</span>
+<div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-amber);">"Drag-and-drop scope conflict"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">PHOTO-02 listed as Phase 1 in REQUIREMENTS but deferred in CONTEXT</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-green);margin-bottom:0.4rem;">WHAT IT PRODUCES</div>
+<div style="display:flex;flex-direction:column;gap:0.4rem;">
+<div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">📄</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--or-orange);">01-CONTEXT.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">All decisions captured: roles, navigation, scope boundaries, DB schema choices</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">📋</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">01-DISCUSSION-LOG.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Audit trail of every question asked and decision made</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">🔬</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">01-RESEARCH.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Domain research that informed decisions (stack, auth patterns, pitfalls)</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">🔄</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">REQUIREMENTS.md <span style="color:var(--or-amber);font-size:0.58rem;">(updated)</span></div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Superseded requirements flagged, new IDs aligned with decisions</div>
+</div>
+</div>
+</div>
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.5rem 0.75rem;margin-top:0.6rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-size:0.8rem;">💡</span>
+<span style="font-size:0.62rem;color:#e2e8f0;">Review the CONTEXT and DISCUSSION-LOG files to confirm GSD understood your requirements correctly before moving to planning</span>
+</div>
+</div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 24 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1151,7 +1313,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
+<!-- ─── SLIDE 25 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1200,7 +1362,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+<!-- ─── SLIDE 26 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1293,7 +1455,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+<!-- ─── SLIDE 27 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1355,7 +1517,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 26 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 28 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1385,7 +1547,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 27 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 29 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1408,7 +1570,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 30 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1520,7 +1682,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 31 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1616,7 +1778,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 32 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1662,7 +1824,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 33 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1712,7 +1874,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 34 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1758,7 +1920,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 35 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1810,7 +1972,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 36 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1869,7 +2031,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — DISCUSSION SECTION 3──────────────────────────── -->
+<!-- ─── SLIDE 37 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1909,7 +2071,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 36 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
+<!-- ─── SLIDE 38 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1976,7 +2138,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 37 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 39 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1999,7 +2161,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 40 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2096,7 +2258,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 39 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 41 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2194,7 +2356,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 42 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2278,7 +2440,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 43 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2333,7 +2495,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 44 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2413,7 +2575,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 45 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2443,7 +2605,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 46 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2519,7 +2681,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 47 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2590,7 +2752,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 48 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2641,7 +2803,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 49 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2699,7 +2861,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 48 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 50 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2742,7 +2904,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 49 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 51 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
