@@ -802,7 +802,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 18 — INTRODUCING GSD───────────────────────────────── -->
+<!-- ─── SLIDE 18 — GSD: GET SHIT DONE─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -812,86 +812,217 @@ layout: default
 <h1>GSD: Get Shit Done</h1>
 <p class="sub">Automating the spec workflow with Claude Code</p>
 
-<div class="grid grid-cols-2 gap-5 mt-3">
-  <!-- Left: Terminal + Command Flow -->
-  <div>
-    <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.4rem;">INSTALLATION</div>
-    <!-- Terminal widget -->
-    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;margin-bottom:0.75rem;">
-      <div style="padding:0.4rem 0.6rem;display:flex;gap:0.3rem;border-bottom:1px solid #21262d;">
-        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57;"></div>
-        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e;"></div>
-        <div style="width:10px;height:10px;border-radius:50%;background:#28c840;"></div>
-      </div>
-      <div style="padding:0.5rem 0.75rem;font-family:'Roboto Mono',monospace;font-size:0.82rem;">
-        <span style="color:var(--or-green);">$</span> <span style="color:#e2e8f0;">npx get-shit-done-cc@latest</span>
-      </div>
-    </div>
-    <!-- Command flow diagram -->
-    <div style="display:flex;flex-direction:column;gap:0;padding-left:0.2rem;">
-      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.2rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:#4b5563;border:2px solid #6b7280;flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:#e2e8f0;">/gsd:new-project</div>
-      </div>
-      <div style="width:2px;height:12px;background:#4b5563;margin-left:5px;border-left:2px dashed #4b5563;border-right:none;margin-bottom:0.2rem;opacity:0.6;"></div>
-      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.2rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:var(--or-orange);flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid var(--or-orange);border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-orange);">/gsd:discuss-phase</div>
-      </div>
-      <div style="width:2px;height:12px;background:#4b5563;margin-left:5px;margin-bottom:0.2rem;opacity:0.6;"></div>
-      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.2rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:#4b5563;border:2px solid #6b7280;flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:#e2e8f0;">/gsd:plan-phase</div>
-      </div>
-      <div style="width:2px;height:12px;background:#4b5563;margin-left:5px;margin-bottom:0.2rem;opacity:0.6;"></div>
-      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.2rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:#4b5563;border:2px solid #6b7280;flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:#e2e8f0;">/gsd:execute-phase</div>
-      </div>
-      <div style="width:2px;height:12px;background:#4b5563;margin-left:5px;margin-bottom:0.2rem;opacity:0.6;"></div>
-      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.2rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:#4b5563;border:2px solid #6b7280;flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:#e2e8f0;">/gsd:verify-work</div>
-      </div>
-      <div style="width:2px;height:12px;background:#4b5563;margin-left:5px;margin-bottom:0.2rem;opacity:0.6;"></div>
-      <div style="display:flex;align-items:center;gap:0.6rem;">
-        <div style="width:12px;height:12px;border-radius:50%;background:#4b5563;border:2px solid var(--or-green);flex-shrink:0;"></div>
-        <div style="background:#1e2330;border:1px solid var(--or-green);border-radius:5px;padding:0.28rem 0.65rem;font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-green);">/gsd:ship</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Right: The Spec is the Center + Config -->
-  <div>
-    <div style="display:inline-block;background:var(--or-orange);color:#000;font-size:0.6rem;font-weight:700;padding:0.2rem 0.6rem;border-radius:4px;letter-spacing:0.08em;margin-bottom:0.5rem;">KEY DIFFERENTIATOR</div>
-    <div style="font-size:1.15rem;font-weight:800;color:#e2e8f0;margin-bottom:0.6rem;">The Spec is the Center</div>
-    <!-- REQUIREMENTS.md card -->
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.6rem 0.75rem;display:flex;align-items:flex-start;gap:0.6rem;margin-bottom:0.5rem;">
-      <div style="font-size:1.4rem;flex-shrink:0;">📄</div>
-      <div>
-        <div style="font-size:0.8rem;font-weight:700;color:#e2e8f0;font-family:'Roboto Mono',monospace;">REQUIREMENTS.md</div>
-        <div style="font-size:0.68rem;color:var(--or-muted);">The single source of truth.</div>
-      </div>
-    </div>
-    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.55;margin-bottom:0.75rem;">GSD keeps this file central at every phase. The spec doesn't get lost during a long build — it's referenced, checked, and updated at every step.</p>
-    <!-- Configuration & Rules -->
-    <div style="font-size:0.88rem;font-weight:700;color:#e2e8f0;margin-bottom:0.4rem;">Configuration &amp; Rules</div>
-    <div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:0.6rem 0.75rem;font-family:'Roboto Mono',monospace;font-size:0.68rem;line-height:2;color:#e2e8f0;">
-      <div><span style="color:var(--or-amber);">📁</span> <span style="color:#e2e8f0;">my-project/</span></div>
-      <div style="padding-left:1.2rem;"><span style="color:var(--or-red);">📄</span> <span style="color:#e2e8f0;">REQUIREMENTS.md</span><span style="color:var(--or-muted);font-style:italic;margin-left:1rem;">Living spec</span></div>
-      <div style="padding-left:1.2rem;"><span style="color:#60a5fa;">📄</span> <span style="color:#e2e8f0;">CLAUDE.md</span><span style="color:var(--or-muted);font-style:italic;margin-left:1rem;">Coding conventions</span></div>
-      <div style="padding-left:1.2rem;"><span style="color:var(--or-amber);">📁</span> <span style="color:#e2e8f0;">.claude/rules/</span></div>
-      <div style="padding-left:2.4rem;"><span style="color:#94a3b8;">📄</span> <span style="color:#e2e8f0;">api-design.md</span></div>
-      <div style="padding-left:2.4rem;"><span style="color:#94a3b8;">📄</span> <span style="color:#e2e8f0;">testing.md</span></div>
-    </div>
-  </div>
+<div style="max-width:680px;margin:0.8rem auto 0;">
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.4rem;">INSTALLATION</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;overflow:hidden;margin-bottom:0.75rem;">
+<div style="padding:0.4rem 0.6rem;display:flex;gap:0.3rem;border-bottom:1px solid #21262d;">
+<div style="width:10px;height:10px;border-radius:50%;background:#ff5f57;"></div>
+<div style="width:10px;height:10px;border-radius:50%;background:#febc2e;"></div>
+<div style="width:10px;height:10px;border-radius:50%;background:#28c840;"></div>
+</div>
+<div style="padding:0.5rem 0.75rem;font-family:'Roboto Mono',monospace;font-size:0.82rem;display:flex;align-items:center;justify-content:space-between;">
+<span><span style="color:var(--or-green);">$</span> <span style="color:#e2e8f0;">npx get-shit-done-cc@latest</span></span>
+<span onclick="navigator.clipboard.writeText('npx get-shit-done-cc@latest')" style="border:1px solid #30363d;border-radius:4px;padding:0.2rem 0.35rem;cursor:pointer;color:#6b7280;display:flex;align-items:center;" title="Copy command">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+</span>
+</div>
+</div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.4rem;">COMMANDS</div>
+<div style="display:flex;flex-direction:column;gap:0.3rem;">
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:new-project</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Initialize project from a brief or idea, research domain, generate planning docs</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:map-codebase</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Analyze an existing codebase before starting (brownfield projects)</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:discuss-phase N</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Surface gray areas and lock implementation decisions before planning</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:plan-phase N</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Generate atomic execution plans validated against your requirements</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:execute-phase N</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Run plans in parallel with fresh context windows, produce atomic commits</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:verify-work N</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Run acceptance testing after execution, generate fix plans if issues found</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:review</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Cross-AI peer review of current phase or branch</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:debug</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Systematic debugging with persistent state tracking</span>
+</div>
+<div style="display:flex;align-items:baseline;gap:0.5rem;">
+<div style="background:#1e2330;border:1px solid #334155;border-radius:5px;padding:0.22rem 0.55rem;font-family:'Roboto Mono',monospace;font-size:0.62rem;color:#e2e8f0;white-space:nowrap;flex-shrink:0;min-width:11rem;">/gsd:quick</div>
+<span style="font-size:0.58rem;color:var(--or-muted);">Ad-hoc tasks outside the phase workflow, with GSD guarantees</span>
+</div>
+</div>
 </div>
 
 ---
 layout: default
 ---
 
-<!-- ─── SLIDE 19 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
+<!-- ─── SLIDE 19 — RUNNING /GSD:NEW-PROJECT──────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Running <code>/gsd:new-project</code></h1>
+<p class="sub">What GSD asks you before generating a single file</p>
+
+<div class="grid grid-cols-2 gap-5 mt-2">
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.4rem;">WHAT IT ASKS</div>
+<div style="display:flex;flex-direction:column;gap:0.3rem;">
+<div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.45rem 0.65rem;display:flex;align-items:flex-start;gap:0.5rem;margin-bottom:0.25rem;">
+<span style="font-size:0.85rem;flex-shrink:0;">💬</span>
+<div>
+<div style="font-size:0.72rem;font-weight:700;color:var(--or-orange);">"What do you want to build?"</div>
+<div style="font-size:0.6rem;color:var(--or-muted);">Paste your client notes + dev lead comments here</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">mode</span>
+<span style="font-size:0.58rem;color:#e2e8f0;"><code style="color:var(--or-amber);font-size:0.58rem;">interactive</code> (confirm each step) · <code style="color:var(--or-amber);font-size:0.58rem;">yolo</code> (auto-approve)</span>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">granularity</span>
+<span style="font-size:0.58rem;color:#e2e8f0;"><code style="color:var(--or-amber);font-size:0.58rem;">coarse</code> (3-5 phases) · <code style="color:var(--or-amber);font-size:0.58rem;">standard</code> (5-8) · <code style="color:var(--or-amber);font-size:0.58rem;">fine</code> (8-12)</span>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">model_profile</span>
+<span style="font-size:0.58rem;color:#e2e8f0;"><code style="color:var(--or-amber);font-size:0.58rem;">balanced</code> (Sonnet) · <code style="color:var(--or-amber);font-size:0.58rem;">quality</code> (Opus) · <code style="color:var(--or-amber);font-size:0.58rem;">budget</code> (Haiku)</span>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">research</span>
+<span style="font-size:0.58rem;color:#e2e8f0;">Research the domain ecosystem before defining requirements?</span>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">plan_check</span>
+<span style="font-size:0.58rem;color:#e2e8f0;">Verify plans against requirements after generation?</span>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-family:'Roboto Mono',monospace;font-size:0.62rem;color:var(--or-amber);font-weight:700;min-width:5.5rem;">commit_docs</span>
+<span style="font-size:0.58rem;color:#e2e8f0;">Track .planning/ files in git?</span>
+</div>
+</div>
+</div>
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-green);margin-bottom:0.4rem;">WHAT IT PRODUCES</div>
+<div style="display:flex;flex-direction:column;gap:0.4rem;">
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">📋</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">PROJECT.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Vision, constraints, key decisions from your answers</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid var(--or-orange);border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">📄</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:var(--or-orange);">REQUIREMENTS.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Structured PRD with trackable IDs (AUTH-01, LIST-02, AI-03...)</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">🗺</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">ROADMAP.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Phases mapped to requirements with success criteria</div>
+</div>
+</div>
+<div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.75rem;display:flex;align-items:flex-start;gap:0.5rem;">
+<span style="font-size:0.9rem;flex-shrink:0;">🔄</span>
+<div>
+<div style="font-family:'Roboto Mono',monospace;font-size:0.72rem;font-weight:700;color:#e2e8f0;">STATE.md</div>
+<div style="font-size:0.62rem;color:var(--or-muted);">Live project state: progress tracking, decisions log</div>
+</div>
+</div>
+</div>
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.5rem 0.75rem;margin-top:0.6rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-size:0.8rem;">💡</span>
+<span style="font-size:0.62rem;color:#e2e8f0;">This is where you paste the client brief + dev lead notes from slides 5 and 7</span>
+</div>
+</div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 20 — THE .PLANNING/ FOLDER─────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>The <code>.planning/</code> Folder</h1>
+<p class="sub">How GSD externalizes state: the same documents a human project lead would create</p>
+
+<div class="grid grid-cols-2 gap-5 mt-2">
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.4rem;">PROJECT FILES</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:0.6rem 0.8rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.8;">
+<div><span style="color:var(--or-orange);font-weight:700;">.planning/</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">PROJECT.md</span> <span style="color:#6b7280;"># Project vision and context</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">REQUIREMENTS.md</span> <span style="color:#6b7280;"># Scoped requirements with IDs</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">ROADMAP.md</span> <span style="color:#6b7280;"># Phase breakdown + status</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">STATE.md</span> <span style="color:#6b7280;"># Decisions, blockers, memory</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">config.json</span> <span style="color:#6b7280;"># Workflow configuration</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">MILESTONES.md</span> <span style="color:#6b7280;"># Completed milestones</span></div>
+<div style="padding-left:1rem;"><span style="color:#e2e8f0;">HANDOFF.json</span> <span style="color:#6b7280;"># Session handoff</span></div>
+<div style="height:0.25rem;"></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">research/</span> <span style="color:#6b7280;"># Domain research</span></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">reports/</span> <span style="color:#6b7280;"># Session reports</span></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">todos/</span> <span style="color:#6b7280;"># Pending + done ideas</span></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">debug/</span> <span style="color:#6b7280;"># Debug sessions</span></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">codebase/</span> <span style="color:#6b7280;"># Brownfield mapping</span></div>
+</div>
+</div>
+<div>
+<div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.4rem;">PHASE ARTIFACTS (grow per command)</div>
+<div style="background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:0.6rem 0.8rem;font-family:'Roboto Mono',monospace;font-size:0.58rem;line-height:1.8;">
+<div><span style="color:var(--or-orange);font-weight:700;">phases/</span></div>
+<div style="padding-left:1rem;"><span style="color:var(--or-orange);">XX-phase-name/</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">CONTEXT.md</span> <span style="color:#6b7280;"># From /gsd:discuss-phase</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">RESEARCH.md</span> <span style="color:#6b7280;"># Ecosystem research</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">XX-YY-PLAN.md</span> <span style="color:#6b7280;"># From /gsd:plan-phase</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">XX-YY-SUMMARY.md</span> <span style="color:#6b7280;"># From /gsd:execute-phase</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">VERIFICATION.md</span> <span style="color:#6b7280;"># Post-execution check</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">XX-UI-SPEC.md</span> <span style="color:#6b7280;"># UI design contract</span></div>
+<div style="padding-left:2rem;"><span style="color:#e2e8f0;">XX-UI-REVIEW.md</span> <span style="color:#6b7280;"># Visual audit scores</span></div>
+<div style="height:0.25rem;"></div>
+<div><span style="color:var(--or-orange);font-weight:700;">ui-reviews/</span> <span style="color:#6b7280;"># Screenshots (gitignored)</span></div>
+</div>
+<div style="background:#0d1a10;border:1px solid #1a3a20;border-radius:8px;padding:0.55rem 0.8rem;margin-top:0.5rem;">
+<div style="font-size:0.62rem;color:#e2e8f0;line-height:1.6;">GSD externalizes all project state into files. Instead of relying on conversation history, each agent reads the specific files it needs. This keeps context windows clean and outputs consistent.</div>
+</div>
+</div>
+</div>
+
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.5rem 0.75rem;margin-top:0.5rem;display:flex;align-items:center;gap:0.5rem;">
+<span style="font-size:0.8rem;">💡</span>
+<span style="font-size:0.6rem;color:#e2e8f0;">This is how the folder looks as you move through development. The structure builds up incrementally: each command adds its own artifacts to the workspace.</span>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 21 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -949,7 +1080,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 20 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
+<!-- ─── SLIDE 22 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1020,7 +1151,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
+<!-- ─── SLIDE 23 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1069,7 +1200,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+<!-- ─── SLIDE 24 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1162,7 +1293,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+<!-- ─── SLIDE 25 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1224,7 +1355,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 26 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1254,7 +1385,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 25 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 27 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1277,7 +1408,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 26 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 28 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1389,7 +1520,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 27 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 29 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1485,7 +1616,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 30 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1531,7 +1662,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 31 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1581,7 +1712,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 32 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1627,7 +1758,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 33 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1679,7 +1810,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 34 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1738,7 +1869,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — DISCUSSION SECTION 3──────────────────────────── -->
+<!-- ─── SLIDE 35 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1778,7 +1909,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
+<!-- ─── SLIDE 36 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1845,7 +1976,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 35 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 37 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1868,7 +1999,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 36 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 38 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1965,7 +2096,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 37 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 39 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2063,7 +2194,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 40 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2147,7 +2278,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 39 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 41 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2202,7 +2333,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 42 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2282,7 +2413,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 43 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2312,7 +2443,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 44 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2388,7 +2519,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 45 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2459,7 +2590,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 46 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2510,7 +2641,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 47 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2568,7 +2699,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 48 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2611,7 +2742,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 49 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
