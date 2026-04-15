@@ -172,6 +172,10 @@ layout: default
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         tyagiharshit
       </a>
+      <a href="https://www.youtube.com/channel/UCH-xwLTKQaABNs2QmGxK2bQ" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;gap:0.4rem;color:var(--or-muted);font-size:0.75rem;text-decoration:none;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        YouTube
+      </a>
     </div>
   </div>
 
@@ -218,7 +222,7 @@ layout: default
 <div class="flex gap-6" style="margin-top:2.5rem;">
   <div class="flex-1" style="border-left:3px solid var(--or-orange);padding-left:1rem;">
     <p style="font-size:1.05rem;font-style:italic;line-height:1.7;color:#e2e8f0;">
-      "We need a tool where our agents can take a photo of any room and instantly see what it would look like renovated or staged. Different styles: modern, farmhouse, luxury, whatever the buyer demographic wants."
+      "We need a tool where our real estate agents can take a photo of any room and instantly see what it would look like renovated or staged. Different styles: modern, farmhouse, luxury, whatever the buyer demographic wants."
     </p>
     <p style="color:var(--or-muted);font-size:0.78rem;margin-top:0.5rem;">— Head of Operations, real estate agency</p>
   </div>
@@ -269,7 +273,103 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 7 — THE UNSTRUCTURED APPROACH──────────────────────── -->
+<!-- ─── SLIDE 7 — DEV LEAD READ──────────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1 style="display:flex;align-items:center;justify-content:space-between;">
+  <span>Reading Between the Lines</span>
+  <button onclick="
+    navigator.clipboard.writeText('My initial read (dev team lead thoughts, not shared with client)\n- Two clear layers here: (1) a listing platform, and (2) AI-powered visual enhancements on top of it\n- The listing platform itself is a known problem — CRUD, auth, search, agent dashboards. Buildable.\n- The AI visualization layer is where the differentiation lives — but scope needs to be tight\n- They\'re describing multiple products (listing platform, staging tool, renovation visualizer, AR viewer) as if they\'re one thing\n- AR / virtual walkthrough (reliving rooms remotely, both current and renovated) is a Phase 5 feature, not MVP\n- \'Instant\' and \'looks real\' are in tension with each other at this quality level\n- No mention of what happens when the AI gets it wrong (bad generation, wrong style applied)\n- Batch processing + element-level control + mobile + virtual walkthrough = scope explosion\n- The vacant property and dated-interior use cases are the strongest — start there');
+    this.textContent='Copied!';
+    setTimeout(()=>this.textContent='Copy notes',1500);
+  " style="font-size:0.62rem;font-weight:600;padding:0.3rem 0.7rem;border-radius:5px;border:1px solid var(--or-orange);background:rgba(249,115,22,0.1);color:var(--or-orange);cursor:pointer;white-space:nowrap;margin:0;">Copy notes</button>
+</h1>
+<p class="sub">What a dev lead sees before writing a single spec: the human judgment AI cannot do for you</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.75rem;margin-top:0.4rem;">
+
+  <!-- Col 1: Architecture -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:0.75rem;">
+    <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);margin-bottom:0.5rem;">ARCHITECTURE</div>
+    <div style="font-size:0.71rem;color:#e2e8f0;line-height:1.5;">
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-orange);flex-shrink:0;">▸</span><span><strong>Two clear layers:</strong> (1) a listing platform and (2) AI-powered visual enhancements on top. Not one product.</span></div>
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-orange);flex-shrink:0;">▸</span><span>Listing platform is a <strong>known problem</strong>: CRUD, auth, search, agent dashboards. Buildable.</span></div>
+      <div style="display:flex;gap:0.35rem;"><span style="color:var(--or-orange);flex-shrink:0;">▸</span><span>Client is describing <strong>multiple products</strong> (listing platform, staging tool, renovation visualizer, AR viewer) as if they're one thing.</span></div>
+    </div>
+  </div>
+
+  <!-- Col 2: Scope Flags -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:0.75rem;">
+    <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.12em;color:var(--or-red);margin-bottom:0.5rem;">SCOPE FLAGS</div>
+    <div style="font-size:0.71rem;color:#e2e8f0;line-height:1.5;">
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-red);flex-shrink:0;">▸</span><span>AR / virtual walkthrough = <strong>Phase 5</strong>, not MVP. Remove from scope conversation entirely.</span></div>
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-red);flex-shrink:0;">▸</span><span>Batch processing + element-level control + mobile + virtual walkthrough = <strong>scope explosion</strong>.</span></div>
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-amber);flex-shrink:0;">▸</span><span>"Instant" and "looks real" are in <strong>tension</strong> at this quality level. Client needs to choose.</span></div>
+      <div style="display:flex;gap:0.35rem;"><span style="color:var(--or-amber);flex-shrink:0;">▸</span><span>No mention of what happens when AI gets it wrong (bad generation, wrong style applied). <strong>Error case undefined.</strong></span></div>
+    </div>
+  </div>
+
+  <!-- Col 3: Where to start -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:0.75rem;">
+    <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.12em;color:var(--or-green);margin-bottom:0.5rem;">WHERE TO START</div>
+    <div style="font-size:0.71rem;color:#e2e8f0;line-height:1.5;">
+      <div style="margin-bottom:0.4rem;display:flex;gap:0.35rem;"><span style="color:var(--or-green);flex-shrink:0;">▸</span><span>The AI visualization layer is where differentiation lives, but <strong>scope must stay tight</strong>.</span></div>
+      <div style="display:flex;gap:0.35rem;"><span style="color:var(--or-green);flex-shrink:0;">▸</span><span><strong>Vacant property</strong> and <strong>dated-interior</strong> are the strongest use cases: clear input, clear output, measurable value. Start there.</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:0.7rem;background:rgba(249,115,22,0.07);border:1px solid rgba(249,115,22,0.3);border-radius:6px;padding:0.5rem 0.9rem;display:flex;align-items:center;gap:0.65rem;">
+  <span style="color:var(--or-orange);font-size:0.9rem;flex-shrink:0;">⚑</span>
+  <p style="font-size:0.71rem;color:#e2e8f0;margin:0;line-height:1.45;"><strong>This is the work AI cannot do.</strong> Separating layers, flagging scope creep, spotting undefined edge cases, picking the starting point: these are human judgment calls. The spec you write next is built on this read.</p>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 9 — EXERCISE: HOW WOULD YOU DO THIS?───────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 5 MIN</div>
+
+<h1>Before We Go Further</h1>
+<p class="sub">Try the naive approach. We'll compare notes after.</p>
+
+<div style="margin-top:2rem;max-width:640px;">
+  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:10px;padding:1.4rem 1.6rem;">
+    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);margin-bottom:1rem;">— YOUR TASK</div>
+    <div style="display:flex;flex-direction:column;gap:0.75rem;">
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">1</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Open Claude Code (or any AI coding tool you use)</p>
+      </div>
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">2</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Paste the real estate client brief and ask it to start building</p>
+      </div>
+      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
+        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">3</div>
+        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Notice what questions you'd want to ask before it continues. Write them down.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 8 — THE UNSTRUCTURED APPROACH──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -310,43 +410,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 8 — EXERCISE: HOW WOULD YOU DO THIS?───────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);">✏️ EXERCISE · 5 MIN</div>
-
-<h1>Before We Go Further</h1>
-<p class="sub">Try the naive approach. We'll compare notes after.</p>
-
-<div style="margin-top:2rem;max-width:640px;">
-  <div style="background:var(--or-card);border:1px solid var(--or-amber);border-radius:10px;padding:1.4rem 1.6rem;">
-    <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-amber);margin-bottom:1rem;">— YOUR TASK</div>
-    <div style="display:flex;flex-direction:column;gap:0.75rem;">
-      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">1</div>
-        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Open Claude Code (or any AI coding tool you use)</p>
-      </div>
-      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">2</div>
-        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Paste the real estate client brief and ask it to start building</p>
-      </div>
-      <div style="display:flex;gap:0.75rem;align-items:flex-start;">
-        <div style="background:var(--or-amber);color:#0D1117;border-radius:50%;width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:800;flex-shrink:0;margin-top:0.05rem;">3</div>
-        <p style="font-size:0.82rem;color:#e2e8f0;margin:0;line-height:1.5;">Notice what questions you'd want to ask before it continues. Write them down.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 9 — HERE'S WHAT BREAKS─────────────────────────────── -->
+<!-- ─── SLIDE 10 — HERE'S WHAT BREAKS─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -367,7 +431,7 @@ layout: default
   </div>
   <div class="card amber" style="padding:0.9rem 1rem;">
     <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">Unextendable output</p>
-    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">When the next feature arrives, the model has to re-read everything it generated for the first. Context grows, costs compound, coherence shrinks.</p>
+    <p style="font-size:0.72rem;color:var(--or-muted);line-height:1.5;margin:0;">When the next feature arrives, the model has to re-read everything it generated for the first. Without proper context management, the context window grows, costs compound, and coherence shrinks.</p>
   </div>
   <div class="card muted" style="padding:0.9rem 1rem;">
     <p style="font-size:0.72rem;font-weight:700;color:#e2e8f0;margin-bottom:0.35rem;">Can't resume or hand off</p>
@@ -384,7 +448,81 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 10 — POLL: WHAT WOULD YOU BUILD FIRST?─────────────── -->
+<!-- ─── SLIDE 11 — STEERING CLAUDE─────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Approaches to Context Management</h1>
+<p class="sub">How developers actually manage AI context</p>
+
+<div style="display:flex;align-items:flex-start;gap:1rem;margin-top:2.5rem;">
+  <div style="flex:1;">
+    <h3 style="color:var(--or-red);font-size:1.1rem;margin-bottom:0.5rem;margin-left:0.3rem;">1. The Native Wall</h3>
+    <ul style="font-size:0.8rem;color:var(--or-muted);padding-left:1rem;margin-top:0.8rem;line-height:1.6;">
+      <li style="margin-bottom:0.4rem;">Focuses heavily on immediate prompts, losing high-level product context.</li>
+      <li style="margin-bottom:0.4rem;">Misses critical user journeys and edge cases.</li>
+      <li>Forgets earlier constraints as the codebase grows.</li>
+    </ul>
+  </div>
+  <div style="color:var(--or-muted);margin-top:1.5rem;font-size:1.2rem;flex-shrink:0;">→</div>
+  <div style="flex:1;">
+    <h3 style="color:var(--or-orange);font-size:1.1rem;margin-bottom:0.5rem;margin-left:0.3rem;">2. The Document Hack</h3>
+    <ul style="font-size:0.8rem;color:var(--or-muted);padding-left:1rem;margin-top:0.8rem;line-height:1.6;">
+      <li style="margin-bottom:0.4rem;">Force Claude Code to write a "Plan Doc" first.</li>
+      <li style="margin-bottom:0.4rem;">Orchestrate code generation from that document.</li>
+      <li>Problem: As docs multiply, the AI loses track again.</li>
+    </ul>
+  </div>
+  <div style="color:var(--or-muted);margin-top:1.5rem;font-size:1.2rem;flex-shrink:0;">→</div>
+  <div style="flex:1;">
+    <h3 style="color:var(--or-green);font-size:1.1rem;margin-bottom:0.5rem;margin-left:0.3rem;">3. The Roadmap System</h3>
+    <ul style="font-size:0.8rem;color:var(--or-muted);padding-left:1rem;margin-top:0.8rem;line-height:1.6;">
+      <li style="margin-bottom:0.4rem;">Build a central, living product roadmap.</li>
+      <li style="margin-bottom:0.4rem;">Break the product down into strict phases.</li>
+      <li>Independently research, plan, and verify each phase.</li>
+    </ul>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 12 — THE TOOL LANDSCAPE────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>How to Implement the Roadmap System</h1>
+<p class="sub">Using modern frameworks to enforce your execution roadmap.</p>
+
+<div style="margin-top:2.5rem;">
+  <p style="font-size:0.9rem;color:#e2e8f0;margin-bottom:1rem;">You can use specific methodologies to systematically manage this context:</p>
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem;">
+    <span style="background:#161b22;border:1px solid #30363d;padding:0.4rem 1rem;border-radius:20px;font-size:0.8rem;color:var(--or-muted);">GSD <span style="font-family:'Roboto Mono',monospace;font-size:0.7rem;opacity:0.7;">/gsd:plan-phase · /gsd:execute-phase</span></span>
+    <span style="background:#161b22;border:1px solid #30363d;padding:0.4rem 1rem;border-radius:20px;font-size:0.8rem;color:var(--or-muted);">Compound Engineering <span style="font-family:'Roboto Mono',monospace;font-size:0.7rem;opacity:0.7;">/ce:brainstorm · /ce:plan · /ce:work</span></span>
+    <span style="background:#161b22;border:1px solid #30363d;padding:0.4rem 1rem;border-radius:20px;font-size:0.8rem;color:var(--or-muted);">Claudekit <span style="font-family:'Roboto Mono',monospace;font-size:0.7rem;opacity:0.7;">checkpoints · multi-agent review</span></span>
+    <span style="background:#161b22;border:1px solid #30363d;padding:0.4rem 1rem;border-radius:20px;font-size:0.8rem;color:var(--or-muted);">Pimzino Spec Workflow <span style="font-family:'Roboto Mono',monospace;font-size:0.7rem;opacity:0.7;">spec · design · tasks · impl</span></span>
+  </div>
+
+  <div style="background:rgba(34,197,94,0.06);border-left:3px solid var(--or-green);padding:1rem 1.5rem;">
+    <h3 style="color:var(--or-green);margin-bottom:0.5rem;font-size:1rem;">Why are we choosing GSD?</h3>
+    <p style="font-size:0.85rem;color:#e2e8f0;line-height:1.6;margin:0;">
+      We use GSD because it natively embeds spec and constraint tracking directly into the execution loop, ensuring the central roadmap never gets overridden or lost during a long build.
+    </p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 13 — POLL: WHAT WOULD YOU BUILD FIRST?─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -415,7 +553,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 11 — COST OF NOT SPECIFYING────────────────────────── -->
+<!-- ─── SLIDE 14 — COST OF NOT SPECIFYING────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -476,7 +614,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 12 — SPEC-DRIVEN WORKFLOW (HERO)───────────────────── -->
+<!-- ─── SLIDE 15 — SPEC-DRIVEN WORKFLOW (HERO)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -567,7 +705,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 13 — VAGUE VS CONCRETE─────────────────────────────── -->
+<!-- ─── SLIDE 16 — VAGUE VS CONCRETE─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -634,7 +772,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 14 — SAME REQUIREMENT. ANOTHER FEATURE.─────────────── -->
+<!-- ─── SLIDE 17 — SAME REQUIREMENT. ANOTHER FEATURE.─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -701,7 +839,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 15 — STRUCTURE THE BRIEF───────────────────────────── -->
+<!-- ─── SLIDE 18 — STRUCTURE THE BRIEF───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -744,7 +882,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 16 — Q&A SECTION 1─────────────────────────────────── -->
+<!-- ─── SLIDE 19 — Q&A SECTION 1─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -784,7 +922,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 17 — SECTION 2 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 20 — SECTION 2 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -807,7 +945,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 18 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
+<!-- ─── SLIDE 21 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -888,7 +1026,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 19 — INTRODUCING GSD───────────────────────────────── -->
+<!-- ─── SLIDE 22 — INTRODUCING GSD───────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -977,7 +1115,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 20 — ANATOMY OF A FEATURE SPEC─────────────────────── -->
+<!-- ─── SLIDE 23 — ANATOMY OF A FEATURE SPEC─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1048,7 +1186,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
+<!-- ─── SLIDE 24 — YOUR SPEC IS AN INTERFACE─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1097,7 +1235,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+<!-- ─── SLIDE 25 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1190,7 +1328,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — FROM 14 FEATURES TO 6─────────────────────────── -->
+<!-- ─── SLIDE 26 — FROM 14 FEATURES TO 6─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1299,7 +1437,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+<!-- ─── SLIDE 27 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1361,7 +1499,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 28 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1391,7 +1529,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 26 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 29 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1414,7 +1552,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 27 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 30 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1526,7 +1664,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 31 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1622,7 +1760,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 32 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1668,7 +1806,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 33 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1718,7 +1856,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 34 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1764,7 +1902,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 35 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1816,7 +1954,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 36 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1875,7 +2013,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — DISCUSSION SECTION 3──────────────────────────── -->
+<!-- ─── SLIDE 37 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1915,7 +2053,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
+<!-- ─── SLIDE 38 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1982,7 +2120,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 36 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 39 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2005,7 +2143,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 37 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 40 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2102,7 +2240,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 41 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2200,7 +2338,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 39 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 42 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2284,7 +2422,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 43 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2339,7 +2477,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 44 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2419,7 +2557,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 45 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2449,7 +2587,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 46 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2525,7 +2663,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 47 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2596,7 +2734,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 48 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2647,7 +2785,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 49 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2705,7 +2843,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 50 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2748,7 +2886,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 48 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 51 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
