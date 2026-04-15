@@ -684,46 +684,27 @@ layout: default
 </div>
 
 ---
-layout: default
+layout: center
+class: section-divider
 ---
 
-<!-- ─── SLIDE 16 — STRUCTURE THE BRIEF───────────────────────────── -->
+<!-- ─── SLIDE 16 — SECTION 2 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>Structure the Brief</h1>
-<p class="sub">Look back at the real estate brief from Slide 5. How structured can you make it?</p>
+<div class="section-num">02</div>
 
-<!-- Prompt -->
-<div style="background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.3);border-radius:10px;padding:1rem 1.25rem;margin-top:1rem;">
-  <p style="font-size:0.9rem;color:#e2e8f0;line-height:1.65;margin:0;">
-    Look at the whole client brief. Using what we've covered, user journeys, constraints, and non-goals, see if you can turn it into a structured plan. Can you make sense of all 14 features and decide what belongs in Phase 1?
-  </p>
-  <p style="font-size:0.72rem;color:var(--or-muted);margin-top:0.6rem;margin-bottom:0;">Take a few minutes and try to structure the whole brief into something you feel confident about.</p>
+<div style="position:absolute;top:44%;left:1.5rem;transform:translateY(-50%);max-width:65%;">
+  <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);margin-bottom:0.6rem;">— SECTION 2</div>
+  <div class="section-heading">The Spec Toolkit:<br>Designing the App<br>Before Writing Code</div>
+  <div class="section-subtitle">Clarify requirements. Build specs. Set up GSD.</div>
 </div>
 
-<!-- Reference format -->
-<div style="margin-top:1rem;">
-  <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.5rem;">REFERENCE FORMAT</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
-    <div style="border:2px dashed rgba(224,60,46,0.5);border-radius:8px;padding:0.65rem;background:rgba(224,60,46,0.04);">
-      <div style="font-size:0.58rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);margin-bottom:0.4rem;">RAW BRIEF</div>
-      <p style="font-size:0.72rem;font-style:italic;color:#e2e8f0;line-height:1.5;margin:0;">
-        "Users should be able to upload a photo of their room and see what it looks like redesigned in different styles."
-      </p>
-    </div>
-    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:8px;background:#161b22;overflow:hidden;">
-      <div style="padding:0.4rem 0.65rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-green);font-weight:700;">STRUCTURED</div>
-      <div style="padding:0.5rem 0.65rem;font-size:0.6rem;line-height:1.7;color:#e2e8f0;font-family:'Roboto Mono',monospace;">
-        <div><span style="color:var(--or-orange);">USER JOURNEY:</span> Upload → Select style → Generate → Compare</div>
-        <div><span style="color:var(--or-orange);">CONSTRAINTS:</span> JPEG/PNG ≤10MB, 6 presets, &lt;15s render</div>
-        <div><span style="color:var(--or-orange);">NON-GOALS:</span> Custom styles, AR mode (Phase 2+)</div>
-      </div>
-    </div>
-  </div>
+<div style="position:absolute;bottom:2rem;left:1.5rem;right:1.5rem;">
+  <Pipeline :active="0" />
 </div>
 
 ---
@@ -818,34 +799,10 @@ layout: default
 </div>
 
 ---
-layout: center
-class: section-divider
----
-
-<!-- ─── SLIDE 18 — SECTION 2 DIVIDER─────────────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<div class="section-num">02</div>
-
-<div style="position:absolute;top:44%;left:1.5rem;transform:translateY(-50%);max-width:65%;">
-  <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.12em;color:var(--or-orange);margin-bottom:0.6rem;">— SECTION 2</div>
-  <div class="section-heading">The Spec Toolkit:<br>Designing the App<br>Before Writing Code</div>
-  <div class="section-subtitle">Clarify requirements. Build specs. Set up GSD.</div>
-</div>
-
-<div style="position:absolute;bottom:2rem;left:1.5rem;right:1.5rem;">
-  <Pipeline :active="0" />
-</div>
-
----
 layout: default
 ---
 
-<!-- ─── SLIDE 19 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
+<!-- ─── SLIDE 18 — FROM BRIEF TO DESIGN SPEC─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -926,7 +883,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 20 — INTRODUCING GSD───────────────────────────────── -->
+<!-- ─── SLIDE 19 — INTRODUCING GSD───────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1015,15 +972,73 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — ANATOMY OF A FEATURE SPEC─────────────────────── -->
+<!-- ─── SLIDE 20 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>What Goes in a Feature Spec?</h1>
-<p class="sub">6 building blocks, each addressing a different type of ambiguity</p>
+<h1>Review Before You Move On</h1>
+<p class="sub">The AI is non-deterministic. Phases it defined may not match your intent.</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1rem;">
+
+  <!-- Left: What to check -->
+  <div>
+    <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);margin-bottom:0.5rem;">WALK THROUGH THESE FILES</div>
+    <div style="display:flex;flex-direction:column;gap:0.45rem;">
+      <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-orange);font-weight:700;min-width:7rem;">ROADMAP.md</span>
+        <span style="font-size:0.68rem;color:#e2e8f0;">Are the phases logical? Is the ordering right?</span>
+      </div>
+      <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-orange);font-weight:700;min-width:7rem;">REQUIREMENTS.md</span>
+        <span style="font-size:0.68rem;color:#e2e8f0;">Did it capture everything? Anything missing or wrong?</span>
+      </div>
+      <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-orange);font-weight:700;min-width:7rem;">PROJECT.md</span>
+        <span style="font-size:0.68rem;color:#e2e8f0;">Is the vision and context accurate?</span>
+      </div>
+      <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.55rem 0.8rem;display:flex;align-items:center;gap:0.6rem;">
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.72rem;color:var(--or-orange);font-weight:700;min-width:7rem;">STATE.md</span>
+        <span style="font-size:0.68rem;color:#e2e8f0;">Are initial decisions recorded correctly?</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: Why this matters -->
+  <div>
+    <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-red);margin-bottom:0.5rem;">WHY THIS MATTERS</div>
+    <div style="background:#1e1010;border:1px solid #502020;border-radius:8px;padding:0.75rem 0.9rem;margin-bottom:0.5rem;">
+      <div style="font-size:0.72rem;color:#e2e8f0;line-height:1.6;">Every command after this point builds on these files. If Phase 1 groups the wrong features, <span style="color:var(--or-red);font-weight:700;">every plan and discussion downstream inherits that mistake.</span></div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.75rem 0.9rem;">
+      <div style="font-size:0.62rem;font-weight:700;color:var(--or-green);margin-bottom:0.3rem;">THE RULE</div>
+      <div style="font-size:0.72rem;color:#e2e8f0;line-height:1.6;">Fixing a wrong phase definition takes <strong style="color:var(--or-green);">2 minutes now</strong>. Discovering it mid-implementation costs <strong style="color:var(--or-red);">hours of rework</strong>.</div>
+    </div>
+  </div>
+
+</div>
+
+<div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.2);border-radius:8px;padding:0.6rem 1rem;margin-top:0.8rem;display:flex;align-items:center;gap:0.6rem;">
+  <span style="font-size:0.9rem;">💡</span>
+  <span style="font-size:0.72rem;color:#e2e8f0;">This is a 5-minute sanity check, not a deep review. Skim each file, confirm it matches your mental model, fix anything that feels off. Then move on.</span>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 21 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>What to Discuss Before the Plan</h1>
+<p class="sub">Align on these 6 before you run <code>/gsd:plan</code> — the plan is only as good as the input</p>
 
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.6rem;margin-top:0.6rem;">
   <!-- User Journey -->
@@ -1032,8 +1047,8 @@ layout: default
       <span style="font-size:1.1rem;">👥</span>
       <span style="font-size:0.88rem;font-weight:700;color:#60a5fa;">User Journey</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">Step-by-step user flow</div>
-    <div style="border-left:3px solid #60a5fa;padding-left:0.6rem;background:#0d1525;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">Agent uploads photo → selects 'Modern' style → clicks Generate → sees result in 12s</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">Who does what, step by step?</div>
+    <div style="border-left:3px solid #60a5fa;background:#0d1525;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">What does the user actually do from start to finish? Where do they start, what decision do they make, what do they get?</div>
   </div>
   <!-- Screen Description -->
   <div style="background:#1e1a30;border:1px solid #3a2d50;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
@@ -1041,44 +1056,44 @@ layout: default
       <span style="font-size:1.1rem;">🖥</span>
       <span style="font-size:0.88rem;font-weight:700;color:#a78bfa;">Screen Description</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What the UI shows</div>
-    <div style="border-left:3px solid #a78bfa;padding-left:0.6rem;background:#0d0a20;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">Upload page: drag-and-drop zone, room type selector (6 options), 10MB limit shown</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What does each screen show?</div>
+    <div style="border-left:3px solid #a78bfa;background:#0d0a20;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">What are the key UI elements? What inputs, outputs, and states need to be visible?</div>
   </div>
-  <!-- API Contract -->
-  <div style="background:#201a15;border:1px solid #503a2d;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
+  <!-- Success Metrics -->
+  <div style="background:#0d1a10;border:1px solid #1a3a20;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
     <div style="display:flex;align-items:center;gap:0.45rem;">
-      <span style="font-size:1.1rem;">⚡</span>
-      <span style="font-size:0.88rem;font-weight:700;color:var(--or-orange);">API Contract</span>
+      <span style="font-size:1.1rem;">📊</span>
+      <span style="font-size:0.88rem;font-weight:700;color:var(--or-green);">Success Metrics</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">Endpoint, request, response</div>
-    <div style="border-left:3px solid var(--or-orange);background:#100d08;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.65rem;color:#e2e8f0;line-height:1.7;"><span style="color:#60a5fa;">POST</span> /api/generate<br>&#123;roomId, styleId&#125;<br>→ &#123;generationId, status, imageUrl&#125;</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">How do we measure success?</div>
+    <div style="border-left:3px solid var(--or-green);background:#060f08;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">What does good look like after launch? Speed? Conversion? User retention? Be specific.</div>
   </div>
-  <!-- Data Model -->
-  <div style="background:#0d1a1a;border:1px solid #1a3a3a;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
+  <!-- Scope Boundaries -->
+  <div style="background:#1e1505;border:1px solid #3a2d10;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
     <div style="display:flex;align-items:center;gap:0.45rem;">
-      <span style="font-size:1.1rem;">🗄</span>
-      <span style="font-size:0.88rem;font-weight:700;color:#2dd4bf;">Data Model</span>
+      <span style="font-size:1.1rem;">🔲</span>
+      <span style="font-size:0.88rem;font-weight:700;color:var(--or-amber);">Scope Boundaries</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">Tables, fields, types</div>
-    <div style="border-left:3px solid #2dd4bf;background:#060f0f;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-family:'Roboto Mono',monospace;font-size:0.65rem;color:#e2e8f0;line-height:1.7;">rooms (<br>&nbsp;&nbsp;id: <span style="color:#60a5fa;">uuid</span>,<br>&nbsp;&nbsp;projectId: <span style="color:#60a5fa;">uuid</span>,<br>&nbsp;&nbsp;originalUrl: <span style="color:#60a5fa;">text</span>,<br>&nbsp;&nbsp;roomType: <span style="color:#a78bfa;">enum</span><br>)</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What's in? What's out?</div>
+    <div style="border-left:3px solid var(--or-amber);background:#100d00;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">Explicitly name what you're NOT building. Unspoken scope kills timelines.</div>
   </div>
-  <!-- Edge Cases -->
+  <!-- Risks / Unknowns -->
   <div style="background:#1e1010;border:1px solid #502020;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
     <div style="display:flex;align-items:center;gap:0.45rem;">
       <span style="font-size:1.1rem;">⚠️</span>
-      <span style="font-size:0.88rem;font-weight:700;color:var(--or-red);">Edge Cases</span>
+      <span style="font-size:0.88rem;font-weight:700;color:var(--or-red);">Risks / Unknowns</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What could go wrong</div>
-    <div style="border-left:3px solid var(--or-red);background:#0f0808;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.7;">Blurry photo → warn.<br>Non-room → block.<br>API timeout → retry once, then error state</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What could surprise us?</div>
+    <div style="border-left:3px solid var(--or-red);background:#0f0808;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">Third-party APIs? New tech? Unclear requirements? Name the unknowns before the AI plans around them.</div>
   </div>
   <!-- Acceptance Criteria -->
-  <div style="background:#0d1a10;border:1px solid #1a3a20;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
+  <div style="background:#081820;border:1px solid #103040;border-radius:10px;padding:0.75rem;display:flex;flex-direction:column;gap:0.4rem;">
     <div style="display:flex;align-items:center;gap:0.45rem;">
       <span style="font-size:1.1rem;">✅</span>
-      <span style="font-size:0.88rem;font-weight:700;color:var(--or-green);">Acceptance Criteria</span>
+      <span style="font-size:0.88rem;font-weight:700;color:#2dd4bf;">Acceptance Criteria</span>
     </div>
-    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">Testable pass/fail</div>
-    <div style="border-left:3px solid var(--or-green);background:#060f08;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.7;">✅ Style selection shows 6 options with preview<br>✅ Generation completes in &lt;15s</div>
+    <div style="font-size:0.68rem;color:var(--or-muted);margin-bottom:0.25rem;">What does "done" look like?</div>
+    <div style="border-left:3px solid #2dd4bf;background:#050f14;border-radius:0 6px 6px 0;padding:0.5rem 0.6rem;font-size:0.68rem;color:#e2e8f0;line-height:1.55;">Pass/fail statements, not vibes. "The user can X" or "The system does Y within Z seconds."</div>
   </div>
 </div>
 
@@ -1228,116 +1243,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — FROM 14 FEATURES TO 6─────────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<h1>From 14 Features to 6: Here's Why</h1>
-<p class="sub">Not all features are equal. Some are core. Some are deferred.</p>
-
-<!-- 3-column feature cards with colored top border -->
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.6rem;margin-top:0.5rem;">
-  <!-- MVP CORE -->
-  <div style="border-top:3px solid var(--or-green);background:var(--or-card);border-radius:0 0 8px 8px;padding:0.65rem;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
-      <span style="font-size:0.65rem;font-weight:700;color:var(--or-green);">MVP CORE (PHASE 1)</span>
-      <span style="background:#1a3a20;color:var(--or-green);font-size:0.58rem;padding:0.12rem 0.4rem;border-radius:4px;font-weight:600;">6 Features</span>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:0.3rem;">
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>📷</span> Photo upload + detect</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>🎨</span> Style selection (6 presets)</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>✏️</span> AI generation (Nano Banana)</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>⇄</span> Before/after comparison</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>💾</span> Project save/load</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#0d1a10;border-radius:4px;padding:0.28rem 0.5rem;"><span>⊞</span> Basic design gallery</div>
-    </div>
-  </div>
-  <!-- V2 ENHANCEMENTS -->
-  <div style="border-top:3px solid var(--or-amber);background:var(--or-card);border-radius:0 0 8px 8px;padding:0.65rem;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
-      <span style="font-size:0.65rem;font-weight:700;color:var(--or-amber);">V2 ENHANCEMENTS (PHASE 3+)</span>
-      <span style="background:#2a1f00;color:var(--or-amber);font-size:0.58rem;padding:0.12rem 0.4rem;border-radius:4px;font-weight:600;">Deferred</span>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:0.3rem;">
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a1200;border-radius:4px;padding:0.28rem 0.5rem;"><span>⚡</span> Element-level control</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a1200;border-radius:4px;padding:0.28rem 0.5rem;"><span>↗</span> Sharing link for sellers</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a1200;border-radius:4px;padding:0.28rem 0.5rem;"><span>📈</span> Analytics dashboard</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a1200;border-radius:4px;padding:0.28rem 0.5rem;"><span>🔄</span> Version history</div>
-    </div>
-  </div>
-  <!-- OUT OF SCOPE -->
-  <div style="border-top:3px solid var(--or-red);background:var(--or-card);border-radius:0 0 8px 8px;padding:0.65rem;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
-      <span style="font-size:0.65rem;font-weight:700;color:var(--or-red);">OUT OF SCOPE</span>
-      <span style="background:#2a0a00;color:var(--or-red);font-size:0.58rem;padding:0.12rem 0.4rem;border-radius:4px;font-weight:600;">Do Not Build</span>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:0.3rem;">
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a0800;border-radius:4px;padding:0.28rem 0.5rem;"><span>🥽</span> AR Mode</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a0800;border-radius:4px;padding:0.28rem 0.5rem;"><span>🏠</span> MLS Integration</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a0800;border-radius:4px;padding:0.28rem 0.5rem;"><span>$</span> ROI Suggestions</div>
-      <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.7rem;color:#e2e8f0;background:#1a0800;border-radius:4px;padding:0.28rem 0.5rem;"><span>🏷</span> White-labeling</div>
-    </div>
-  </div>
-</div>
-
-<!-- Edge Cases Table -->
-<div style="margin-top:0.6rem;">
-  <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;color:#e2e8f0;margin-bottom:0.35rem;">DEFINING EDGE CASES</div>
-  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;overflow:hidden;font-size:0.65rem;">
-    <div style="display:grid;grid-template-columns:1.2fr 1.4fr 2fr;border-bottom:1px solid #334155;">
-      <div style="padding:0.35rem 0.6rem;font-weight:700;letter-spacing:0.07em;color:var(--or-muted);font-size:0.58rem;">FEATURE</div>
-      <div style="padding:0.35rem 0.6rem;font-weight:700;letter-spacing:0.07em;color:var(--or-muted);font-size:0.58rem;border-left:1px solid #334155;">EDGE CASE</div>
-      <div style="padding:0.35rem 0.6rem;font-weight:700;letter-spacing:0.07em;color:var(--or-muted);font-size:0.58rem;border-left:1px solid #334155;">SPEC DECISION</div>
-    </div>
-    <div style="display:grid;grid-template-columns:1.2fr 1.4fr 2fr;border-bottom:1px solid #1e2a3a;">
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;font-family:'Roboto Mono',monospace;font-size:0.62rem;">Photo upload</div>
-      <div style="padding:0.3rem 0.6rem;color:var(--or-muted);border-left:1px solid #1e2a3a;">Blurry / low-res image</div>
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;border-left:1px solid #1e2a3a;">Warn user, but allow upload anyway</div>
-    </div>
-    <div style="display:grid;grid-template-columns:1.2fr 1.4fr 2fr;border-bottom:1px solid #1e2a3a;">
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;font-family:'Roboto Mono',monospace;font-size:0.62rem;">Photo upload</div>
-      <div style="padding:0.3rem 0.6rem;color:var(--or-muted);border-left:1px solid #1e2a3a;">Non-room photo (e.g., selfie)</div>
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;border-left:1px solid #1e2a3a;">Block with error message "Please upload a room photo"</div>
-    </div>
-    <div style="display:grid;grid-template-columns:1.2fr 1.4fr 2fr;border-bottom:1px solid #1e2a3a;">
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;font-family:'Roboto Mono',monospace;font-size:0.62rem;">AI generation</div>
-      <div style="padding:0.3rem 0.6rem;color:var(--or-muted);border-left:1px solid #1e2a3a;">API timeout (&gt;20s)</div>
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;border-left:1px solid #1e2a3a;">Retry once automatically, then show error state</div>
-    </div>
-    <div style="display:grid;grid-template-columns:1.2fr 1.4fr 2fr;">
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;font-family:'Roboto Mono',monospace;font-size:0.62rem;">Style selection</div>
-      <div style="padding:0.3rem 0.6rem;color:var(--or-muted);border-left:1px solid #1e2a3a;">User changes style mid-generation</div>
-      <div style="padding:0.3rem 0.6rem;color:#e2e8f0;border-left:1px solid #1e2a3a;">Cancel previous request immediately, start new one</div>
-    </div>
-  </div>
-</div>
-
-<!-- Vague vs Testable criteria -->
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;margin-top:0.5rem;">
-  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.5rem 0.75rem;">
-    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.35rem;">
-      <span style="color:var(--or-red);font-size:0.75rem;">⊗</span>
-      <span style="font-size:0.62rem;font-weight:700;color:var(--or-red);">VAGUE CRITERIA</span>
-    </div>
-    <div style="background:#0d1117;border-radius:4px;padding:0.3rem 0.5rem;font-family:'Roboto Mono',monospace;font-size:0.65rem;color:var(--or-muted);">"The AI image should look good."</div>
-  </div>
-  <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.5rem 0.75rem;">
-    <div style="display:flex;align-items:center;gap:0.4rem;margin-bottom:0.35rem;">
-      <span style="color:var(--or-green);font-size:0.75rem;">✓</span>
-      <span style="font-size:0.62rem;font-weight:700;color:var(--or-green);">TESTABLE CRITERIA</span>
-    </div>
-    <div style="font-size:0.65rem;color:#e2e8f0;font-style:italic;line-height:1.5;">"Generated image passes threshold: no artifacts, room boundaries intact, style matches selection."</div>
-  </div>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 25 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
+<!-- ─── SLIDE 24 — EXERCISE: WRITE A FEATURE SPEC────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1399,7 +1305,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 26 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 25 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1429,7 +1335,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 27 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 26 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1452,7 +1358,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 27 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1564,7 +1470,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 28 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1660,7 +1566,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 29 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1706,7 +1612,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 30 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1756,7 +1662,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 31 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1802,7 +1708,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 32 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1854,7 +1760,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 33 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1913,7 +1819,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — DISCUSSION SECTION 3──────────────────────────── -->
+<!-- ─── SLIDE 34 — DISCUSSION SECTION 3──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1953,7 +1859,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 36 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
+<!-- ─── SLIDE 35 — BUILDING PHASE 1 (LIVE)───────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2020,7 +1926,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 37 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 36 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2043,7 +1949,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 37 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2140,7 +2046,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 39 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 38 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2238,7 +2144,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 39 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2322,7 +2228,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 40 — EXERCISE: REVIEW PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2377,7 +2283,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 41 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2457,7 +2363,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 42 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2487,7 +2393,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 43 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2563,7 +2469,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 44 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2634,7 +2540,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 45 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2685,7 +2591,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 46 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2743,7 +2649,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 48 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 47 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2786,7 +2692,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 49 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 48 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
