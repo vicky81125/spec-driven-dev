@@ -469,7 +469,76 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 11 — FAST TO START, EXPENSIVE TO CONTINUE─────────── -->
+<!-- ─── SLIDE 11 — VAGUE VS CONCRETE────────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<div style="position:absolute;top:1.2rem;right:1.5rem;background:rgba(224,135,28,0.12);border:1px solid var(--or-orange);border-radius:4px;padding:0.2rem 0.7rem;font-size:0.6rem;font-weight:700;letter-spacing:0.1em;color:var(--or-orange);">✏️ EXERCISE</div>
+
+<h1>Same Requirement. Two Very Different Specs.</h1>
+<p class="sub">From the renovation app brief</p>
+
+<div style="display:grid;grid-template-columns:1fr 1.35fr;gap:1rem;margin-top:0.75rem;">
+  <!-- Left: VAGUE -->
+  <div>
+    <div style="background:var(--or-red);color:#fff;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✖ VAGUE</div>
+    <div style="border:2px solid rgba(224,60,46,0.5);border-radius:10px;padding:0.85rem;background:rgba(224,60,46,0.04);min-height:260px;">
+      <div style="font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.75rem;font-weight:600;">SOURCE: CLIENT BRIEF</div>
+      <p style="font-size:0.9rem;font-style:italic;line-height:1.65;color:#e2e8f0;margin-bottom:0.85rem;">
+        "Users can upload photos and see redesigns in different styles."
+      </p>
+      <div style="font-size:0.68rem;font-weight:600;color:var(--or-red);margin-bottom:0.35rem;">▲ Problems:</div>
+      <ul style="list-style:none;padding:0;font-size:0.68rem;color:var(--or-muted);display:flex;flex-direction:column;gap:0.2rem;">
+        <li>• What file types?</li>
+        <li>• How many styles?</li>
+        <li>• What if AI fails?</li>
+        <li>• How long is "see redesigns"?</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Right: STRUCTURED SPEC -->
+  <div>
+    <div style="background:var(--or-green);color:#000;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✓ STRUCTURED SPEC</div>
+    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:10px;background:#161b22;overflow:hidden;min-height:260px;">
+      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);font-weight:600;">FORMAT: STRUCTURED REQUIREMENTS</div>
+      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.7rem;font-weight:700;color:#e2e8f0;">Feature: Style Selection + AI Generation</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;padding:0.5rem 0.75rem;gap:0.75rem;font-size:0.6rem;">
+        <div>
+          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">USER JOURNEY</div>
+          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">User uploads room photo → selects from 6 preset styles → clicks "Generate" → sees redesigned room within 15 sec</div>
+          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">CONSTRAINTS</div>
+          <div style="color:#e2e8f0;line-height:1.55;"><span style="color:#60a5fa;">File types:</span> JPEG/PNG only, max 10MB<br><span style="color:#60a5fa;">Render time:</span> &lt; 15 seconds (Nano Banana API)<br><span style="color:#60a5fa;">Styles:</span> Modern, Farmhouse, Mid-Century, Coastal, Luxury, Minimalist</div>
+        </div>
+        <div>
+          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ERROR HANDLING</div>
+          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">API timeout &gt;20s → show retry button<br>Non-room photo detected → show warning</div>
+          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ACCEPTANCE CRITERIA</div>
+          <div style="color:#e2e8f0;line-height:1.6;margin-bottom:0.5rem;">
+            <div>✓ All 6 styles render correctly</div>
+            <div>✓ Upload validation rejects &gt;10MB files</div>
+            <div>✓ Error state shown on API failure</div>
+          </div>
+          <div style="color:var(--or-red);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">NON-GOALS</div>
+          <div style="color:#e2e8f0;font-style:italic;font-size:0.58rem;">✕ Custom style input, style thumbnails (Phase 2)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="absolute bottom-5 left-8 right-8 text-center">
+  <span style="font-size:0.85rem;color:var(--or-orange);font-weight:600;">🤖 Question: Which one would you hand to Claude Code?</span>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 12 — FAST TO START, EXPENSIVE TO CONTINUE─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -527,7 +596,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 12 — THE DATA BEHIND THE PROBLEM─────────────────────── -->
+<!-- ─── SLIDE 13 — THE DATA BEHIND THE PROBLEM─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -569,73 +638,6 @@ layout: default
 <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.25);border-radius:8px;padding:0.4rem 0.8rem;margin-top:0.6rem;text-align:center;">
   <p style="font-size:0.62rem;color:#fca5a5;margin:0;line-height:1.5;font-weight:600;">96% of developers don't fully trust AI-generated code. Yet only 48% verify before committing.</p>
   <a href="https://www.sonarsource.com/blog/state-of-code-developer-survey-report-the-current-reality-of-ai-coding" target="_blank" rel="noopener" style="font-size:0.42rem;color:var(--or-orange);text-decoration:none;margin-top:0.15rem;display:inline-block;">Full report: sonarsource.com ↗</a>
-</div>
-
----
-layout: default
----
-
-<!-- ─── SLIDE 13 — VAGUE VS CONCRETE────────────────────────────── -->
-
-<div class="orm-badge">
-  <div class="brand">O'REILLY<sup>®</sup></div>
-  <div class="sub-brand">LIVE ONLINE TRAINING</div>
-</div>
-
-<h1>Same Requirement. Two Very Different Specs.</h1>
-<p class="sub">From the renovation app brief</p>
-
-<div style="display:grid;grid-template-columns:1fr 1.35fr;gap:1rem;margin-top:0.75rem;">
-  <!-- Left: VAGUE -->
-  <div>
-    <div style="background:var(--or-red);color:#fff;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✖ VAGUE</div>
-    <div style="border:2px solid rgba(224,60,46,0.5);border-radius:10px;padding:0.85rem;background:rgba(224,60,46,0.04);min-height:260px;">
-      <div style="font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.75rem;font-weight:600;">SOURCE: CLIENT BRIEF</div>
-      <p style="font-size:0.9rem;font-style:italic;line-height:1.65;color:#e2e8f0;margin-bottom:0.85rem;">
-        "Users can upload photos and see redesigns in different styles."
-      </p>
-      <div style="font-size:0.68rem;font-weight:600;color:var(--or-red);margin-bottom:0.35rem;">▲ Problems:</div>
-      <ul style="list-style:none;padding:0;font-size:0.68rem;color:var(--or-muted);display:flex;flex-direction:column;gap:0.2rem;">
-        <li>• What file types?</li>
-        <li>• How many styles?</li>
-        <li>• What if AI fails?</li>
-        <li>• How long is "see redesigns"?</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Right: STRUCTURED SPEC -->
-  <div>
-    <div style="background:var(--or-green);color:#000;border-radius:20px;padding:0.22rem 0.7rem;display:inline-flex;align-items:center;gap:0.35rem;font-size:0.65rem;font-weight:700;margin-bottom:0.55rem;">✓ STRUCTURED SPEC</div>
-    <div style="border:2px solid rgba(34,197,94,0.4);border-radius:10px;background:#161b22;overflow:hidden;min-height:260px;">
-      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.58rem;letter-spacing:0.1em;color:var(--or-muted);font-weight:600;">FORMAT: STRUCTURED REQUIREMENTS</div>
-      <div style="padding:0.5rem 0.75rem;border-bottom:1px solid #30363d;font-size:0.7rem;font-weight:700;color:#e2e8f0;">Feature: Style Selection + AI Generation</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;padding:0.5rem 0.75rem;gap:0.75rem;font-size:0.6rem;">
-        <div>
-          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">USER JOURNEY</div>
-          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">User uploads room photo → selects from 6 preset styles → clicks "Generate" → sees redesigned room within 15 sec</div>
-          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">CONSTRAINTS</div>
-          <div style="color:#e2e8f0;line-height:1.55;"><span style="color:#60a5fa;">File types:</span> JPEG/PNG only, max 10MB<br><span style="color:#60a5fa;">Render time:</span> &lt; 15 seconds (Nano Banana API)<br><span style="color:#60a5fa;">Styles:</span> Modern, Farmhouse, Mid-Century, Coastal, Luxury, Minimalist</div>
-        </div>
-        <div>
-          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ERROR HANDLING</div>
-          <div style="color:#e2e8f0;line-height:1.55;margin-bottom:0.5rem;">API timeout &gt;20s → show retry button<br>Non-room photo detected → show warning</div>
-          <div style="color:var(--or-orange);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">ACCEPTANCE CRITERIA</div>
-          <div style="color:#e2e8f0;line-height:1.6;margin-bottom:0.5rem;">
-            <div>✓ All 6 styles render correctly</div>
-            <div>✓ Upload validation rejects &gt;10MB files</div>
-            <div>✓ Error state shown on API failure</div>
-          </div>
-          <div style="color:var(--or-red);font-weight:700;margin-bottom:0.2rem;font-size:0.6rem;">NON-GOALS</div>
-          <div style="color:#e2e8f0;font-style:italic;font-size:0.58rem;">✕ Custom style input, style thumbnails (Phase 2)</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="absolute bottom-5 left-8 right-8 text-center">
-  <span style="font-size:0.85rem;color:var(--or-orange);font-weight:600;">🤖 Question: Which one would you hand to Claude Code?</span>
 </div>
 
 ---
