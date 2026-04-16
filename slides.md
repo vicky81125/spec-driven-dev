@@ -452,7 +452,7 @@ layout: default
   </div>
 
   <!-- RIGHT: Compound cost -->
-  <div style="display:flex;flex-direction:column;gap:0.4rem;">
+  <div style="display:flex;flex-direction:column;gap:0.4rem;min-width:0;">
     <div style="font-weight:700;font-size:0.88rem;color:#e2e8f0;">The Compound Cost</div>
     <p style="font-size:0.68rem;color:var(--or-muted);line-height:1.5;">Without specs, every sprint adds debt. Early misalignment compounds into expensive rework and brittle code.</p>
     <div style="display:flex;flex-direction:column;gap:0.2rem;margin-bottom:0.4rem;">
