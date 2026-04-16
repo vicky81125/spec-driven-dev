@@ -1044,12 +1044,11 @@ layout: default
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>What Each Phase Produces</h1>
+<h1 style="font-size:1.55rem;margin-top:1.2rem;">What Each Phase Produces</h1>
 <p class="sub">Every developer already does this. GSD makes it explicit.</p>
-
-<div style="display:grid;grid-template-columns:57% 43%;gap:1.2rem;margin-top:0.6rem;">
-  <div style="display:flex;flex-direction:column;gap:0.35rem;">
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+<div style="display:grid;grid-template-columns:57% 43%;gap:1.2rem;margin-top:0.25rem;">
+  <div style="display:flex;flex-direction:column;gap:0.25rem;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.28rem 0.55rem;display:grid;grid-template-columns:auto 1fr;gap:0.55rem;align-items:start;">
       <div style="background:rgba(34,197,94,0.12);border:1px solid var(--or-green);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-green);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">SPEC</div>
       <div>
         <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Design Doc</div>
@@ -1061,7 +1060,7 @@ layout: default
         </ul>
       </div>
     </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.28rem 0.55rem;display:grid;grid-template-columns:auto 1fr;gap:0.55rem;align-items:start;">
       <div style="background:rgba(249,115,22,0.12);border:1px solid var(--or-orange);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-orange);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">PLAN</div>
       <div>
         <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Task Plan</div>
@@ -1073,7 +1072,7 @@ layout: default
         </ul>
       </div>
     </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.28rem 0.55rem;display:grid;grid-template-columns:auto 1fr;gap:0.55rem;align-items:start;">
       <div style="background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-blue);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">WORK</div>
       <div>
         <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Running Code</div>
@@ -1085,7 +1084,7 @@ layout: default
         </ul>
       </div>
     </div>
-    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.28rem 0.55rem;display:grid;grid-template-columns:auto 1fr;gap:0.55rem;align-items:start;">
       <div style="background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-amber);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">REVIEW</div>
       <div>
         <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Review Report</div>
@@ -1098,8 +1097,8 @@ layout: default
       </div>
     </div>
   </div>
-  <div style="display:flex;flex-direction:column;gap:0.35rem;">
-    <div style="font-size:0.52rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.15rem;">HOW IT MAPS TO HOW DEVELOPERS ALREADY WORK</div>
+  <div style="display:flex;flex-direction:column;gap:0.25rem;align-self:flex-start;">
+    <div style="font-size:0.52rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);">HOW IT MAPS TO HOW DEVELOPERS ALREADY WORK</div>
     <div style="background:var(--or-card);border:1px solid #334155;border-left:2px solid var(--or-green);border-radius:0 8px 8px 0;padding:0.4rem 0.55rem;">
       <div style="font-size:0.56rem;color:#94a3b8;margin-bottom:0.15rem;">Reads ticket, mentally scopes what to build</div>
       <div style="display:flex;align-items:center;gap:0.3rem;">
@@ -1132,9 +1131,7 @@ layout: default
         <span style="font-size:0.54rem;color:var(--or-muted);">report validated against the spec</span>
       </div>
     </div>
-    <div style="margin-top:0.2rem;background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.35rem 0.55rem;">
-      <span style="font-size:0.57rem;color:var(--or-muted);line-height:1.45;">GSD doesn't change how developers think. It externalizes it so AI can reason about it too.</span>
-    </div>
+    <div style="background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.35rem 0.55rem;font-size:0.57rem;color:var(--or-muted);line-height:1.3;">GSD doesn't change how developers think. It externalizes it so AI can reason about it too.</div>
   </div>
 </div>
 
