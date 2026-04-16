@@ -399,7 +399,7 @@ layout: default
       <span style="color:#e6edf3;font-size:0.68rem;">847 lines · 23 files · 4 minutes</span>
     </div>
     <div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.25);border-radius:6px;padding:0.55rem 0.8rem;margin-top:0.75rem;">
-      <p style="font-size:0.72rem;color:#fca5a5;margin:0;line-height:1.5;">Claude is eager. It will build everything you described, but none of what you actually needed.</p>
+      <p style="font-size:0.72rem;color:#fca5a5;margin:0;line-height:1.5;">Claude is eager. It will build everything you described, but not in a way that scales, maintains, or survives the next feature request.</p>
     </div>
   </div>
 </div>
@@ -415,7 +415,7 @@ layout: default
   <div class="sub-brand">LIVE ONLINE TRAINING</div>
 </div>
 
-<h1>One prompt. Three interpretations.</h1>
+<h1>Ambiguity in. Guesswork out.</h1>
 <p class="sub">Not an abstract risk. This is what happens on the renovation app.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:0.75rem;">
@@ -469,7 +469,113 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 11 — VAGUE VS CONCRETE────────────────────────────── -->
+<!-- ─── SLIDE 11 — FAST TO START, EXPENSIVE TO CONTINUE─────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>Fast to Start. Expensive to Continue.</h1>
+<p class="sub">What builders and tool makers are saying about unstructured AI coding</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;margin-top:0.6rem;">
+
+  <!-- 1: Cursor CEO -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:120px;overflow:hidden;"><img src="/screenshots/cursor-ceo.png" alt="Cursor CEO warns vibe coding builds shaky foundations" style="width:100%;height:100%;object-fit:cover;object-position:top;" /></div>
+    <div style="padding:0.3rem 0.5rem 0.35rem;">
+      <div style="font-size:0.5rem;font-weight:700;color:var(--or-orange);">Michael Truell, CEO of Cursor · Dec 2025</div>
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0.15rem 0 0;line-height:1.35;">The CEO of the #1 AI coding tool warns: vibe coding builds shaky foundations that crumble when you add layers.</p>
+      <a href="https://fortune.com/2025/12/25/cursor-ceo-michael-truell-vibe-coding-warning-generative-ai-assistant/" target="_blank" rel="noopener" style="font-size:0.4rem;color:var(--or-orange);text-decoration:none;">fortune.com ↗</a>
+    </div>
+  </div>
+
+  <!-- 2: Linus Torvalds -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:120px;overflow:hidden;"><img src="/screenshots/linus-torvalds.png" alt="Linus Torvalds: vibe coding is horrible for maintenance" style="width:100%;height:100%;object-fit:cover;object-position:top;" /></div>
+    <div style="padding:0.3rem 0.5rem 0.35rem;">
+      <div style="font-size:0.5rem;font-weight:700;color:var(--or-orange);">Linus Torvalds, Creator of Linux + Git · Nov 2025</div>
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0.15rem 0 0;line-height:1.35;">Fine for getting started, but a "horrible, horrible idea from a maintenance standpoint."</p>
+      <a href="https://www.theregister.com/2025/11/18/linus_torvalds_vibe_coding/" target="_blank" rel="noopener" style="font-size:0.4rem;color:var(--or-orange);text-decoration:none;">theregister.com ↗</a>
+    </div>
+  </div>
+
+  <!-- 3: Bram Cohen -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:120px;overflow:hidden;"><img src="/screenshots/bram-cohen.png" alt="Bram Cohen: The Cult of Vibe Coding Is Insane" style="width:100%;height:100%;object-fit:cover;object-position:top;" /></div>
+    <div style="padding:0.3rem 0.5rem 0.35rem;">
+      <div style="font-size:0.5rem;font-weight:700;color:var(--or-orange);">Bram Cohen, Inventor of BitTorrent · Apr 2026</div>
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0.15rem 0 0;line-height:1.35;">Calls unreviewed AI coding a "cult." Machines work poorly without a framework. 503 pts on HN.</p>
+      <a href="https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane" target="_blank" rel="noopener" style="font-size:0.4rem;color:var(--or-orange);text-decoration:none;">bramcohen.com ↗</a>
+    </div>
+  </div>
+
+  <!-- 4: Anthropic study -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:120px;overflow:hidden;"><img src="/screenshots/anthropic-study.png" alt="Anthropic study: AI use impairs understanding and debugging" style="width:100%;height:100%;object-fit:cover;object-position:top;" /></div>
+    <div style="padding:0.3rem 0.5rem 0.35rem;">
+      <div style="font-size:0.5rem;font-weight:700;color:var(--or-orange);">Anthropic Research (Claude's maker) · 2026</div>
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0.15rem 0 0;line-height:1.35;">Their own study: AI use impairs conceptual understanding, code reading, and debugging abilities.</p>
+      <a href="https://x.com/rohanpaul_ai/status/2030780627411488866/photo/1" target="_blank" rel="noopener" style="font-size:0.4rem;color:var(--or-orange);text-decoration:none;">x.com/@rohanpaul_ai ↗</a>
+    </div>
+  </div>
+
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 12 — THE DATA BEHIND THE PROBLEM─────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>The Data Behind the Problem</h1>
+<p class="sub">Sonar 2026 State of Code Report · 1,100 developers surveyed</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.7rem;margin-top:0.7rem;">
+
+  <!-- 1: AI adoption trajectory -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:200px;overflow:hidden;"><img src="/screenshots/sonar-ai-share.png" alt="42% of committed code is AI-generated, projected 65% by 2027" style="width:100%;height:100%;object-fit:contain;background:#fff;padding:0.3rem;" /></div>
+    <div style="padding:0.25rem 0.5rem 0.35rem;">
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0;line-height:1.35;">42% of committed code is now AI-generated. Projected to reach 65% by 2027.</p>
+    </div>
+  </div>
+
+  <!-- 2: Code reliability + effort -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:200px;overflow:hidden;"><img src="/screenshots/sonar-ai-usage.png" alt="61% agree AI produces code that looks correct but isn't reliable" style="width:100%;height:100%;object-fit:contain;background:#fff;padding:0.3rem;" /></div>
+    <div style="padding:0.25rem 0.5rem 0.35rem;">
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0;line-height:1.35;">61% agree: AI produces code that looks correct but isn't reliable. 61% say it takes a lot of effort to get good output.</p>
+    </div>
+  </div>
+
+  <!-- 3: Effectiveness gap -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;">
+    <div style="height:200px;overflow:hidden;"><img src="/screenshots/sonar-effectiveness.png" alt="90% use AI for new development but only 55% find it effective" style="width:100%;height:100%;object-fit:contain;background:#fff;padding:0.3rem;" /></div>
+    <div style="padding:0.25rem 0.5rem 0.35rem;">
+      <p style="font-size:0.48rem;color:var(--or-muted);margin:0;line-height:1.35;">90% use AI for new dev, only 55% find it effective. 96% don't fully trust the output.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Key stat callout + source link -->
+<div style="background:rgba(224,60,46,0.08);border:1px solid rgba(224,60,46,0.25);border-radius:8px;padding:0.4rem 0.8rem;margin-top:0.6rem;text-align:center;">
+  <p style="font-size:0.62rem;color:#fca5a5;margin:0;line-height:1.5;font-weight:600;">96% of developers don't fully trust AI-generated code. Yet only 48% verify before committing.</p>
+  <a href="https://www.sonarsource.com/blog/state-of-code-developer-survey-report-the-current-reality-of-ai-coding" target="_blank" rel="noopener" style="font-size:0.42rem;color:var(--or-orange);text-decoration:none;margin-top:0.15rem;display:inline-block;">Full report: sonarsource.com ↗</a>
+</div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 13 — VAGUE VS CONCRETE────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -536,7 +642,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 12 — HERE'S WHAT BREAKS────────────────────────────── -->
+<!-- ─── SLIDE 14 — HERE'S WHAT BREAKS────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -574,7 +680,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 13 — STEERING CLAUDE──────────────────────────────── -->
+<!-- ─── SLIDE 15 — STEERING CLAUDE──────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -617,7 +723,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 14 — THE TOOL LANDSCAPE────────────────────────────── -->
+<!-- ─── SLIDE 16 — THE TOOL LANDSCAPE────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -648,7 +754,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 15 — Q&A SECTION 1─────────────────────────────────── -->
+<!-- ─── SLIDE 17 — Q&A SECTION 1─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -688,7 +794,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 16 — SECTION 2 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 18 — SECTION 2 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -711,7 +817,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 17 — SPEC-DRIVEN WORKFLOW (HERO)───────────────────── -->
+<!-- ─── SLIDE 19 — SPEC-DRIVEN WORKFLOW (HERO)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -802,7 +908,114 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 18 — GSD: GET SHIT DONE─────────────────────────────── -->
+<!-- ─── SLIDE 20 — WHAT EACH PHASE PRODUCES────────────────────────── -->
+
+<div class="orm-badge">
+  <div class="brand">O'REILLY<sup>®</sup></div>
+  <div class="sub-brand">LIVE ONLINE TRAINING</div>
+</div>
+
+<h1>What Each Phase Produces</h1>
+<p class="sub">Every developer already does this. GSD makes it explicit.</p>
+
+<div style="display:grid;grid-template-columns:57% 43%;gap:1.2rem;margin-top:0.6rem;">
+  <div style="display:flex;flex-direction:column;gap:0.35rem;">
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+      <div style="background:rgba(34,197,94,0.12);border:1px solid var(--or-green);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-green);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">SPEC</div>
+      <div>
+        <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Design Doc</div>
+        <ul style="margin:0;padding-left:0.85rem;list-style:disc;">
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Feature goal + user story</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Constraints and non-goals</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Acceptance criteria</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);">Open questions</li>
+        </ul>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+      <div style="background:rgba(249,115,22,0.12);border:1px solid var(--or-orange);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-orange);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">PLAN</div>
+      <div>
+        <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Task Plan</div>
+        <ul style="margin:0;padding-left:0.85rem;list-style:disc;">
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Atomic implementation steps</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">File and function targets</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Test strategy</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);">Step dependencies</li>
+        </ul>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+      <div style="background:rgba(59,130,246,0.12);border:1px solid var(--or-blue);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-blue);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">WORK</div>
+      <div>
+        <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Running Code</div>
+        <ul style="margin:0;padding-left:0.85rem;list-style:disc;">
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Code per plan step</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Tests alongside changes</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Deviations from plan noted</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);">Incremental progress</li>
+        </ul>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-radius:8px;padding:0.4rem 0.65rem;display:grid;grid-template-columns:auto 1fr;gap:0.6rem;align-items:start;">
+      <div style="background:rgba(245,158,11,0.12);border:1px solid var(--or-amber);border-radius:20px;padding:0.14rem 0.6rem;font-size:0.56rem;font-weight:700;color:var(--or-amber);white-space:nowrap;letter-spacing:0.06em;margin-top:0.08rem;">REVIEW</div>
+      <div>
+        <div style="font-size:0.58rem;font-weight:600;color:#e2e8f0;margin-bottom:0.2rem;">Review Report</div>
+        <ul style="margin:0;padding-left:0.85rem;list-style:disc;">
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Validation against spec</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">What passed / what failed</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);margin-bottom:0.08rem;">Remaining gaps</li>
+          <li style="font-size:0.57rem;color:var(--or-muted);">Ship or trigger next iteration</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:0.35rem;">
+    <div style="font-size:0.52rem;font-weight:700;letter-spacing:0.1em;color:var(--or-muted);margin-bottom:0.15rem;">HOW IT MAPS TO HOW DEVELOPERS ALREADY WORK</div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-left:2px solid var(--or-green);border-radius:0 8px 8px 0;padding:0.4rem 0.55rem;">
+      <div style="font-size:0.56rem;color:#94a3b8;margin-bottom:0.15rem;">Reads ticket, mentally scopes what to build</div>
+      <div style="display:flex;align-items:center;gap:0.3rem;">
+        <span style="font-size:0.58rem;color:#475569;">→</span>
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.56rem;color:var(--or-green);font-weight:600;">/gsd:spec</span>
+        <span style="font-size:0.54rem;color:var(--or-muted);">written contract, not a mental note</span>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-left:2px solid var(--or-orange);border-radius:0 8px 8px 0;padding:0.4rem 0.55rem;">
+      <div style="font-size:0.56rem;color:#94a3b8;margin-bottom:0.15rem;">Breaks work into tasks on a scratchpad</div>
+      <div style="display:flex;align-items:center;gap:0.3rem;">
+        <span style="font-size:0.58rem;color:#475569;">→</span>
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.56rem;color:var(--or-orange);font-weight:600;">/gsd:plan</span>
+        <span style="font-size:0.54rem;color:var(--or-muted);">atomic steps, ordered and explicit</span>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-left:2px solid var(--or-blue);border-radius:0 8px 8px 0;padding:0.4rem 0.55rem;">
+      <div style="font-size:0.56rem;color:#94a3b8;margin-bottom:0.15rem;">Writes code, checks it works step by step</div>
+      <div style="display:flex;align-items:center;gap:0.3rem;">
+        <span style="font-size:0.58rem;color:#475569;">→</span>
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.56rem;color:var(--or-blue);font-weight:600;">/gsd:work</span>
+        <span style="font-size:0.54rem;color:var(--or-muted);">implementation per plan step</span>
+      </div>
+    </div>
+    <div style="background:var(--or-card);border:1px solid #334155;border-left:2px solid var(--or-amber);border-radius:0 8px 8px 0;padding:0.4rem 0.55rem;">
+      <div style="font-size:0.56rem;color:#94a3b8;margin-bottom:0.15rem;">Opens PR, gets reviewed, iterates on feedback</div>
+      <div style="display:flex;align-items:center;gap:0.3rem;">
+        <span style="font-size:0.58rem;color:#475569;">→</span>
+        <span style="font-family:'Roboto Mono',monospace;font-size:0.56rem;color:var(--or-amber);font-weight:600;">/gsd:review</span>
+        <span style="font-size:0.54rem;color:var(--or-muted);">report validated against the spec</span>
+      </div>
+    </div>
+    <div style="margin-top:0.2rem;background:rgba(59,130,246,0.07);border:1px solid rgba(59,130,246,0.2);border-radius:8px;padding:0.35rem 0.55rem;">
+      <span style="font-size:0.57rem;color:var(--or-muted);line-height:1.45;">GSD doesn't change how developers think. It externalizes it so AI can reason about it too.</span>
+    </div>
+  </div>
+</div>
+
+<div class="bottom-red-bar"></div>
+
+---
+layout: default
+---
+
+<!-- ─── SLIDE 21 — GSD: GET SHIT DONE─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -872,7 +1085,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 19 — RUNNING /GSD:NEW-PROJECT──────────────────────── -->
+<!-- ─── SLIDE 22 — RUNNING /GSD:NEW-PROJECT──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -962,7 +1175,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 20 — THE .PLANNING/ FOLDER─────────────────────────── -->
+<!-- ─── SLIDE 23 — THE .PLANNING/ FOLDER─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1022,7 +1235,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 21 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
+<!-- ─── SLIDE 24 — REVIEW BEFORE YOU MOVE ON────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1080,7 +1293,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 22 — PHASE BREAKDOWN────────────────────────────────── -->
+<!-- ─── SLIDE 25 — PHASE BREAKDOWN────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1155,7 +1368,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 23 — RUNNING GSD DISCUSS-PHASE 1───────────────────── -->
+<!-- ─── SLIDE 26 — RUNNING GSD DISCUSS-PHASE 1───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1249,7 +1462,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 24 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
+<!-- ─── SLIDE 27 — WHAT TO DISCUSS BEFORE THE PLAN──────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1320,7 +1533,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 25 — DEFINE THE PILLARS, NOT THE IMPLEMENTATION─────── -->
+<!-- ─── SLIDE 28 — DEFINE THE PILLARS, NOT THE IMPLEMENTATION─────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1376,7 +1589,7 @@ invalidated after reset.
 layout: default
 ---
 
-<!-- ─── SLIDE 26 — Q&A SECTION 2─────────────────────────────────── -->
+<!-- ─── SLIDE 29 — Q&A SECTION 2─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1406,7 +1619,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 27 — SECTION 3 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 30 — SECTION 3 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1429,7 +1642,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 28 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
+<!-- ─── SLIDE 31 — WE DON'T BUILD EVERYTHING AT ONCE─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1538,7 +1751,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 29 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
+<!-- ─── SLIDE 32 — HOW /GSD:PLAN-PHASE 1 WORKS───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1628,7 +1841,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 30 — RUNNING GSD PLAN-PHASE 1──────────────────────── -->
+<!-- ─── SLIDE 33 — RUNNING GSD PLAN-PHASE 1──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1692,7 +1905,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 31 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
+<!-- ─── SLIDE 34 — THIS PLAN HAS A LOOPHOLE──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1738,7 +1951,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 32 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
+<!-- ─── SLIDE 35 — TRACER BULLET: BUILD THIN, NOT FLAT───────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1787,7 +2000,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 33 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
+<!-- ─── SLIDE 36 — ENCODE THIS IN YOUR TOOLING───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1833,7 +2046,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 34 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
+<!-- ─── SLIDE 37 — EXERCISE: FIND THE TRACER BULLET PATH─────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1893,7 +2106,7 @@ Sign up as creator <span style="color:var(--or-muted);">→</span> role in DB<br
 layout: default
 ---
 
-<!-- ─── SLIDE 35 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
+<!-- ─── SLIDE 38 — DONE = ACCEPTANCE CRITERIA PASS───────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -1981,7 +2194,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 36 — EXECUTE PHASE 1──────────────────────────────── -->
+<!-- ─── SLIDE 39 — EXECUTE PHASE 1──────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2048,7 +2261,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 37 — RUNNING GSD EXECUTE-PHASE 1 (LIVE)─────────────── -->
+<!-- ─── SLIDE 40 — RUNNING GSD EXECUTE-PHASE 1 (LIVE)─────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2113,7 +2326,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 38 — ARCHITECTURE + DATA MODEL─────────────────────── -->
+<!-- ─── SLIDE 41 — ARCHITECTURE + DATA MODEL─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2212,7 +2425,7 @@ layout: center
 class: section-divider
 ---
 
-<!-- ─── SLIDE 39 — SECTION 4 DIVIDER─────────────────────────────── -->
+<!-- ─── SLIDE 42 — SECTION 4 DIVIDER─────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2235,7 +2448,7 @@ class: section-divider
 layout: default
 ---
 
-<!-- ─── SLIDE 40 — HOW GSD VERIFY-WORK WORKS──────────────────────── -->
+<!-- ─── SLIDE 43 — HOW GSD VERIFY-WORK WORKS──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2316,7 +2529,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 41 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
+<!-- ─── SLIDE 44 — WHAT REVIEW CATCHES (ICEBERG)─────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2413,7 +2626,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 42 — THE LOOP──────────────────────────────────────── -->
+<!-- ─── SLIDE 45 — THE LOOP──────────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2511,7 +2724,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 43 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
+<!-- ─── SLIDE 46 — REVIEWING PHASE 1 (LIVE)──────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2595,7 +2808,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 44 — FIX + BUILD PHASE 2───────────────────────────── -->
+<!-- ─── SLIDE 47 — FIX + BUILD PHASE 2───────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2675,7 +2888,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 45 — Q&A SECTION 4─────────────────────────────────── -->
+<!-- ─── SLIDE 48 — Q&A SECTION 4─────────────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2705,7 +2918,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 46 — SCALING THE WORKFLOW──────────────────────────── -->
+<!-- ─── SLIDE 49 — SCALING THE WORKFLOW──────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2781,7 +2994,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 47 — WHAT WE JUST BUILT────────────────────────────── -->
+<!-- ─── SLIDE 50 — WHAT WE JUST BUILT────────────────────────────── -->
 <div class="orm-badge">
 <div class="brand">O'REILLY<sup>®</sup></div>
 <div class="sub-brand">LIVE ONLINE TRAINING</div>
@@ -2852,7 +3065,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 48 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
+<!-- ─── SLIDE 51 — THE AUTONOMOUS LOOP (RALPH)───────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2903,7 +3116,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 49 — SANDBOXING CLAUDE CODE────────────────────────── -->
+<!-- ─── SLIDE 52 — SANDBOXING CLAUDE CODE────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -2961,7 +3174,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 50 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
+<!-- ─── SLIDE 53 — 3 THINGS TO TAKE WITH YOU─────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
@@ -3004,7 +3217,7 @@ layout: default
 layout: default
 ---
 
-<!-- ─── SLIDE 51 — RECOMMENDED RESOURCES─────────────────────────── -->
+<!-- ─── SLIDE 54 — RECOMMENDED RESOURCES─────────────────────────── -->
 
 <div class="orm-badge">
   <div class="brand">O'REILLY<sup>®</sup></div>
